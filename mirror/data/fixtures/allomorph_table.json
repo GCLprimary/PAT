@@ -1,0 +1,201 @@
+{
+ "ed": {
+  "accuracy": 0.992375,
+  "fallback": "d",
+  "n_test": 918,
+  "rules": {
+   "consonant|affricate|postalveolar|V-": "t",
+   "consonant|approximant|alveolar|V+": "d",
+   "consonant|fricative|alveolar|V+": "d",
+   "consonant|fricative|alveolar|V-": "t",
+   "consonant|fricative|labiodental|V+": "d",
+   "consonant|fricative|labiodental|V-": "t",
+   "consonant|fricative|postalveolar|V-": "t",
+   "consonant|lateral|alveolar|V+": "d",
+   "consonant|nasal|alveolar|V+": "d",
+   "consonant|nasal|bilabial|V+": "d",
+   "consonant|nasal|velar|V+": "d",
+   "consonant|stop|alveolar|V+": "epen_d",
+   "consonant|stop|alveolar|V-": "epen_d",
+   "consonant|stop|bilabial|V+": "d",
+   "consonant|stop|bilabial|V-": "t",
+   "consonant|stop|velar|V+": "d",
+   "consonant|stop|velar|V-": "t",
+   "vowel|-|-|V+": "d"
+  },
+  "support": {
+   "consonant|affricate|postalveolar|V-": {
+    "epen_d": 1,
+    "t": 52
+   },
+   "consonant|approximant|alveolar|V+": {
+    "d": 24
+   },
+   "consonant|fricative|alveolar|V+": {
+    "d": 6
+   },
+   "consonant|fricative|alveolar|V-": {
+    "epen_d": 1,
+    "t": 64
+   },
+   "consonant|fricative|labiodental|V+": {
+    "d": 2
+   },
+   "consonant|fricative|labiodental|V-": {
+    "epen_d": 1,
+    "t": 29
+   },
+   "consonant|fricative|postalveolar|V-": {
+    "t": 51
+   },
+   "consonant|lateral|alveolar|V+": {
+    "d": 111
+   },
+   "consonant|nasal|alveolar|V+": {
+    "d": 160
+   },
+   "consonant|nasal|bilabial|V+": {
+    "d": 59,
+    "epen_d": 1
+   },
+   "consonant|nasal|velar|V+": {
+    "d": 7
+   },
+   "consonant|stop|alveolar|V+": {
+    "epen_d": 107
+   },
+   "consonant|stop|alveolar|V-": {
+    "epen_d": 291
+   },
+   "consonant|stop|bilabial|V+": {
+    "d": 8,
+    "epen_d": 1
+   },
+   "consonant|stop|bilabial|V-": {
+    "d": 1,
+    "t": 59
+   },
+   "consonant|stop|velar|V+": {
+    "d": 7,
+    "epen_d": 1
+   },
+   "consonant|stop|velar|V-": {
+    "d": 1,
+    "epen_d": 1,
+    "t": 118
+   },
+   "vowel|-|-|V+": {
+    "d": 212
+   }
+  }
+ },
+ "s": {
+  "accuracy": 0.991431,
+  "fallback": "z",
+  "n_test": 5018,
+  "rules": {
+   "consonant|affricate|postalveolar|V+": "epen_z",
+   "consonant|affricate|postalveolar|V-": "epen_z",
+   "consonant|approximant|alveolar|V+": "z",
+   "consonant|fricative|alveolar|V+": "epen_z",
+   "consonant|fricative|alveolar|V-": "epen_z",
+   "consonant|fricative|dental|V+": "z",
+   "consonant|fricative|dental|V-": "s",
+   "consonant|fricative|labiodental|V+": "z",
+   "consonant|fricative|labiodental|V-": "s",
+   "consonant|fricative|postalveolar|V+": "epen_z",
+   "consonant|fricative|postalveolar|V-": "epen_z",
+   "consonant|lateral|alveolar|V+": "z",
+   "consonant|nasal|alveolar|V+": "z",
+   "consonant|nasal|bilabial|V+": "z",
+   "consonant|nasal|velar|V+": "z",
+   "consonant|stop|alveolar|V+": "z",
+   "consonant|stop|alveolar|V-": "s",
+   "consonant|stop|bilabial|V+": "z",
+   "consonant|stop|bilabial|V-": "s",
+   "consonant|stop|velar|V+": "z",
+   "consonant|stop|velar|V-": "s",
+   "vowel|-|-|V+": "z"
+  },
+  "support": {
+   "consonant|affricate|postalveolar|V+": {
+    "epen_z": 80
+   },
+   "consonant|affricate|postalveolar|V-": {
+    "epen_z": 7
+   },
+   "consonant|approximant|alveolar|V+": {
+    "epen_z": 1,
+    "z": 171
+   },
+   "consonant|fricative|alveolar|V+": {
+    "epen_z": 137
+   },
+   "consonant|fricative|alveolar|V-": {
+    "epen_z": 218
+   },
+   "consonant|fricative|dental|V+": {
+    "z": 3
+   },
+   "consonant|fricative|dental|V-": {
+    "s": 32
+   },
+   "consonant|fricative|labiodental|V+": {
+    "z": 107
+   },
+   "consonant|fricative|labiodental|V-": {
+    "s": 58
+   },
+   "consonant|fricative|postalveolar|V+": {
+    "epen_z": 4
+   },
+   "consonant|fricative|postalveolar|V-": {
+    "epen_z": 4
+   },
+   "consonant|lateral|alveolar|V+": {
+    "s": 2,
+    "z": 612
+   },
+   "consonant|nasal|alveolar|V+": {
+    "s": 1,
+    "z": 1091
+   },
+   "consonant|nasal|bilabial|V+": {
+    "s": 1,
+    "z": 256
+   },
+   "consonant|nasal|velar|V+": {
+    "z": 187
+   },
+   "consonant|stop|alveolar|V+": {
+    "epen_z": 2,
+    "z": 458
+   },
+   "consonant|stop|alveolar|V-": {
+    "epen_z": 1,
+    "s": 1258,
+    "z": 1
+   },
+   "consonant|stop|bilabial|V+": {
+    "epen_z": 1,
+    "z": 72
+   },
+   "consonant|stop|bilabial|V-": {
+    "s": 219,
+    "z": 2
+   },
+   "consonant|stop|velar|V+": {
+    "z": 67
+   },
+   "consonant|stop|velar|V-": {
+    "s": 470,
+    "z": 1
+   },
+   "vowel|-|-|V+": {
+    "epen_z": 2,
+    "s": 58,
+    "z": 1942
+   }
+  }
+ }
+}

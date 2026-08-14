@@ -1,0 +1,11 @@
+# page: quantifiers_existential
+# rule: existential-there-forbids-strong-quantifiers
+# The lesson: an existential 'there BE ...' pivot rejects strong
+# quantifiers — 'there is a man' but never 'there is each man'.
+# provenance: lesson:quantifiers_existential — transcribed from grammar
+# knowledge, NOT mined from BLiMP or any corpus.
+each -> strong_quant
+every -> strong_quant
+all -> strong_quant
+most -> strong_quant
+both -> strong_quant

@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "elfix"
+version = "0.1.0"
+description = "Sound as earned geometry: a readable, self-forming, phonology-first language model."
+requires-python = ">=3.9"
+dependencies = []
+
+[tool.pytest.ini_options]
+addopts = "--doctest-modules -q"
+testpaths = ["tests", "elfix"]

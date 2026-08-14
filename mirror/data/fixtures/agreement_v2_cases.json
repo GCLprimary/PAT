@@ -1,0 +1,6231 @@
+{
+ "lexicon_sizes": {
+  "sg": 12563,
+  "pl": 12563,
+  "ambiguous_dropped": 0
+ },
+ "n_strict_certified": 232,
+ "n_cases": 431,
+ "n_attractors": 26,
+ "buckets": {
+  "plain": 408,
+  "adjunct": 16,
+  "relative": 7
+ },
+ "refusals": {
+  "no-det-n-subject": 9790,
+  "coordination": 299,
+  "no-verb-in-window": 302,
+  "object-relative": 61,
+  "adjunct-unparsed": 131
+ },
+ "strict_subset_agreement": [
+  415,
+  415
+ ],
+ "experimental_tiers": [
+  3
+ ],
+ "cases": [
+  {
+   "sentence": "the first of these great goals is already before the congress",
+   "subj_i": 1,
+   "verb_i": 6,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "great",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the president was even more generous with the first lady than he had been before the tragedy",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the strip sections containing a given protein were pooled eluted with ml of isotonic saline and the eluates were tested for antibody activity",
+   "subj_i": 1,
+   "verb_i": 7,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "given",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": null
+  },
+  {
+   "sentence": "the question then is whether sufficient discrimination in the use of even non violent means of coercion is to be found in the fact that such conduct demoralizes and overcomes the opponent while re moralizing and re establishing him",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the input axis of the appropriate gyros are parallel to the sensitive direction of the accelerometers",
+   "subj_i": 1,
+   "verb_i": 7,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the police were disqualified along with certain categories of naturalized citizens criminals and those punished for protectorate activities",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "my mother ' s deafness is very trifling you see just nothing at all",
+   "subj_i": 1,
+   "verb_i": 5,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": null
+  },
+  {
+   "sentence": "the final proof was a small incident",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the concept of nationalism is the political principle that epitomizes and glorifies the territorial state as the characteristic type of socal structure",
+   "subj_i": 1,
+   "verb_i": 4,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the heart is deceitful above all things and desperately wicked who can know it",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the government has charged that the strike by the miners union crippled by massive layoffs is part of a left wing destabilisation plan to coincide with the visit of west german president richard von weizsaecker who arrives on a four day official tour on friday",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the invitation was general and generally declined",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the crown is fallen from our head woe unto us that we have sinned",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the cold repast was over and the party were to go out once more to see what had not yet been seen the old abbey fish ponds perhaps get as far as the clover which was to be begun cutting on the morrow or at any rate have the pleasure of being hot and growing cool again mr",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": null
+  },
+  {
+   "sentence": "the officials most of them economists can offer no objective reason why they are not",
+   "subj_i": 1,
+   "verb_i": 13,
+   "subj_n": "pl",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the cost of this approach is that the much needed revival of business investment will be further postponed it said",
+   "subj_i": 1,
+   "verb_i": 5,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the long term growth in dependency on foreign oil is inevitable lichtblau said",
+   "subj_i": 1,
+   "verb_i": 9,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the short answer to those questions is yes ''",
+   "subj_i": 1,
+   "verb_i": 6,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": true,
+   "between_nouns": [
+    [
+     "questions",
+     "pl"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the first step in the process is the disengagement of egyptian and israeli forces which is now taking place",
+   "subj_i": 1,
+   "verb_i": 6,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "my mother ' s are really very good indeed",
+   "subj_i": 1,
+   "verb_i": 4,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the band is working loose and the lee lift is half stranded",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "his spout was short slow and laborious coming forth with a choking sort of gush and spending itself in torn shreds followed by strange subterranean commotions in him which seemed to have egress at his other buried extremity causing the waters behind him to upbubble",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "my spectacles are blackguardly he said but i ' m not",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "pl",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the first step is to break old patterns to begin to think and work and plan for the development of the entire metropolitan areas",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the meeting was unveiled as part of a plan to boost imports and help head off protectionist legislation in the u s senior officials from the ministry of international trade and industry told reporters that such personal appeals appeared to have paid off in the past as japanese imports of manufactured goods have climbed",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the wages involved were larger and more regular",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "pl",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "our output was once more the greatest in the nation ' s history",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the new president is year old dr james mcn hester currently dean of the nyu graduate school of arts and sciences",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the general partners offer is subject to receipt of financing a majority of gencorp shares and other conditions",
+   "subj_i": 1,
+   "verb_i": 4,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "that you are here that life exists and identity that the powerful play goes on and you may contribute a verse",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "this last rampage '' is only the prelude to the vicious blow upon her head dealt by some unknown hand '' whose identity is later revealed not verbally but through a manual action the tracing of orlick's hammer upon a slate",
+   "subj_i": 1,
+   "verb_i": 4,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "by that time the private building industry aided by the housing act of will have had the opportunity to assume its full role in providing adequate housing for our low income families",
+   "subj_i": 4,
+   "verb_i": 14,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "housing",
+     "sg"
+    ],
+    [
+     "will",
+     "sg"
+    ]
+   ],
+   "bucket": "adjunct",
+   "tier": 2,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the trouble with them was that they almost never worked and in fact an agreement in principle '' historically turned out to be a sure sign that neither party really wanted the quarrel settled",
+   "subj_i": 1,
+   "verb_i": 4,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "my aunt ' s was red",
+   "subj_i": 1,
+   "verb_i": 4,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the international economy of is markedly different from that of the early postwar years",
+   "subj_i": 1,
+   "verb_i": 4,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the new theatre is going to be opened",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the rise in sales last winter was checked when the government's new feed grain program was adopted",
+   "subj_i": 1,
+   "verb_i": 6,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": true,
+   "between_nouns": [
+    [
+     "sales",
+     "pl"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "his father was a gentleman who spent rather more than he could afford and hal from the example of the servants in his father ' s family with whom he had passed the first years of his childhood learned to waste more of everything than he used",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the ship was originally loaded with tonnes of animal feed",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the men of arvad with thine army were upon thy walls round about and the gammadims were in thy towers they hanged their shields upon thy walls round about they have made thy beauty perfect",
+   "subj_i": 1,
+   "verb_i": 7,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the jails were filled to overflowing with political prisoners who had incurred his displeasure",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "pl",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": null
+  },
+  {
+   "sentence": "a rope was found and like children in school the missionaries skipped for hours at a time",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "his appearance was very neat and he looked like a sensible young man but his person had no other advantage and when he came to be contrasted with gentlemen she thought he must lose all the ground he had gained in harriet ' s inclination",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the alternative was that if he did not congress would",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the bank of france has begun using the seven day repurchase rate to set an upper indicator for money market rates while using the intervention rate to set the floor",
+   "subj_i": 1,
+   "verb_i": 4,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "france",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the cost to feed one person is just under one dollar a day",
+   "subj_i": 1,
+   "verb_i": 6,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "feed",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the restaurant was glittering but still comparatively empty",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": null
+  },
+  {
+   "sentence": "this face is bitten by vermin and worms and this is some murderer ' s knife with a half pull ' d scabbard",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the market was not far and once there the doctor's sense of immediacy left him and he fell into a state of harmony with the birds around him",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "his name was george needham and he too had come from a good family",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the merits of the salk anti polio vaccine were not established on the forensic platform or in newspaper editorials but in the laboratory and by tests in the field on thousands of children",
+   "subj_i": 1,
+   "verb_i": 8,
+   "subj_n": "pl",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": null
+  },
+  {
+   "sentence": "her mother was surprised and elinor again became uneasy",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "this objective is adhered to throughout the duration of the action",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the rights dividend distribution is payable july to shareholders of record july",
+   "subj_i": 1,
+   "verb_i": 4,
+   "subj_n": "pl",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the sources were quoted as saying that after opec had in march demonstrated its commitment to quota agreements some members had raised output last week",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "pl",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the old ideal of the independent entrepreneur is extant but so is the recognition that the main chance may be in a corporate bureaucracy",
+   "subj_i": 1,
+   "verb_i": 7,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "independent",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": null
+  },
+  {
+   "sentence": "the face was so much in the shade that carlo did not at first perceive that the statue was piedro",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the revolution is well under way but much more remains to be done",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the discussion of the optimal policy when the outcome of one stage is not known before passing to the next is a very much more difficult matter",
+   "subj_i": 1,
+   "verb_i": 12,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "outcome",
+     "sg"
+    ],
+    [
+     "one",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the bank said it was the ninth consecutive current account surplus since the start of",
+   "subj_i": 1,
+   "verb_i": 4,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "a dollar decline also has inflationary implications ing said adding that maison placements sees inflation rising to a four pct annual rate from the current level of about three pct",
+   "subj_i": 1,
+   "verb_i": 4,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "their father is charles b armour",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the school is located at mile road woodward heights",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the other patrons were taxi drivers and art students and small shopkeepers",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "his advance was very quiet but for the silver frost upon his head he might have been one to the shadows of the wood",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the balance is payable over three years",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the time was coming when the news must spread farther and other persons ' reception of it tried",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the new birth is the implantation of a new life",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the electric gadget is most helpful when there are many crowned teeth and in individuals who are elderly bedfast with a chronic disease or are handicapped by disorders such as cerebral palsy or muscular dystrophy",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": null
+  },
+  {
+   "sentence": "the tractor was heavily loaded with the weight of the plow turning the earth and the tractor stopped instantly",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": null
+  },
+  {
+   "sentence": "the latin american republics have in turn pledged a new and strenuous effort of self help and self reform",
+   "subj_i": 1,
+   "verb_i": 4,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": null
+  },
+  {
+   "sentence": "our first goal is to secure fully the essential human rights of our citizens",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the stink is all the same to me but i really think they can make one another out blindfolded ''",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": null
+  },
+  {
+   "sentence": "the dot said the merger was unlikely to substantially reduce competition on the four routes on which both carriers provide either nonstop or single plane service",
+   "subj_i": 1,
+   "verb_i": 5,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "merger",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the method used to scan the eye ultrasonically is illustrated in fig",
+   "subj_i": 1,
+   "verb_i": 8,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "scan",
+     "sg"
+    ],
+    [
+     "eye",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": null
+  },
+  {
+   "sentence": "the people of the united states going their own way confident in their own powers have achieved the greatest prosperity the world has even seen",
+   "subj_i": 1,
+   "verb_i": 15,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "own",
+     "sg"
+    ],
+    [
+     "their",
+     "sg"
+    ],
+    [
+     "own",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the boats of america's trailer sailors in will be coddled on clouds as they are hauled to new horizons",
+   "subj_i": 1,
+   "verb_i": 14,
+   "subj_n": "pl",
+   "gold": "pl",
+   "attractor": true,
+   "between_nouns": [
+    [
+     "will",
+     "sg"
+    ],
+    [
+     "clouds",
+     "pl"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "a percent royalty is paid on any production during the period the contract is in effect",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the contents of the manifold for liquid phase experiments were then mixed by shaking redistributed to the reaction tubes frozen down and each tube was then sealed off",
+   "subj_i": 1,
+   "verb_i": 9,
+   "subj_n": "pl",
+   "gold": "pl",
+   "attractor": true,
+   "between_nouns": [
+    [
+     "liquid",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the judge was looking at father brown with level and piercing eyes",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the belgians were interested primarily in the economic development of the congo which is rich in copper tin cobalt manganese zinc and uranium and cotton and palm oil",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "pl",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the cake was received in a stunned silence that was evidence in itself of the dearth of taste thrills mama had been providing",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the suburban high school it is worth noting also is not a widely comprehensive high school because of the absence of vocational programs",
+   "subj_i": 1,
+   "verb_i": 5,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the system as indicated in fig is fundamental and simple because the transient effects of both the platform servo and the accelerometer have been neglected",
+   "subj_i": 1,
+   "verb_i": 6,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "fig",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "my papa may well call her simple susan for simple she is and simple she will be all the world over",
+   "subj_i": 1,
+   "verb_i": 11,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "these three were much alike lined snake tropidoclonion one year and nine months",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the evil of a marriage would be much diminished if elizabeth were also to marry",
+   "subj_i": 1,
+   "verb_i": 11,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "marriage",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the shower was heavy but short and it had not been over five minutes when in came harriet with just the heated agitated look which hurrying thither with a full heart was likely to give and the oh",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": null
+  },
+  {
+   "sentence": "its first apparition was a long gloomy column of refugees riding in farm wagons or pushing prams",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": null
+  },
+  {
+   "sentence": "the causes of the decline of the commuter railroads are many and complex high taxes losses of revenue to government subsidized highway and air carriers to name but two",
+   "subj_i": 1,
+   "verb_i": 9,
+   "subj_n": "pl",
+   "gold": "pl",
+   "attractor": true,
+   "between_nouns": [
+    [
+     "decline",
+     "sg"
+    ],
+    [
+     "commuter",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the time has come to show the american people that we can limit them too that we can not only start things that we can actually stop things",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the second name was edward kempe matriculated from queens' college at easter",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "this year our deficit is projected to be billion and heading lower",
+   "subj_i": 1,
+   "verb_i": 4,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the diplomats were meeting as tokyo announced that the ec ' s trade deficit with japan reached a record billion dlrs in march up from billion in february",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "pl",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the sale is effective from tomorrow they said in a joint statement",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "this joke was not funny to linda kay and she blushed as she always did",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the top rolls are loaded with lbs",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the meeting at this north island tourist resort is described by participants as informal and no declaration is expected",
+   "subj_i": 1,
+   "verb_i": 8,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the consumer position would have in effect reduced the market share of brazil by far the world ' s largest producer",
+   "subj_i": 1,
+   "verb_i": 4,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the browser is not able to show the effects",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "that statute is the labor management relations act of sometimes called the taft hartley act",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the markets are in a panic",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "pl",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "to write the same things to you to me indeed is not grievous but for you it is safe",
+   "subj_i": 3,
+   "verb_i": 10,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "you",
+     "sg"
+    ]
+   ],
+   "bucket": "adjunct",
+   "tier": 2,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the rate was the lowest since the auctions resumed two weeks ago under a new two tier exchange rate system worked out with the world bank and international monetary fund",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the fall of imperial communism was only a dream until one day it was accomplished",
+   "subj_i": 1,
+   "verb_i": 5,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the basic state grant is thirty cents for each person served and there is a further book incentive grant that provides an extra twenty cents up to fifty cents per capita if a library spends a certain number of dollars",
+   "subj_i": 1,
+   "verb_i": 4,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the nation has just completed the most prosperous year in its history",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "a second challenge we ' ve got is to protect our own security from conflicts that pose the risk of wider war and threaten our common humanity",
+   "subj_i": 1,
+   "verb_i": 7,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the strength of sterling has also contributed to the recent slip in prices",
+   "subj_i": 1,
+   "verb_i": 4,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the events of the year just ended the revolution of ' have been a chain reaction changes so striking that it marks the beginning of a new era in the world ' s affairs",
+   "subj_i": 1,
+   "verb_i": 11,
+   "subj_n": "pl",
+   "gold": "pl",
+   "attractor": true,
+   "between_nouns": [
+    [
+     "year",
+     "sg"
+    ],
+    [
+     "revolution",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "his kingdom is an everlasting kingdom and his dominion is from generation to generation",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the instruments also of the churl are evil he deviseth wicked devices to destroy the poor with lying words even when the needy speaketh right",
+   "subj_i": 1,
+   "verb_i": 6,
+   "subj_n": "pl",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": null
+  },
+  {
+   "sentence": "his foundation is in the holy mountains",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the public atmosphere that has been generated which makes acceptance of this law a possibility stems from the disrepute into which the labor movement has fallen as a result of mr mcclellan's hearings into corruption in labor management relations and later into the jurisdictional squabbles that plagued industrial relations at the missile sites",
+   "subj_i": 1,
+   "verb_i": 4,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the loan is repayable in years including a year grace period",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the chase economist also said commodities markets were depressed and generally did not appear very promising for a country like brazil where pure commodities account for some pct of exports and in had a total value of around billion dlrs",
+   "subj_i": 1,
+   "verb_i": 7,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the sum of the deal was not disclosed",
+   "subj_i": 1,
+   "verb_i": 5,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "deal",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the rancher was navigating his way across the flatland",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the daughter was called a devotee",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "a little quickness of voice there is which rather hurts the ear",
+   "subj_i": 1,
+   "verb_i": 6,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "voice",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the record is clear that increase in school desegregation last year came largely as a result of a court order",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the sea was as a crucible of molten gold that bubblingly leaps with light and heat",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the sign is reversing the orb is enclosed the ring is circled the journey is done the box lid is but perceptibly open ' d nevertheless the perfume pours copiously out of the whole box",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the jump in refining capacity is a concern if it continues said kenneth buckler executive vice president of refining and marketing at lt total petroleum co a u s subsidiary of cie francaise des petroles of france",
+   "subj_i": 1,
+   "verb_i": 5,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "in short the book based largely on lectures delivered at harvard university is both reliable and readable",
+   "subj_i": 3,
+   "verb_i": 12,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": true,
+   "between_nouns": [
+    [
+     "lectures",
+     "pl"
+    ]
+   ],
+   "bucket": "adjunct",
+   "tier": 2,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "in this effort our weapon is not force",
+   "subj_i": 4,
+   "verb_i": 5,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "adjunct",
+   "tier": 2,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the port jerome refinery has an annual production capacity of seven mln tonnes while fos sur mer ' s is five mln the spokesman added",
+   "subj_i": 1,
+   "verb_i": 4,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the results were largely in line with forecasts and rugby shares were little changed at p after at friday ' s close",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "pl",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the four functional problems of a social system are to some extent solved by the subsystems within this population",
+   "subj_i": 1,
+   "verb_i": 8,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "this arrangement of the lower end is necessary on two accounts",
+   "subj_i": 1,
+   "verb_i": 6,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "lower",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the hills do leap at least they try to",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "pl",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the rate on the key three month cds in the primary market was pct while the bank ' s bid was pct they said",
+   "subj_i": 1,
+   "verb_i": 12,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "key",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the kuwaiti dinar is currently linked to a basket of currencies while the other five currencies are either officially or in practice linked to the u s dollar",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the book is perfect subway reading and makes a great gift for chicks dudes old ladies tourist moms and crazy guys",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the bank said later that it was leaving its rate for special assistance funds from its second window unchanged at pct surprising operators who had expected an increase there too",
+   "subj_i": 1,
+   "verb_i": 6,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "a joint sat apt statement added that buyers were committed to investing mln francs in cgct research and production plants",
+   "subj_i": 1,
+   "verb_i": 8,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": true,
+   "between_nouns": [
+    [
+     "buyers",
+     "pl"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "my soul is more than matched she ' s overmanned and by a madman",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "these words remind us that the duty of our generation of americans is to renew our nation ' s faith not focused just against foreign threats but against the threats of selfishness cynicism and apathy",
+   "subj_i": 1,
+   "verb_i": 12,
+   "subj_n": "pl",
+   "gold": "sg",
+   "attractor": true,
+   "between_nouns": [
+    [
+     "our",
+     "sg"
+    ],
+    [
+     "generation",
+     "sg"
+    ],
+    [
+     "americans",
+     "pl"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the partnership is controlled by alfred lerner and a subsidiary of the progressive corp lt prog is the limited partner according to the company",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "a chance remark about lenin's sealed train brought the rejoinder that this was a myth akin to george washington's cherry tree",
+   "subj_i": 1,
+   "verb_i": 12,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "this improvement upon the original usage was introduced by no less a man than stubb in order to afford the imperilled harpooneer the strongest possible guarantee for the faithfulness and vigilance of his monkey rope holder",
+   "subj_i": 1,
+   "verb_i": 6,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "original",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the son of man is come eating and drinking and ye say behold a gluttonous man and a winebibber a friend of publicans and sinners",
+   "subj_i": 1,
+   "verb_i": 4,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "man",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the provision for loan losses was mln dlrs compared with mln",
+   "subj_i": 1,
+   "verb_i": 5,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "loan",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the boys were strictly forbidden to go into the lane and it was upon their promise not to break this command that they were allowed to play in the adjoining field",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "pl",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the man was uncanny like a shadow and made as much noise as a shadow",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "a funeral parlor chain was indicted for price cutting",
+   "subj_i": 1,
+   "verb_i": 4,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "his rock was to the right of a v shaped inlet a big brown lumpy rock trailing seaweed whiskers",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the market is saying that the dollar must fall further because the u s trade deficit is showing little sign of improvement while japan is resisting in a bid to protect its export industries",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the great coat was hanging over the panel and hid the arms so it did otherwise i am sure i should have observed them and the livery too if the servant had not been in mourning one should have known him by the livery",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the offer is scheduled to expire midnight edt on june",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the dispatcher said the elevator was filled with corn and a nearby drying building holding soybeans was on fire",
+   "subj_i": 1,
+   "verb_i": 5,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "elevator",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "a surge of acitivity is expected during this final week of signup the official said",
+   "subj_i": 1,
+   "verb_i": 4,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": null
+  },
+  {
+   "sentence": "this faith was echoed in all parts of the world",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "her answer was not in words",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the deal is subject to formal approval from the swedish central bank the statement added",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the forecast does not assume a turnaround in production levels until late next year",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the heat transfer to the anode is due to the following effects",
+   "subj_i": 1,
+   "verb_i": 6,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "anode",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the national average is more than and that figure is considered by experts in the mental health field to be too low",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the last confirmed iraqi attack on shipping was on march when an iranian tanker was hit by a missile south of iran ' s kharg island oil export terminal",
+   "subj_i": 1,
+   "verb_i": 7,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the altar of wood was three cubits high and the length thereof two cubits and the corners thereof and the length thereof and the walls thereof were of wood and he said unto me this is the table that is before the lord",
+   "subj_i": 1,
+   "verb_i": 4,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "wood",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the second capability is represented by our deployed ground naval and air forces in essential forward areas together with ready reserves capable of effecting early emergency reinforcement",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the area sown was two to mln hectares down to pct on the record mln hectares in",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the principal asset of the subsidiary bow valley exploration norge a s is an eight pct interest in the heimdal gas and condensate field offshore norway",
+   "subj_i": 1,
+   "verb_i": 12,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the carriage was overturned near him a lady was taken out of it and was hurried by her attendants into a shop where she stayed till her carriage was set to rights",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "our nation is better able than ever before to meet the needs of the american people and to give them their fair chance in the pursuit of happiness",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "a low rumbling sound was heard a subterraneous hum and then all held their breaths as bedraggled with trailing ropes and harpoons and lances a vast form shot lengthwise but obliquely from the sea",
+   "subj_i": 1,
+   "verb_i": 4,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the options are due to expire at the end of june",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "pl",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the case involving the toyota shoji company was highlighted when its year old chairman kazuo nagano was stabbed to death here in public view in june",
+   "subj_i": 1,
+   "verb_i": 7,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "this group in park place church was made up of the earnest few",
+   "subj_i": 1,
+   "verb_i": 6,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "park",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the demographic inquiry in ruanda urundi was directed by v neesen a member of the irsac staff though the inquiry was carried out under the auspices of aimo which has continuing responsibility for demographic statistics in this territory",
+   "subj_i": 1,
+   "verb_i": 6,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "a still more sophisticated system has been devised for determining the effective power of the heart itself",
+   "subj_i": 1,
+   "verb_i": 5,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "that house home round table was the real starting point for today's revolution in materials handling '' says clarence thompson long chairman of the lumber dealers' research council",
+   "subj_i": 1,
+   "verb_i": 5,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "our national parks have a special place in our country ' s life",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the rise was also slightly below the pct growth rate finance minister michael wilson predicted for in february ' s budget",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "a crop of seven billion bushels is close to the annual u s corn usage so surplus stocks while not decreasing would not increase significantly a specialist said",
+   "subj_i": 1,
+   "verb_i": 6,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "seven",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "an israeli guy is reading a newspaper in hebrew",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the thing was hardly a deformity yet i cannot tell you what a living nightmare it was to me",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the rest is owned by german and swiss shareholders",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "these warrants would have an exercise price equal to pct of the day average",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "pl",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "a hundred questions were asked him at once",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "a separate article in the daily warned that a sudden thaw was expected shortly in the ukraine and southern parts of russia which experienced record snows this winter",
+   "subj_i": 1,
+   "verb_i": 11,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": null
+  },
+  {
+   "sentence": "these states are the amplest poem here is not merely a nation but a teeming nation of nations here the doings of men correspond with the broadcast doings of the day and night here is what moves in magnificent masses careless of particulars here are the roughs beards friendliness combativeness the soul loves here the flowing trains here the crowds equality diversity the soul loves",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "pl",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "this machine operating at speeds up to revolutions per minute is believed to provide one of the fastest mechanical operations in industry today",
+   "subj_i": 1,
+   "verb_i": 10,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": true,
+   "between_nouns": [
+    [
+     "speeds",
+     "pl"
+    ],
+    [
+     "revolutions",
+     "pl"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "this time goes manly come go we to the king our power is ready our lacke is nothing but our leaue",
+   "subj_i": 1,
+   "verb_i": 12,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "king",
+     "sg"
+    ],
+    [
+     "power",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the current ico quota system is unfair and autocratic escalante said",
+   "subj_i": 1,
+   "verb_i": 5,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the values on which our nation was founded individual liberty self determination the potential for human fulfillment in freedom all of these endure",
+   "subj_i": 1,
+   "verb_i": 6,
+   "subj_n": "pl",
+   "gold": "sg",
+   "attractor": true,
+   "between_nouns": [
+    [
+     "nation",
+     "sg"
+    ]
+   ],
+   "bucket": "relative",
+   "tier": 3,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the lawyer plods quite care worn the physician is up at all hours and travelling in all weather and even the clergyman she stopt a moment to consider what might do for the clergyman and even the clergyman you know is obliged to go into infected rooms and expose his health and looks to all the injury of a poisonous atmosphere",
+   "subj_i": 1,
+   "verb_i": 8,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "physician",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the silence was followed by a universal buzz of applause",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "this season the orchestra has already taken a step toward the suburbs in that it is giving six subscription concerts for the orchestral society of westchester in the county center in white plains",
+   "subj_i": 1,
+   "verb_i": 4,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "orchestra",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the new york may price was down at cents a lb",
+   "subj_i": 1,
+   "verb_i": 5,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "in turn the other teeth are likely to decay because food particles may become impacted in them",
+   "subj_i": 3,
+   "verb_i": 5,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "adjunct",
+   "tier": 2,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the reason for this '' the orders said is that the enemy may think to take advantage of the celebration of this day",
+   "subj_i": 1,
+   "verb_i": 8,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": true,
+   "between_nouns": [
+    [
+     "orders",
+     "pl"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the store was their marriage and when alfred had to leave it there was nothing to hold them together",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "his first thought was that mrs kirby in her mania for color had dyed a cat and that cat had somehow managed to open the refrigerator door and climb in",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "his oil is very superior clear and fine but there is little of it and he is seldom hunted",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "to introduce the stranger what else indeed do i live to chant for",
+   "subj_i": 3,
+   "verb_i": 7,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "adjunct",
+   "tier": 2,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "these two things are come unto thee who shall be sorry for thee",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the transaction presumably would have qualified under section a as a contractual reorganization followed by a section liquidation but not under section a as a statutory merger of consolidation",
+   "subj_i": 1,
+   "verb_i": 4,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the american consumer has little reason to feel confident about the safety of meat and poultry being offered to him today said rodney leonard executive director of the community nutrition institute",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the bristles are a fitch and a one half inch brush shaved to a sharp chisel edge",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "pl",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "this means the aircraft companies are going to tear into the government market looking for anything they can get and making the competition tough",
+   "subj_i": 1,
+   "verb_i": 5,
+   "subj_n": "pl",
+   "gold": "pl",
+   "attractor": true,
+   "between_nouns": [
+    [
+     "aircraft",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "of all the whig tracts written in support of the succession the crisis is perhaps the most significant",
+   "subj_i": 3,
+   "verb_i": 13,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "support",
+     "sg"
+    ]
+   ],
+   "bucket": "adjunct",
+   "tier": 2,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "these cells were thawed at degrees c for min and were deglycerolized by alternately centrifuging and mixing with descending concentrations of glycerol solutions and",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "pl",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the attorney general has advised local police that it is their duty to enforce the blue laws",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the second alternative is to permit the market price for these agricultural products gradually to have a greater influence on the planning of production by farmers while continuing the assistance of the government",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the council is about to resume its primary assignment of drawing up treaties of peace with italy rumania bulgaria hungary and finland",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the president of the united states has said we will never negotiate out of fear and we will never fear to negotiate ''",
+   "subj_i": 1,
+   "verb_i": 6,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the music sang nicely sprinted evenly when necessary was properly accented and balanced",
+   "subj_i": 1,
+   "verb_i": 8,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "her pleasure in seeing him was like every other of her feelings strong in itself and strongly spoken",
+   "subj_i": 1,
+   "verb_i": 5,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the book is divided into chapters and in each chapter the material is grouped into text tables illustrations and bibliography",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the current fiscal year is a year of transition",
+   "subj_i": 1,
+   "verb_i": 4,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the new york trade sources said if pasar ' s shipments were delayed customers might have to turn to the london metal exchange for supply",
+   "subj_i": 1,
+   "verb_i": 11,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the lips of the righteous know what is acceptable but the mouth of the wicked speaketh frowardness",
+   "subj_i": 1,
+   "verb_i": 7,
+   "subj_n": "pl",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the causes of homelessness are many the history is long",
+   "subj_i": 1,
+   "verb_i": 4,
+   "subj_n": "pl",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": null
+  },
+  {
+   "sentence": "the high hills are a refuge for the wild goats and the rocks for the conies",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the ward was a small one four beds kept reserved for female alcoholics",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "my son who has completed two years in engineering school has a summer job on a construction project as an unskilled laborer",
+   "subj_i": 1,
+   "verb_i": 10,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "relative",
+   "tier": 3,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the major defensive problems are concerned with the possibility of overt military delivery of biological agents from appropriate disseminating devices",
+   "subj_i": 1,
+   "verb_i": 4,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the depths have covered them they sank into the bottom as a stone",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "pl",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the official second in command under the governor was an ex detective named greywood usher a cadaverous careful spoken yankee philosopher occasionally varying a very rigid visage with an odd apologetic grimace",
+   "subj_i": 1,
+   "verb_i": 8,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "command",
+     "sg"
+    ],
+    [
+     "governor",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "a group led by lt rosewood financial inc has also disclosed ownership of pct of comdata ' s mln shares outstanding and said it might seek to increase its interest to over pct",
+   "subj_i": 1,
+   "verb_i": 8,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "these are the sons of rachel which were born to jacob all the souls were fourteen",
+   "subj_i": 1,
+   "verb_i": 14,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": true,
+   "between_nouns": [
+    [
+     "sons",
+     "pl"
+    ],
+    [
+     "jacob",
+     "sg"
+    ],
+    [
+     "souls",
+     "pl"
+    ]
+   ],
+   "bucket": "relative",
+   "tier": 3,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the hill of god is as the hill of bashan an high hill as the hill of bashan",
+   "subj_i": 1,
+   "verb_i": 4,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "god",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the market is beginning to feel there may be demand at the beginning of the fiscal year in japan on april quinn said",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the direct evidence on the micrometeorite environment near the earth is obtained from piezoelectric sensors essentially microphones and from wire gages",
+   "subj_i": 1,
+   "verb_i": 10,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "earth",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the plan i offer you has four fundamental components",
+   "subj_i": 1,
+   "verb_i": 5,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the whole system was again reviewed and reorganized in",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "this action was rationalized on the basis of a small survey which indicated that a high percentage of married freshmen women on our campus never become sophomores",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "that test has proved the wisdom of the system but it has also made strikingly apparent the need for improving its operation and increasing its coverage and its benefits",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the prize was for the most assiduous not for the most amiable",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the author of crystal structures is ralph wg wyckoff university of arizona tucson arizona",
+   "subj_i": 1,
+   "verb_i": 5,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "crystal",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "our goal in this country is full employment in peacetime",
+   "subj_i": 1,
+   "verb_i": 5,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the shipment was part of a contract signed in february for the saudis to supply brazil with barrels per day until june",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the official said it was encouraging that japan had agreed not to reduce ore imports from india although japan ' s total iron ore imports would be lower in the coming year because of the recession in the japanese steel industry",
+   "subj_i": 1,
+   "verb_i": 4,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the dollar was being quoted at francs in early afternoon dealings after a fix of francs",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the main reason for this is the overpowering growth of federal grants in aid programs during the past few decades",
+   "subj_i": 1,
+   "verb_i": 5,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "their affection was always to subside into friendship",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the smile was still there but it might have been the first smile of a baby",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the hour is coming when ahab would not scare thee from him yet would not have thee by him",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the hat was lodged at length upon a bank",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the something which obeys none of the rest it is offensive never defensive yet how magnetic it draws",
+   "subj_i": 1,
+   "verb_i": 9,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "rest",
+     "sg"
+    ]
+   ],
+   "bucket": "relative",
+   "tier": 3,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the data reported here are either from spectra from which the adsorbed water resonance could easily be eliminated or from spectra of samples evacuated and sealed off at degrees c which contain no adsorbed water",
+   "subj_i": 1,
+   "verb_i": 4,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the fear of the lord is to hate evil pride and arrogancy and the evil way and the froward mouth do i hate",
+   "subj_i": 1,
+   "verb_i": 5,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "lord",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the meaning of this variation in distribution of the bronchial artery as found in the horse is not clear",
+   "subj_i": 1,
+   "verb_i": 16,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "variation",
+     "sg"
+    ],
+    [
+     "distribution",
+     "sg"
+    ],
+    [
+     "horse",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the scene is etched in sharp detail the military problems brilliantly explained and the excitement and importance of the battle made evident",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the mixture was then extracted with alkali and with water following which the carbon tetrachloride was distilled on a vigreux column a center cut being retained which was then degassed under vacuum in the presence of af",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the other bedroom has heavier styling door fronted dressers with acacia panels a poster bed or a bed with arched acacia panels and matching mirror",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the nations agreed that currency exchange rates were at about the correct levels when the pact was signed earlier this year",
+   "subj_i": 1,
+   "verb_i": 7,
+   "subj_n": "pl",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the cost of armaments becomes less oppressive as we near our defense goals yet we are militarily stronger every day",
+   "subj_i": 1,
+   "verb_i": 15,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": true,
+   "between_nouns": [
+    [
+     "armaments",
+     "pl"
+    ],
+    [
+     "our",
+     "sg"
+    ],
+    [
+     "defense",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the meat is made into balls about the size of billiard balls and being well seasoned and spiced might be taken for turtle balls or veal balls",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "his chance for the kellynch estate was something but all the honour of the family he held as cheap as dirt",
+   "subj_i": 1,
+   "verb_i": 6,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the place where a great city stands is not the place of stretch ' d wharves docks manufactures deposits of produce merely nor the place of ceaseless salutes of new comers or the anchor lifters of the departing nor the place of the tallest and costliest buildings or shops selling goods from the rest of the earth nor the place of the best libraries and schools nor the place where money is plentiest nor the place of the most numerous population",
+   "subj_i": 1,
+   "verb_i": 7,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "great",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "an investment will have to be made said archie dunham executive vice president of petroleum products at conoco an operating subsidiary of dupont corp lt dd in order to upgrade refinery operations",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the prisoner was defended by mr patrick butler k c who was mistaken for a mere flaneur by those who misunderstood the irish character and those who had not been examined by him",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the ring '' cycles are july and and aug and",
+   "subj_i": 1,
+   "verb_i": 4,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": null
+  },
+  {
+   "sentence": "the government has confirmed that growth was negative in the first quarter",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "these firms with combined revenues of about one mln dlrs are providers of speech pathology physical therapy and occupational therapy services",
+   "subj_i": 1,
+   "verb_i": 10,
+   "subj_n": "pl",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the men crying love poems in an orchard on any summer's night are as often as not the lutihaw mustachioed toughs who spend most of their lives in and out of the local prisons brothels and teahouses",
+   "subj_i": 1,
+   "verb_i": 12,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "orchard",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the ones in central park do you know where they fly to",
+   "subj_i": 1,
+   "verb_i": 5,
+   "subj_n": "pl",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the name is of my own bestowal for there are more than one sort of porpoises and something must be done to distinguish them",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the white house economic policy council is expected to discuss possible sanctions against japan at a meeting scheduled for thursday",
+   "subj_i": 1,
+   "verb_i": 6,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "that regional peculiarities do not still exist",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the promise was readily given and willoughby ' s behaviour during the whole of the evening declared at once his affection and happiness",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "these names were secured from member companies by the association from the forty four sources listed in appendix aj",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "pl",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "her fortune was large and our family estate much encumbered",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the man was tall thin with a narrow face and a too large nose",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "these changes are essential to provide the new investment which is needed to create millions of new jobs between now and and to make america competitive once again in the world market",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "pl",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "this nation is the world ' s foremost manufacturer farmer banker consumer and exporter",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the dinner hour there was twelve noon",
+   "subj_i": 1,
+   "verb_i": 4,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the canadian dollar has not been rising like the pound but sloane and other analysts cautiously predicted a big move soon",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the girls were wild for dancing and the evenings ended occasionally in an unpremeditated little ball",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "pl",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the expenditures estimated for the fiscal year under this program are mainly inter agency reimbursements for past transactions",
+   "subj_i": 1,
+   "verb_i": 10,
+   "subj_n": "pl",
+   "gold": "pl",
+   "attractor": true,
+   "between_nouns": [
+    [
+     "program",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "our nation is the enduring dream of every immigrant who ever set foot on these shores and the millions still struggling to be free",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the decline in january was the biggest for any month since july when the index fell pct",
+   "subj_i": 1,
+   "verb_i": 4,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the question is now do they acquiesce to gaf",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "these operations are not permanently shut down",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "pl",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the oldsmobile with the license number jyj was in stall number five",
+   "subj_i": 1,
+   "verb_i": 7,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "license",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": null
+  },
+  {
+   "sentence": "the special dividend is payable may to stockholders of record april",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "these last now hoist the bucket within grasp of the indian to whom another person has reached up a very long pole",
+   "subj_i": 1,
+   "verb_i": 15,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "bucket",
+     "sg"
+    ],
+    [
+     "indian",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the little she said was all in lamentation of this inevitable delay though elinor tried to raise her spirits and make her believe as she then really believed herself that it would be a very short one",
+   "subj_i": 1,
+   "verb_i": 4,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "their revolution is the greatest in human history",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "a hearing on the settlement proposal is scheduled for march",
+   "subj_i": 1,
+   "verb_i": 6,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "settlement",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the investment in one of wall street ' s top brokerage houses is likely to pay off in dollars and international market position they said",
+   "subj_i": 1,
+   "verb_i": 12,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "one",
+     "sg"
+    ],
+    [
+     "wall",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the national manpower council of columbia university has estimated that three out of five skilled workers and one out of five technicians have not been formally trained",
+   "subj_i": 1,
+   "verb_i": 7,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the present edition of crystal data was written by jdh donnay the johns hopkins university baltimore md part and werner nowacki university of berne switzerland part with the collaboration of gabrielle donnay u s geological survey washington d c",
+   "subj_i": 1,
+   "verb_i": 6,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "crystal",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "her three notes unluckily they were all in my pocketbook or i should have denied their existence and hoarded them for ever i was forced to put them up and could not even kiss them",
+   "subj_i": 1,
+   "verb_i": 5,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "a contraction is unlikely to be a major concern for the fed especially as it would follow a long period of torrid growth but it could give the central bank extra leeway in the weeks ahead if it decided that a relaxation of monetary policy was justified on account of weakness in the economy",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": null
+  },
+  {
+   "sentence": "the point is not to put our children down but to lift them up",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the scientists have also warned that no life above ground or underground sheltered or unsheltered could be expected to survive in an area at least miles in diameter",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "pl",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the element is inserted in the discharge circuit in place of the exploding wire and the calorimetric heating of the element is measured with high accuracy",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the concern they felt for me was such as i shall never forget and for which i will always be grateful",
+   "subj_i": 1,
+   "verb_i": 6,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the hat was dropped just as francisco and his two friends came under the piazza",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the lower production levels indicated saudi arabia the world s largest oil exporter was insisting on getting opec official prices even at the cost of lower production the sources said",
+   "subj_i": 1,
+   "verb_i": 13,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "world",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "our position is that we are not willing to discuss the problems of market prices at a time when traders are making threats one source said",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "my engagements at present replied willoughby confusedly are of such a nature that i dare not flatter myself",
+   "subj_i": 1,
+   "verb_i": 7,
+   "subj_n": "pl",
+   "gold": "pl",
+   "attractor": true,
+   "between_nouns": [
+    [
+     "present",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": null
+  },
+  {
+   "sentence": "the goal of trade legislation was to make our trade policy stronger without violating our international trade agreements he said",
+   "subj_i": 1,
+   "verb_i": 5,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "trade",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the move is the first step in building a new international insurance broking group following the appointment of a new management team for its seascope insurance holdings unit",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the international unit is equipotent with the usp unit adopted in which was defined as the amount of activity present in mg of the usp reference substance",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the first step toward the goal is the establishment of a new atmosphere of mutual good will and friendly communication on other than the polemical level",
+   "subj_i": 1,
+   "verb_i": 6,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "goal",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "this administration has been looking hard at exactly what civil defense can and cannot do",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the slave is owner and ever was",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the group added its has already had some contacts with others concerning the company but said no understandings have been reached",
+   "subj_i": 1,
+   "verb_i": 4,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "this masterpiece has gaiety too but it is the gaiety of dancing people earthy salty and humorous",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": null
+  },
+  {
+   "sentence": "the folks of the great house were to spend the evening of this day at the cottage and it being now too late in the year for such visits to be made on foot the coach was beginning to be listened for when the youngest miss musgrove walked in",
+   "subj_i": 1,
+   "verb_i": 6,
+   "subj_n": "pl",
+   "gold": "pl",
+   "attractor": true,
+   "between_nouns": [
+    [
+     "great",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the symbol for division is a straight line that separates two numbers placed one above the other",
+   "subj_i": 1,
+   "verb_i": 4,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "division",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "these are the families of issachar according to those that were numbered of them threescore and four thousand and three hundred",
+   "subj_i": 1,
+   "verb_i": 10,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the first thing maurice did after showing his tulip roots to his father was to run to arthur ' s garden in search of him",
+   "subj_i": 1,
+   "verb_i": 13,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "showing",
+     "sg"
+    ],
+    [
+     "tulip",
+     "sg"
+    ],
+    [
+     "father",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the employers ' spokesman said they were likely to restart the redundancy procedure afresh next week in an attempt to pre empt the may final court ruling",
+   "subj_i": 1,
+   "verb_i": 6,
+   "subj_n": "pl",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the retail car market is much more freeform now than it was in the year things began to change says detroit analyst arvid jauppi of arvid jauppi and associates",
+   "subj_i": 1,
+   "verb_i": 4,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the night was cold and stormy",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the trend is likely to continue until other countries replace pakistan which usually buys all qualities of our tea he added",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "a further increase in tax levels was expected in future",
+   "subj_i": 1,
+   "verb_i": 6,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the attack was near magangue in northeastern bolivar province",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the house is on old annapolis road a mile south of severna park at jones station police said",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the poor have sometimes objected to being governed badly the rich have always objected to being governed at all",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the original estimate of seedings of winter wheat was published in january",
+   "subj_i": 1,
+   "verb_i": 8,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "winter",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the new price for high grade zinc is u s cts and canadian cts a pound the company said",
+   "subj_i": 1,
+   "verb_i": 7,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "high",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "this their way is their folly yet their posterity approve their sayings",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "way",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "a call for action before it is too late '' has alarming implications when it comes from a man who in his previous reports on the schools cautioned so strongly against extreme measures",
+   "subj_i": 1,
+   "verb_i": 6,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "action",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the site of the old half wit ' s cell was now the heart of a standing forest of fire the flames as thick and yellow as a cornfield",
+   "subj_i": 1,
+   "verb_i": 10,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "old",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "in the welfare culture the breakdown of the family the most basic support system has reached crisis proportions in female and child poverty child abandonment horrible crimes and deteriorating schools",
+   "subj_i": 5,
+   "verb_i": 14,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "adjunct",
+   "tier": 2,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the group ' s net return on capital was seven pct",
+   "subj_i": 1,
+   "verb_i": 8,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "capital",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "by faith the walls of jericho fell down after they were compassed about seven days",
+   "subj_i": 3,
+   "verb_i": 10,
+   "subj_n": "pl",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "adjunct",
+   "tier": 2,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the coalition was to prove inadvisable",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "in his days the land was quiet ten years",
+   "subj_i": 4,
+   "verb_i": 5,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "adjunct",
+   "tier": 2,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the government offices were being opened but they weren't being opened fast enough and meanwhile the cold penetrated everything",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "his master was in a declining state of health and this young lad waited on him a little more to his mind than his other servants",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the pilot plant was equipped with a hp turbine aerator figure",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the whole calamity with the falling form of macey was plainly descried from the ship",
+   "subj_i": 1,
+   "verb_i": 9,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": null
+  },
+  {
+   "sentence": "the substance of this letter was forwarded to emma in a note from mrs weston instantly",
+   "subj_i": 1,
+   "verb_i": 5,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "letter",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "an assistant attorney general is directed to investigate",
+   "subj_i": 1,
+   "verb_i": 4,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the first dilemma was the morality of nuclear warfare itself",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "a small house in their own neighbourhood where they might still have lady russell ' s society still be near mary and still have the pleasure of sometimes seeing the lawns and groves of kellynch was the object of her ambition",
+   "subj_i": 1,
+   "verb_i": 11,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "their",
+     "sg"
+    ],
+    [
+     "own",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the giant drank that up while it was boiling",
+   "subj_i": 1,
+   "verb_i": 7,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the purchase of cleveland is a further step in saatchi and saatchi ' s fast growing consulting industry the company said",
+   "subj_i": 1,
+   "verb_i": 4,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the pound was seen staying between and marks for the next days dealers said",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "her house is the way to hell going down to the chambers of death",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the option is exercisable in the event that another party were to acquire pct or more of chemlawn by means other than a tender offer for all shares at a higher price than ecolab is offering",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "our farmers in particular have always been opposed to them",
+   "subj_i": 1,
+   "verb_i": 4,
+   "subj_n": "pl",
+   "gold": "pl",
+   "attractor": true,
+   "between_nouns": [
+    [
+     "particular",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "his medicines had failed the fever was unabated and marianne only more quiet not more herself remained in a heavy stupor",
+   "subj_i": 1,
+   "verb_i": 6,
+   "subj_n": "pl",
+   "gold": "sg",
+   "attractor": true,
+   "between_nouns": [
+    [
+     "fever",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "his objective was essentially to repair those aspects of orthodox astronomy responsible for its deficiencies in achieving these ends",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the offer was to have expired wednesday",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "in afghanistan an international force is helping provide security",
+   "subj_i": 3,
+   "verb_i": 5,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "adjunct",
+   "tier": 2,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the speed is controlled by pressing on the two brake buttons located where the index finger and thumb are placed when holding the motor",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the taunt was lost on roberts",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": null
+  },
+  {
+   "sentence": "my name is pretty well known to the police and i can see well enough that you belong to them",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the statement said the request for the withdrawal of the troops was made because of the calmness reigning in all of its refineries",
+   "subj_i": 1,
+   "verb_i": 11,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": true,
+   "between_nouns": [
+    [
+     "request",
+     "sg"
+    ],
+    [
+     "troops",
+     "pl"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the dinner is sponsored by organized labor and is scheduled for pm",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "her little face was so anxious that he thought something unpleasant had happened",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the trees were as black and orderly as plumes upon a hearse there were still a few stars",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "pl",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the good man is perished out of the earth and there is none upright among men they all lie in wait for blood they hunt every man his brother with a net",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the codes were key punched into ibm punch cards and verified",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "pl",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "a new work on the program was nikolai lopatnikoff's festival overture '' receiving its first new york hearing",
+   "subj_i": 1,
+   "verb_i": 6,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "program",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "this man was planned enormously in his original proportions like a statue carved deliberately as colossal",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the deal with argentina was agreed by a majority of ec states after west germany withdrew objections to increased quotas for argentina on high quality beef",
+   "subj_i": 1,
+   "verb_i": 4,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "argentina",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the truth was the puncher was both bewildered and dismayed by his own mixed luck",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "their second purpose is to clear the atmosphere of that unreasoned suspicion that accepts rumor and gossip as substitutes for evidence",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the american is very lucky if he has three",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the answer was waiting for me in the land where i was born",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "his face was always in the newspapers sometimes in cartoons that seemed nearly as large as life",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the scene before you is indeed theatrical and often appears in movies about rome",
+   "subj_i": 1,
+   "verb_i": 4,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "you",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "those creatures the ponies have a ' most pulled my ' and off",
+   "subj_i": 1,
+   "verb_i": 4,
+   "subj_n": "pl",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": null
+  },
+  {
+   "sentence": "at two that morning he was still walking up and down peony up and down the veranda up and down the silent moonlit beach",
+   "subj_i": 3,
+   "verb_i": 5,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "adjunct",
+   "tier": 2,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the word of the lord came again unto me saying son of man there were two women the daughters of one mother and they committed whoredoms in egypt they committed whoredoms in their youth there were their breasts pressed and there they bruised the teats of their virginity",
+   "subj_i": 1,
+   "verb_i": 14,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "lord",
+     "sg"
+    ],
+    [
+     "man",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the book published in has been selling steadily ever since",
+   "subj_i": 1,
+   "verb_i": 4,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "this problem is illustrated by the fact that many local churches drop from the active membership rolls each year as many as they receive into the fellowship",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the stoppage has delayed exports at a time when brazil desperately needs foreign exchange",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the archers were surely a match for them",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "pl",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the island folk have their living almost entirely from summer visitors",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the tic tac toe trio is the club's new show group which also plays for dancing",
+   "subj_i": 1,
+   "verb_i": 5,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "our intention is not to continue being net exporters of capital but to protect our balance of payments with a flow of capital towards venezuela he said",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the lord make the woman that is come into thine house like rachel and like leah which two did build the house of israel and do thou worthily in ephratah and be famous in bethlehem and let thy house be like the house of pharez whom tamar bare unto judah of the seed which the lord shall give thee of this young woman",
+   "subj_i": 1,
+   "verb_i": 6,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the substance was never jump from a boat pip except but all the rest was indefinite as the soundest advice ever is",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the last witness said it was commented the counsel with unscrupulous swiftness",
+   "subj_i": 1,
+   "verb_i": 5,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the current mission is not involved in that area but there are plans to buy substantial amounts of cotton from the u s",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the registration card of a person leaving his home territory for a short period is put into a special file for absent persons",
+   "subj_i": 1,
+   "verb_i": 14,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "person",
+     "sg"
+    ],
+    [
+     "home",
+     "sg"
+    ],
+    [
+     "short",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "these are of us they are with us all for primal needed work while the followers there in embryo wait behind we to day ' s procession heading we the route for travel clearing pioneers",
+   "subj_i": 1,
+   "verb_i": 5,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the big story is the inventory re building that ' s going on now not all of which is intentional he said",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the approval of only three members of the board of school estimate is required to certify the amount of money to be allotted to the college",
+   "subj_i": 1,
+   "verb_i": 12,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "board",
+     "sg"
+    ],
+    [
+     "school",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the official media was initially slow in reporting the accident but under kremlin leader mikhail gorbachev ' s campaign for openness gradually gave more and more details",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "my transgression is sealed up in a bag and thou sewest up mine iniquity",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the effect was as depressing as a gravestone the applause irresolute and short lived",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "my friend knightley ' had been so often mentioned that i was really impatient to see him and i must do my caro sposo the justice to say that he need not be ashamed of his friend",
+   "subj_i": 1,
+   "verb_i": 11,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "a secret conspiracy of manufacturers is hardly such a vehicle",
+   "subj_i": 1,
+   "verb_i": 5,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": true,
+   "between_nouns": [
+    [
+     "manufacturers",
+     "pl"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the sum is that at particular seasons within that breadth and along that path migrating whales may with great confidence be looked for",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "for all our days are passed away in thy wrath we spend our years as a tale that is told",
+   "subj_i": 3,
+   "verb_i": 4,
+   "subj_n": "pl",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "adjunct",
+   "tier": 2,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the agreement signed in january for the months from february to june is up for renegotiation",
+   "subj_i": 1,
+   "verb_i": 12,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": true,
+   "between_nouns": [
+    [
+     "months",
+     "pl"
+    ],
+    [
+     "june",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "these national objectives are fully supported by both our political parties",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the milk is very sweet and rich it has been tasted by man it might do well with strawberries",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the bank said major increases in foreign reserves were recorded in january february and the first half of march",
+   "subj_i": 1,
+   "verb_i": 8,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the fed is going to look at this positively said allan leslie of discount corporation",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "his amateur common sense told him that it was precisely the poor street the side street that would be likely to remember and report the passing of a hansom cab like the passing of a royal procession",
+   "subj_i": 1,
+   "verb_i": 8,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "this great republic is foremost among the nations of the world in the search for peace",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the program was designed to get belgium out of what the government said was a snowball effect under which the government constantly borrowed more to finance budget deficits which were due largely to the cost of servicing and repaying existing debt",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the lord is their strength and he is the saving strength of his anointed",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "our understanding of the solar system has taught us to replace our former elaborate rituals with the appropriate action which in this case amounts to doing nothing",
+   "subj_i": 1,
+   "verb_i": 6,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the stranger really had nothing to do with it of course",
+   "subj_i": 1,
+   "verb_i": 6,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "to talk of meeting the present situation by increasing taxes is a band aid solution which does nothing to cure an illness that ' s been coming on for half a century to say nothing of the fact that it poses a real threat to economic recovery",
+   "subj_i": 5,
+   "verb_i": 10,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "adjunct",
+   "tier": 2,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "a lot of the big deals there have already been done",
+   "subj_i": 1,
+   "verb_i": 7,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "big",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the depth saith it is not in me and the sea saith it is not with me",
+   "subj_i": 1,
+   "verb_i": 4,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the units have been operating under protection of chapter of the u s bankruptcy code since last november",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "pl",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the king of thieves was however continuing his address with the same kind of dangerous politeness",
+   "subj_i": 1,
+   "verb_i": 4,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": true,
+   "between_nouns": [
+    [
+     "thieves",
+     "pl"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the dollar is expected to try its psychological barrier of yen and to fall even below that level a senior dealer at one leading bank said",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the men of dedan were thy merchants many isles were the merchandise of thine hand they brought thee for a present horns of ivory and ebony",
+   "subj_i": 1,
+   "verb_i": 4,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the american people have already stepped up their rate of saving assuring that the funds needed to modernize our factories and improve our technology will once again flow to business and industry",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "a dream is falser than the outer life",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the liberal radical heritage which informs all of trevelyan's interpretations of history here seems clearly to have distorted the issues and oversimplified the period",
+   "subj_i": 1,
+   "verb_i": 16,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "relative",
+   "tier": 3,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the month oil financing facility which was signed last october is one of the few purely voluntary credits for a latin american nation since the region ' s debt crisis erupted in august",
+   "subj_i": 1,
+   "verb_i": 10,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "relative",
+   "tier": 3,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "a respondent may want to make alternative answers because he does not know the precise circumstances assumed in the question",
+   "subj_i": 1,
+   "verb_i": 10,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "make",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "in type this general relationship is maintained peripherally but not centrally where the pulmonary vein follows a more independent path to the hilum as is the case throughout the lung in type",
+   "subj_i": 3,
+   "verb_i": 5,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "adjunct",
+   "tier": 2,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the european currencies are moving back up against the yen",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the letter pointed out the company has not heard from supermarkets general since making the offer other than on this past monday when we were informed that our offer would be seriously considered and that you would get back to us on a timely basis to arrange a meeting",
+   "subj_i": 1,
+   "verb_i": 6,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the case was that bang jensen came up to shann claiming he had found further errors in the report",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "their interest is not in preserving and strengthening america ' s industrial and providing jobs he said",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the police with characteristic unreasonableness will not accept either of our proposals the result is that we run about dodging the police and have jumped over our garden wall into your magnificent garden to throw ourselves on your magnificent hospitality",
+   "subj_i": 1,
+   "verb_i": 14,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": true,
+   "between_nouns": [
+    [
+     "characteristic",
+     "sg"
+    ],
+    [
+     "our",
+     "sg"
+    ],
+    [
+     "proposals",
+     "pl"
+    ],
+    [
+     "result",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the market reacted nervously because the dollar has been moving narrowly against the yen since mid january sumita said",
+   "subj_i": 1,
+   "verb_i": 7,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "dollar",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the national parks always popular camping places are facing the same pressure",
+   "subj_i": 1,
+   "verb_i": 7,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the agreement subject to shareholder approval is expected to close by the end of the year the company said",
+   "subj_i": 1,
+   "verb_i": 6,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "shareholder",
+     "sg"
+    ]
+   ],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "this tyrant whose sole name blisters our tongues was once thought honest you haue lou ' d him well he hath not touch ' d you yet",
+   "subj_i": 1,
+   "verb_i": 8,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": true,
+   "between_nouns": [
+    [
+     "tongues",
+     "pl"
+    ]
+   ],
+   "bucket": "relative",
+   "tier": 3,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "this place was hatred to him just as hatred was his only companion in his aloneness",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the two have never been separable",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "my hands are spread forth i pass them in all directions i would sound up the shadowy shore to which you are journeying",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "pl",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "our whole system however is based upon the assumption that normally we should combat wide fluctuations in our price structure by relying largely on the effective use of sound fiscal and monetary policy and upon the natural workings of economic law",
+   "subj_i": 1,
+   "verb_i": 4,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "these carts were of a type devised in pembina in the days of alexander henry the younger about a decade before the selkirk colony was begun",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "pl",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": null
+  },
+  {
+   "sentence": "the bank report was especially critical of indonesia ' s drive to plant sugar saying domestic sugar prices are double the world average because of inefficiencies and the country would save money by importing the commodity",
+   "subj_i": 1,
+   "verb_i": 3,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "her quarters were on the right as you walked into the building and her small front room was clogged with heavy furniture a big round oak dining table and chairs a buffet with a row of unclaimed letters inserted between the mirror and its frame",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "pl",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "under terms of the transaction the present directors of mountain view have resigned and have elected directors of maratech as new directors of mountain view",
+   "subj_i": 6,
+   "verb_i": 11,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [
+    [
+     "mountain",
+     "sg"
+    ]
+   ],
+   "bucket": "adjunct",
+   "tier": 2,
+   "strict_certified": false,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "this year current exchange rates were used for the first time instead of a fixed rate of dinars to the dollar",
+   "subj_i": 1,
+   "verb_i": 5,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": false,
+   "trigram_pred": "pl"
+  },
+  {
+   "sentence": "the death of jesus set me free then what have i to do with thee",
+   "subj_i": 1,
+   "verb_i": 9,
+   "subj_n": "sg",
+   "gold": "pl",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the vote was or pct against and or pct for the contract",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  },
+  {
+   "sentence": "the question was where to land ''",
+   "subj_i": 1,
+   "verb_i": 2,
+   "subj_n": "sg",
+   "gold": "sg",
+   "attractor": false,
+   "between_nouns": [],
+   "bucket": "plain",
+   "tier": 1,
+   "strict_certified": true,
+   "trigram_pred": "sg"
+  }
+ ]
+}

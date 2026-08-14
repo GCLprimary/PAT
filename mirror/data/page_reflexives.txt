@@ -1,0 +1,10 @@
+# page: reflexives
+# A reflexive pronoun carries its antecedent's number: himself/herself/
+# itself/oneself point back at one; themselves points back at many.
+# provenance: lesson:reflexives — transcribed from grammar knowledge,
+# NOT mined from BLiMP or any corpus.
+himself -> sg
+herself -> sg
+itself -> sg
+oneself -> sg
+themselves -> pl

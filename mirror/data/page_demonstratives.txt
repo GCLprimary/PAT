@@ -1,0 +1,9 @@
+# page: demonstratives
+# The one-line lesson: a demonstrative carries number. this/that point
+# at one; these/those point at many.
+# provenance: lesson:demonstratives — transcribed from grammar
+# knowledge, NOT mined from any corpus or benchmark.
+this -> sg
+that -> sg
+these -> pl
+those -> pl

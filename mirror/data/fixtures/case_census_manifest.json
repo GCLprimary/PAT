@@ -1,0 +1,30 @@
+{
+ "case_census.tsv": "e7bcb3a4cd89d7f5e97bb9d331cdf0392c556a4de9866fd48a3dc1e82f52b89f",
+ "types": 108426,
+ "histogram": [
+  63119,
+  2379,
+  1369,
+  722,
+  626,
+  650,
+  699,
+  200,
+  292,
+  107,
+  1043,
+  147,
+  188,
+  343,
+  118,
+  212,
+  247,
+  192,
+  218,
+  33950
+ ],
+ "valley_bin": 9,
+ "common_max_r": 0.45,
+ "proper_min_r": 0.5,
+ "sources": "NLTK brown/gutenberg/reuters (cased vintage) + the 35 corpus_10m novels re-fetched cased"
+}

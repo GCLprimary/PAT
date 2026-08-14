@@ -1,0 +1,51 @@
+stratum	claim	receipt	verdict
+elision	abnormally = abnormal+ly (elision: [l])	expected AE b n AO r m AH l l IY | actual AE b n AO r m AH l IY | degemination	
+elision	cheerfully = cheerful+ly (elision: [l])	expected CH IH r f AH l l IY | actual CH IH r f AH l IY | degemination	
+elision	crackling = crackle+ing (elision: [AH])	expected k r AE k AH l IH NG | actual k r AE k l IH NG | unclassed	
+elision	equally = equal+ly (elision: [l])	expected IY k w AH l l IY | actual IY k w AH l IY | degemination	
+elision	fiscally = fiscal+ly (elision: [l])	expected f IH s k AH l l IY | actual f IH s k AH l IY | degemination	
+elision	government = govern+ment (elision: [n])	expected g AH v ER n m AH n t | actual g AH v ER m AH n t | unclassed	
+elision	hopefully = hopeful+ly (elision: [l])	expected h OW p f AH l l IY | actual h OW p f AH l IY | degemination	
+elision	joyfully = joyful+ly (elision: [l])	expected JH OY f AH l l IY | actual JH OY f AH l IY | degemination	
+elision	mathematically = mathematical+ly (elision: [l])	expected m AE TH AH m AE t IH k AH l l IY | actual m AE TH AH m AE t IH k AH l IY | degemination	
+elision	occasionally = occasional+ly (elision: [l])	expected AH k EY ZH AH n AH l l IY | actual AH k EY ZH AH n AH l IY | degemination	
+elision	professionally = professional+ly (elision: [l])	expected p r AH f EH SH AH n AH l l IY | actual p r AH f EH SH AH n AH l IY | degemination	
+elision	seasonally = seasonal+ly (elision: [l])	expected s IY z AH n AH l l IY | actual s IY z AH n AH l IY | degemination	
+elision	stifling = stifle+ing (elision: [AH])	expected s t AY f AH l IH NG | actual s t AY f l IH NG | unclassed	
+elision	trampling = trample+ing (elision: [AH])	expected t r AE m p AH l IH NG | actual t r AE m p l IH NG | unclassed	
+elision	unsuccessfully = unsuccessful+ly (elision: [l])	expected AH n s AH k s EH s f AH l l IY | actual AH n s AH k s EH s f AH l IY | degemination	
+mutation	abusing = abuse+ing (mutation: [z])	expected AH b j UW s IH NG | actual AH b j UW z IH NG | voicing-sz	
+mutation	bashfulness = bashful+ness (mutation: [EH])	expected b AE SH f AH l n AH s | actual b AE SH f AH l n EH s | unclassed	
+mutation	combining = combine+ing (mutation: [AH])	expected k AA m b AY n IH NG | actual k AH m b AY n IH NG | unclassed	
+mutation	costing = cost+ing (mutation: [AO])	expected k AA s t IH NG | actual k AO s t IH NG | unclassed	
+mutation	dissolving = dissolve+ing (mutation: [AO])	expected d IH z AA l v IH NG | actual d IH z AO l v IH NG | unclassed	
+mutation	examiner = examine+er (mutation: [AH])	expected IH g z AE m IH n ER | actual IH g z AE m AH n ER | unclassed	
+mutation	guiltless = guilt+less (mutation: [IH])	expected g IH l t l AH s | actual g IH l t l IH s | unclassed	
+mutation	largeness = large+ness (mutation: [IH])	expected l AA r JH n AH s | actual l AA r JH n IH s | unclassed	
+mutation	officer = office+er (mutation: [AH])	expected AO f IH s ER | actual AO f AH s ER | unclassed	
+mutation	priming = prim+ing (mutation: [AY])	expected p r IH m IH NG | actual p r AY m IH NG | unclassed	
+mutation	refiner = refine+er (mutation: [IH])	expected r AH f AY n ER | actual r IH f AY n ER | unclassed	
+mutation	reusing = reuse+ing (mutation: [z])	expected r IY j UW s IH NG | actual r IY j UW z IH NG | voicing-sz	
+mutation	shining = shin+ing (mutation: [AY])	expected SH IH n IH NG | actual SH AY n IH NG | unclassed	
+mutation	spoonful = spoon+ful (mutation: [UH])	expected s p UW n f AH l | actual s p UW n f UH l | unclassed	
+mutation	vagueness = vague+ness (mutation: [IH])	expected v EY g n AH s | actual v EY g n IH s | unclassed	
+unimorph	UniMorph lacks: detail -> detailing	tags V;V.PTCP;PRS | attested x6 | pron-exact | ortho-exact	
+unimorph	UniMorph lacks: foam -> foams	tags N;PL/V;PRS;3;SG | attested x23 | pron-exact | ortho-exact	
+unimorph	UniMorph lacks: waterway -> waterways	tags N;PL/V;PRS;3;SG | attested x8 | pron-exact | ortho-exact	
+unimorph	UniMorph lacks: judgement -> judgements	tags N;PL/V;PRS;3;SG | attested x5 | pron-exact | ortho-exact	
+unimorph	UniMorph lacks: balance -> balances	tags N;PL/V;PRS;3;SG | attested x94 | pron-exact | ortho-exact	
+unimorph	UniMorph lacks: banana -> bananas	tags N;PL/V;PRS;3;SG | attested x7 | pron-exact | ortho-exact	
+unimorph	UniMorph lacks: roe -> roes	tags N;PL/V;PRS;3;SG | attested x5 | pron-exact | ortho-exact	
+unimorph	UniMorph lacks: delusion -> delusions	tags N;PL/V;PRS;3;SG | attested x5 | pron-exact | ortho-exact	
+unimorph	UniMorph lacks: heighten -> heightened	tags V;PST/V;V.PTCP;PST | attested x33 | pron-exact | ortho-exact	
+unimorph	UniMorph lacks: scorn -> scorned	tags V;PST/V;V.PTCP;PST | attested x6 | pron-exact | ortho-exact	
+insertion	allegedly = alleged+ly (insertion: [AH])	expected AH l EH JH d l IY | actual AH l EH JH AH d l IY | unclassed	
+insertion	deservedly = deserved+ly (insertion: [AH])	expected d IH z ER v d l IY | actual d IH z ER v AH d l IY | unclassed	
+insertion	linger = ling+er (insertion: [g])	expected l IH NG ER | actual l IH NG g ER | unclassed	
+insertion	number = numb+er (insertion: [b])	expected n AH m ER | actual n AH m b ER | unclassed	
+insertion	strongest = strong+est (insertion: [g])	expected s t r AO NG AH s t | actual s t r AO NG g AH s t | unclassed	
+onomastic	UniMorph lacks: paul -> pauling [ONOMASTIC]	tags V;V.PTCP;PRS | attested x7 | stem on the names page	
+onomastic	UniMorph lacks: dawn -> dawning [ONOMASTIC]	tags V;V.PTCP;PRS | attested x18 | stem on the names page	
+onomastic	UniMorph lacks: jacob -> jacobs [ONOMASTIC]	tags N;PL/V;PRS;3;SG | attested x53 | stem on the names page	
+onomastic	UniMorph lacks: walter -> walters [ONOMASTIC]	tags N;PL/V;PRS;3;SG | attested x11 | stem on the names page	
+onomastic	UniMorph lacks: adam -> adams [ONOMASTIC]	tags N;PL/V;PRS;3;SG | attested x64 | stem on the names page	

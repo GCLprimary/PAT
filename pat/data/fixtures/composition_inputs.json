@@ -1,0 +1,1855 @@
+{
+ "known0": [
+  "recollect",
+  "doom",
+  "wait",
+  "suspect",
+  "list",
+  "acclaim",
+  "accomplish",
+  "sleep",
+  "latch",
+  "brick",
+  "teat",
+  "shampoo",
+  "brainwash",
+  "discern",
+  "encompass"
+ ],
+ "teachable": [
+  "school",
+  "whole",
+  "round",
+  "nutt",
+  "foil",
+  "impeach",
+  "conner",
+  "bear",
+  "witch",
+  "broaden",
+  "execution",
+  "blood",
+  "levin",
+  "home",
+  "stomp",
+  "upload",
+  "succumb",
+  "harmful",
+  "chart",
+  "stilt",
+  "stubborn",
+  "campaign",
+  "loop",
+  "burrow",
+  "overlook"
+ ],
+ "inputs": [
+  {
+   "k": 1,
+   "clauses": [
+    "analyze bricker"
+   ],
+   "gold": [
+    [
+     "DERIVED",
+     "brick",
+     "er"
+    ]
+   ]
+  },
+  {
+   "k": 1,
+   "clauses": [
+    "remember execution"
+   ],
+   "gold": [
+    [
+     "LEARNEDOK",
+     "execution"
+    ]
+   ]
+  },
+  {
+   "k": 1,
+   "clauses": [
+    "relates to water"
+   ],
+   "gold": [
+    [
+     "NEIGHBORS"
+    ]
+   ]
+  },
+  {
+   "k": 1,
+   "clauses": [
+    "remember school"
+   ],
+   "gold": [
+    [
+     "LEARNEDOK",
+     "school"
+    ]
+   ]
+  },
+  {
+   "k": 1,
+   "clauses": [
+    "relates to music"
+   ],
+   "gold": [
+    [
+     "NEIGHBORS"
+    ]
+   ]
+  },
+  {
+   "k": 1,
+   "clauses": [
+    "remember blood"
+   ],
+   "gold": [
+    [
+     "LEARNEDOK",
+     "blood"
+    ]
+   ]
+  },
+  {
+   "k": 1,
+   "clauses": [
+    "relates to river"
+   ],
+   "gold": [
+    [
+     "NEIGHBORS"
+    ]
+   ]
+  },
+  {
+   "k": 1,
+   "clauses": [
+    "analyze acclaiming"
+   ],
+   "gold": [
+    [
+     "DERIVED",
+     "acclaim",
+     "ing"
+    ]
+   ]
+  },
+  {
+   "k": 1,
+   "clauses": [
+    "relates to fire"
+   ],
+   "gold": [
+    [
+     "NEIGHBORS"
+    ]
+   ]
+  },
+  {
+   "k": 1,
+   "clauses": [
+    "rhyme water"
+   ],
+   "gold": [
+    [
+     "ALIEN"
+    ]
+   ]
+  },
+  {
+   "k": 1,
+   "clauses": [
+    "rhyme school"
+   ],
+   "gold": [
+    [
+     "ALIEN"
+    ]
+   ]
+  },
+  {
+   "k": 1,
+   "clauses": [
+    "analyze shampoos"
+   ],
+   "gold": [
+    [
+     "DERIVED",
+     "shampoo",
+     "s"
+    ]
+   ]
+  },
+  {
+   "k": 2,
+   "clauses": [
+    "analyze waiter",
+    "know wait"
+   ],
+   "gold": [
+    [
+     "DERIVED",
+     "wait",
+     "er"
+    ],
+    [
+     "YES",
+     "wait"
+    ]
+   ]
+  },
+  {
+   "k": 2,
+   "clauses": [
+    "relates to heart",
+    "know recollect"
+   ],
+   "gold": [
+    [
+     "NEIGHBORS"
+    ],
+    [
+     "YES",
+     "recollect"
+    ]
+   ]
+  },
+  {
+   "k": 2,
+   "clauses": [
+    "analyze waited",
+    "know brainwash"
+   ],
+   "gold": [
+    [
+     "DERIVED",
+     "wait",
+     "ed"
+    ],
+    [
+     "YES",
+     "brainwash"
+    ]
+   ]
+  },
+  {
+   "k": 2,
+   "clauses": [
+    "analyze brainwashed",
+    "remember bear"
+   ],
+   "gold": [
+    [
+     "DERIVED",
+     "brainwash",
+     "ed"
+    ],
+    [
+     "LEARNEDOK",
+     "bear"
+    ]
+   ]
+  },
+  {
+   "k": 2,
+   "clauses": [
+    "analyze waits",
+    "analyze acclaimed"
+   ],
+   "gold": [
+    [
+     "DERIVED",
+     "wait",
+     "s"
+    ],
+    [
+     "DERIVED",
+     "acclaim",
+     "ed"
+    ]
+   ]
+  },
+  {
+   "k": 2,
+   "clauses": [
+    "remember round",
+    "relates to church"
+   ],
+   "gold": [
+    [
+     "LEARNEDOK",
+     "round"
+    ],
+    [
+     "NEIGHBORS"
+    ]
+   ]
+  },
+  {
+   "k": 2,
+   "clauses": [
+    "analyze waits",
+    "analyze waits"
+   ],
+   "gold": [
+    [
+     "DERIVED",
+     "wait",
+     "s"
+    ],
+    [
+     "DERIVED",
+     "wait",
+     "s"
+    ]
+   ]
+  },
+  {
+   "k": 2,
+   "clauses": [
+    "remember school",
+    "analyze sleeping"
+   ],
+   "gold": [
+    [
+     "LEARNEDOK",
+     "school"
+    ],
+    [
+     "DERIVED",
+     "sleep",
+     "ing"
+    ]
+   ]
+  },
+  {
+   "k": 2,
+   "clauses": [
+    "analyze recollected",
+    "know shampoo"
+   ],
+   "gold": [
+    [
+     "DERIVED",
+     "recollect",
+     "ed"
+    ],
+    [
+     "YES",
+     "shampoo"
+    ]
+   ]
+  },
+  {
+   "k": 2,
+   "clauses": [
+    "analyze brainwashed",
+    "analyze shampoos"
+   ],
+   "gold": [
+    [
+     "DERIVED",
+     "brainwash",
+     "ed"
+    ],
+    [
+     "DERIVED",
+     "shampoo",
+     "s"
+    ]
+   ]
+  },
+  {
+   "k": 2,
+   "clauses": [
+    "know sleep",
+    "relates to school"
+   ],
+   "gold": [
+    [
+     "YES",
+     "sleep"
+    ],
+    [
+     "NEIGHBORS"
+    ]
+   ]
+  },
+  {
+   "k": 2,
+   "clauses": [
+    "relates to fire",
+    "analyze teats"
+   ],
+   "gold": [
+    [
+     "NEIGHBORS"
+    ],
+    [
+     "DERIVED",
+     "teat",
+     "s"
+    ]
+   ]
+  },
+  {
+   "k": 3,
+   "clauses": [
+    "remember impeach",
+    "remember foil",
+    "rhyme music"
+   ],
+   "gold": [
+    [
+     "LEARNEDOK",
+     "impeach"
+    ],
+    [
+     "LEARNED",
+     "foil"
+    ],
+    [
+     "ALIEN"
+    ]
+   ]
+  },
+  {
+   "k": 3,
+   "clauses": [
+    "remember overlook",
+    "analyze overlooked",
+    "rhyme road"
+   ],
+   "gold": [
+    [
+     "LEARNED",
+     "overlook"
+    ],
+    [
+     "DERIVED",
+     "overlook",
+     "ed"
+    ],
+    [
+     "ALIEN"
+    ]
+   ]
+  },
+  {
+   "k": 3,
+   "clauses": [
+    "remember levin",
+    "analyze levins",
+    "analyze encompassed"
+   ],
+   "gold": [
+    [
+     "LEARNED",
+     "levin"
+    ],
+    [
+     "DERIVED",
+     "levin",
+     "s"
+    ],
+    [
+     "DERIVED",
+     "encompass",
+     "ed"
+    ]
+   ]
+  },
+  {
+   "k": 3,
+   "clauses": [
+    "remember execution",
+    "analyze recollecting",
+    "remember stilt"
+   ],
+   "gold": [
+    [
+     "LEARNEDOK",
+     "execution"
+    ],
+    [
+     "DERIVED",
+     "recollect",
+     "ing"
+    ],
+    [
+     "LEARNEDOK",
+     "stilt"
+    ]
+   ]
+  },
+  {
+   "k": 3,
+   "clauses": [
+    "remember execution",
+    "analyze executioner",
+    "remember nutt"
+   ],
+   "gold": [
+    [
+     "LEARNED",
+     "execution"
+    ],
+    [
+     "DERIVED",
+     "execution",
+     "er"
+    ],
+    [
+     "LEARNEDOK",
+     "nutt"
+    ]
+   ]
+  },
+  {
+   "k": 3,
+   "clauses": [
+    "translate river",
+    "analyze teater",
+    "relates to school"
+   ],
+   "gold": [
+    [
+     "ALIEN"
+    ],
+    [
+     "DERIVED",
+     "teat",
+     "er"
+    ],
+    [
+     "NEIGHBORS"
+    ]
+   ]
+  },
+  {
+   "k": 3,
+   "clauses": [
+    "rhyme music",
+    "know shampoo",
+    "remember stubborn"
+   ],
+   "gold": [
+    [
+     "ALIEN"
+    ],
+    [
+     "YES",
+     "shampoo"
+    ],
+    [
+     "LEARNEDOK",
+     "stubborn"
+    ]
+   ]
+  },
+  {
+   "k": 3,
+   "clauses": [
+    "remember harmful",
+    "analyze harmfulness",
+    "remember overlook"
+   ],
+   "gold": [
+    [
+     "LEARNED",
+     "harmful"
+    ],
+    [
+     "DERIVED",
+     "harmful",
+     "ness"
+    ],
+    [
+     "LEARNEDOK",
+     "overlook"
+    ]
+   ]
+  },
+  {
+   "k": 3,
+   "clauses": [
+    "relates to heart",
+    "remember home",
+    "analyze homes"
+   ],
+   "gold": [
+    [
+     "NEIGHBORS"
+    ],
+    [
+     "LEARNED",
+     "home"
+    ],
+    [
+     "DERIVED",
+     "home",
+     "s"
+    ]
+   ]
+  },
+  {
+   "k": 3,
+   "clauses": [
+    "remember whole",
+    "remember harmful",
+    "translate fire"
+   ],
+   "gold": [
+    [
+     "LEARNEDOK",
+     "whole"
+    ],
+    [
+     "LEARNEDOK",
+     "harmful"
+    ],
+    [
+     "ALIEN"
+    ]
+   ]
+  },
+  {
+   "k": 3,
+   "clauses": [
+    "remember impeach",
+    "analyze impeached",
+    "analyze accomplished"
+   ],
+   "gold": [
+    [
+     "LEARNED",
+     "impeach"
+    ],
+    [
+     "DERIVED",
+     "impeach",
+     "ed"
+    ],
+    [
+     "DERIVED",
+     "accomplish",
+     "ed"
+    ]
+   ]
+  },
+  {
+   "k": 3,
+   "clauses": [
+    "relates to water",
+    "remember upload",
+    "analyze accomplished"
+   ],
+   "gold": [
+    [
+     "NEIGHBORS"
+    ],
+    [
+     "LEARNEDOK",
+     "upload"
+    ],
+    [
+     "DERIVED",
+     "accomplish",
+     "ed"
+    ]
+   ]
+  },
+  {
+   "k": 4,
+   "clauses": [
+    "remember round",
+    "rhyme heart",
+    "analyze encompassing",
+    "analyze suspecting"
+   ],
+   "gold": [
+    [
+     "LEARNEDOK",
+     "round"
+    ],
+    [
+     "ALIEN"
+    ],
+    [
+     "DERIVED",
+     "encompass",
+     "ing"
+    ],
+    [
+     "DERIVED",
+     "suspect",
+     "ing"
+    ]
+   ]
+  },
+  {
+   "k": 4,
+   "clauses": [
+    "analyze shampoos",
+    "remember execution",
+    "analyze executioner",
+    "know teat"
+   ],
+   "gold": [
+    [
+     "DERIVED",
+     "shampoo",
+     "s"
+    ],
+    [
+     "LEARNED",
+     "execution"
+    ],
+    [
+     "DERIVED",
+     "execution",
+     "er"
+    ],
+    [
+     "YES",
+     "teat"
+    ]
+   ]
+  },
+  {
+   "k": 4,
+   "clauses": [
+    "analyze sleeper",
+    "know teat",
+    "remember harmful",
+    "analyze discerns"
+   ],
+   "gold": [
+    [
+     "DERIVED",
+     "sleep",
+     "er"
+    ],
+    [
+     "YES",
+     "teat"
+    ],
+    [
+     "LEARNEDOK",
+     "harmful"
+    ],
+    [
+     "DERIVED",
+     "discern",
+     "s"
+    ]
+   ]
+  },
+  {
+   "k": 4,
+   "clauses": [
+    "remember chart",
+    "rhyme music",
+    "know teat",
+    "relates to water"
+   ],
+   "gold": [
+    [
+     "LEARNEDOK",
+     "chart"
+    ],
+    [
+     "ALIEN"
+    ],
+    [
+     "YES",
+     "teat"
+    ],
+    [
+     "NEIGHBORS"
+    ]
+   ]
+  },
+  {
+   "k": 4,
+   "clauses": [
+    "remember nutt",
+    "remember stomp",
+    "remember stomp",
+    "analyze latched"
+   ],
+   "gold": [
+    [
+     "LEARNEDOK",
+     "nutt"
+    ],
+    [
+     "LEARNED",
+     "stomp"
+    ],
+    [
+     "LEARNEDOK",
+     "stomp"
+    ],
+    [
+     "DERIVED",
+     "latch",
+     "ed"
+    ]
+   ]
+  },
+  {
+   "k": 4,
+   "clauses": [
+    "analyze waited",
+    "analyze latched",
+    "remember broaden",
+    "remember overlook"
+   ],
+   "gold": [
+    [
+     "DERIVED",
+     "wait",
+     "ed"
+    ],
+    [
+     "DERIVED",
+     "latch",
+     "ed"
+    ],
+    [
+     "LEARNEDOK",
+     "broaden"
+    ],
+    [
+     "LEARNEDOK",
+     "overlook"
+    ]
+   ]
+  },
+  {
+   "k": 4,
+   "clauses": [
+    "analyze encompassed",
+    "remember blood",
+    "remember home",
+    "analyze homes"
+   ],
+   "gold": [
+    [
+     "DERIVED",
+     "encompass",
+     "ed"
+    ],
+    [
+     "LEARNEDOK",
+     "blood"
+    ],
+    [
+     "LEARNED",
+     "home"
+    ],
+    [
+     "DERIVED",
+     "home",
+     "s"
+    ]
+   ]
+  },
+  {
+   "k": 4,
+   "clauses": [
+    "remember whole",
+    "relates to school",
+    "analyze shampooed",
+    "know doom"
+   ],
+   "gold": [
+    [
+     "LEARNEDOK",
+     "whole"
+    ],
+    [
+     "NEIGHBORS"
+    ],
+    [
+     "DERIVED",
+     "shampoo",
+     "ed"
+    ],
+    [
+     "YES",
+     "doom"
+    ]
+   ]
+  },
+  {
+   "k": 4,
+   "clauses": [
+    "know shampoo",
+    "relates to river",
+    "analyze discerned",
+    "relates to heart"
+   ],
+   "gold": [
+    [
+     "YES",
+     "shampoo"
+    ],
+    [
+     "NEIGHBORS"
+    ],
+    [
+     "DERIVED",
+     "discern",
+     "ed"
+    ],
+    [
+     "NEIGHBORS"
+    ]
+   ]
+  },
+  {
+   "k": 4,
+   "clauses": [
+    "analyze dooming",
+    "remember school",
+    "analyze shampoos",
+    "remember overlook"
+   ],
+   "gold": [
+    [
+     "DERIVED",
+     "doom",
+     "ing"
+    ],
+    [
+     "LEARNEDOK",
+     "school"
+    ],
+    [
+     "DERIVED",
+     "shampoo",
+     "s"
+    ],
+    [
+     "LEARNEDOK",
+     "overlook"
+    ]
+   ]
+  },
+  {
+   "k": 4,
+   "clauses": [
+    "analyze doomed",
+    "analyze encompassed",
+    "rhyme heart",
+    "analyze waits"
+   ],
+   "gold": [
+    [
+     "DERIVED",
+     "doom",
+     "ed"
+    ],
+    [
+     "DERIVED",
+     "encompass",
+     "ed"
+    ],
+    [
+     "ALIEN"
+    ],
+    [
+     "DERIVED",
+     "wait",
+     "s"
+    ]
+   ]
+  },
+  {
+   "k": 4,
+   "clauses": [
+    "know brainwash",
+    "relates to music",
+    "analyze accomplishing",
+    "relates to school"
+   ],
+   "gold": [
+    [
+     "YES",
+     "brainwash"
+    ],
+    [
+     "NEIGHBORS"
+    ],
+    [
+     "DERIVED",
+     "accomplish",
+     "ing"
+    ],
+    [
+     "NEIGHBORS"
+    ]
+   ]
+  },
+  {
+   "k": 5,
+   "clauses": [
+    "remember campaign",
+    "analyze discerning",
+    "remember chart",
+    "analyze campaigns",
+    "translate church"
+   ],
+   "gold": [
+    [
+     "LEARNED",
+     "campaign"
+    ],
+    [
+     "DERIVED",
+     "discern",
+     "ing"
+    ],
+    [
+     "LEARNEDOK",
+     "chart"
+    ],
+    [
+     "DERIVED",
+     "campaign",
+     "s"
+    ],
+    [
+     "ALIEN"
+    ]
+   ]
+  },
+  {
+   "k": 5,
+   "clauses": [
+    "relates to water",
+    "relates to music",
+    "analyze teater",
+    "remember campaign",
+    "relates to water"
+   ],
+   "gold": [
+    [
+     "NEIGHBORS"
+    ],
+    [
+     "NEIGHBORS"
+    ],
+    [
+     "DERIVED",
+     "teat",
+     "er"
+    ],
+    [
+     "LEARNEDOK",
+     "campaign"
+    ],
+    [
+     "NEIGHBORS"
+    ]
+   ]
+  },
+  {
+   "k": 5,
+   "clauses": [
+    "know teat",
+    "know sleep",
+    "remember harmful",
+    "remember whole",
+    "translate church"
+   ],
+   "gold": [
+    [
+     "YES",
+     "teat"
+    ],
+    [
+     "YES",
+     "sleep"
+    ],
+    [
+     "LEARNEDOK",
+     "harmful"
+    ],
+    [
+     "LEARNED",
+     "whole"
+    ],
+    [
+     "ALIEN"
+    ]
+   ]
+  },
+  {
+   "k": 5,
+   "clauses": [
+    "relates to church",
+    "remember round",
+    "remember stubborn",
+    "remember round",
+    "know sleep"
+   ],
+   "gold": [
+    [
+     "NEIGHBORS"
+    ],
+    [
+     "LEARNEDOK",
+     "round"
+    ],
+    [
+     "LEARNEDOK",
+     "stubborn"
+    ],
+    [
+     "LEARNEDOK",
+     "round"
+    ],
+    [
+     "YES",
+     "sleep"
+    ]
+   ]
+  },
+  {
+   "k": 5,
+   "clauses": [
+    "remember loop",
+    "remember execution",
+    "relates to water",
+    "analyze executioner",
+    "know suspect"
+   ],
+   "gold": [
+    [
+     "LEARNEDOK",
+     "loop"
+    ],
+    [
+     "LEARNED",
+     "execution"
+    ],
+    [
+     "NEIGHBORS"
+    ],
+    [
+     "DERIVED",
+     "execution",
+     "er"
+    ],
+    [
+     "YES",
+     "suspect"
+    ]
+   ]
+  },
+  {
+   "k": 5,
+   "clauses": [
+    "analyze latching",
+    "remember stubborn",
+    "analyze stubbornly",
+    "analyze teater",
+    "know discern"
+   ],
+   "gold": [
+    [
+     "DERIVED",
+     "latch",
+     "ing"
+    ],
+    [
+     "LEARNED",
+     "stubborn"
+    ],
+    [
+     "DERIVED",
+     "stubborn",
+     "ly"
+    ],
+    [
+     "DERIVED",
+     "teat",
+     "er"
+    ],
+    [
+     "YES",
+     "discern"
+    ]
+   ]
+  },
+  {
+   "k": 5,
+   "clauses": [
+    "analyze teats",
+    "relates to church",
+    "analyze teats",
+    "translate road",
+    "remember school"
+   ],
+   "gold": [
+    [
+     "DERIVED",
+     "teat",
+     "s"
+    ],
+    [
+     "NEIGHBORS"
+    ],
+    [
+     "DERIVED",
+     "teat",
+     "s"
+    ],
+    [
+     "ALIEN"
+    ],
+    [
+     "LEARNEDOK",
+     "school"
+    ]
+   ]
+  },
+  {
+   "k": 5,
+   "clauses": [
+    "remember bear",
+    "know brick",
+    "analyze acclaimed",
+    "remember whole",
+    "relates to river"
+   ],
+   "gold": [
+    [
+     "LEARNEDOK",
+     "bear"
+    ],
+    [
+     "YES",
+     "brick"
+    ],
+    [
+     "DERIVED",
+     "acclaim",
+     "ed"
+    ],
+    [
+     "LEARNEDOK",
+     "whole"
+    ],
+    [
+     "NEIGHBORS"
+    ]
+   ]
+  },
+  {
+   "k": 5,
+   "clauses": [
+    "remember campaign",
+    "relates to music",
+    "analyze brainwashed",
+    "remember witch",
+    "analyze shampoos"
+   ],
+   "gold": [
+    [
+     "LEARNEDOK",
+     "campaign"
+    ],
+    [
+     "NEIGHBORS"
+    ],
+    [
+     "DERIVED",
+     "brainwash",
+     "ed"
+    ],
+    [
+     "LEARNEDOK",
+     "witch"
+    ],
+    [
+     "DERIVED",
+     "shampoo",
+     "s"
+    ]
+   ]
+  },
+  {
+   "k": 5,
+   "clauses": [
+    "remember blood",
+    "relates to heart",
+    "analyze bricker",
+    "analyze bricker",
+    "analyze accomplishing"
+   ],
+   "gold": [
+    [
+     "LEARNEDOK",
+     "blood"
+    ],
+    [
+     "NEIGHBORS"
+    ],
+    [
+     "DERIVED",
+     "brick",
+     "er"
+    ],
+    [
+     "DERIVED",
+     "brick",
+     "er"
+    ],
+    [
+     "DERIVED",
+     "accomplish",
+     "ing"
+    ]
+   ]
+  },
+  {
+   "k": 5,
+   "clauses": [
+    "analyze accomplished",
+    "analyze accomplishing",
+    "analyze listing",
+    "relates to water",
+    "remember levin"
+   ],
+   "gold": [
+    [
+     "DERIVED",
+     "accomplish",
+     "ed"
+    ],
+    [
+     "DERIVED",
+     "accomplish",
+     "ing"
+    ],
+    [
+     "DERIVED",
+     "list",
+     "ing"
+    ],
+    [
+     "NEIGHBORS"
+    ],
+    [
+     "LEARNEDOK",
+     "levin"
+    ]
+   ]
+  },
+  {
+   "k": 5,
+   "clauses": [
+    "analyze accomplished",
+    "analyze brainwashing",
+    "rhyme school",
+    "remember stomp",
+    "remember execution"
+   ],
+   "gold": [
+    [
+     "DERIVED",
+     "accomplish",
+     "ed"
+    ],
+    [
+     "DERIVED",
+     "brainwash",
+     "ing"
+    ],
+    [
+     "ALIEN"
+    ],
+    [
+     "LEARNEDOK",
+     "stomp"
+    ],
+    [
+     "LEARNEDOK",
+     "execution"
+    ]
+   ]
+  },
+  {
+   "k": 6,
+   "clauses": [
+    "analyze encompassing",
+    "relates to heart",
+    "remember school",
+    "remember loop",
+    "remember conner",
+    "analyze conners"
+   ],
+   "gold": [
+    [
+     "DERIVED",
+     "encompass",
+     "ing"
+    ],
+    [
+     "NEIGHBORS"
+    ],
+    [
+     "LEARNEDOK",
+     "school"
+    ],
+    [
+     "LEARNEDOK",
+     "loop"
+    ],
+    [
+     "LEARNED",
+     "conner"
+    ],
+    [
+     "DERIVED",
+     "conner",
+     "s"
+    ]
+   ]
+  },
+  {
+   "k": 6,
+   "clauses": [
+    "analyze teater",
+    "translate church",
+    "analyze accomplished",
+    "analyze waiter",
+    "know discern",
+    "analyze accomplishing"
+   ],
+   "gold": [
+    [
+     "DERIVED",
+     "teat",
+     "er"
+    ],
+    [
+     "ALIEN"
+    ],
+    [
+     "DERIVED",
+     "accomplish",
+     "ed"
+    ],
+    [
+     "DERIVED",
+     "wait",
+     "er"
+    ],
+    [
+     "YES",
+     "discern"
+    ],
+    [
+     "DERIVED",
+     "accomplish",
+     "ing"
+    ]
+   ]
+  },
+  {
+   "k": 6,
+   "clauses": [
+    "relates to fire",
+    "remember nutt",
+    "remember impeach",
+    "know sleep",
+    "analyze brainwashed",
+    "analyze impeached"
+   ],
+   "gold": [
+    [
+     "NEIGHBORS"
+    ],
+    [
+     "LEARNEDOK",
+     "nutt"
+    ],
+    [
+     "LEARNED",
+     "impeach"
+    ],
+    [
+     "YES",
+     "sleep"
+    ],
+    [
+     "DERIVED",
+     "brainwash",
+     "ed"
+    ],
+    [
+     "DERIVED",
+     "impeach",
+     "ed"
+    ]
+   ]
+  },
+  {
+   "k": 6,
+   "clauses": [
+    "analyze teater",
+    "analyze latched",
+    "know encompass",
+    "analyze sleeping",
+    "remember loop",
+    "analyze looped"
+   ],
+   "gold": [
+    [
+     "DERIVED",
+     "teat",
+     "er"
+    ],
+    [
+     "DERIVED",
+     "latch",
+     "ed"
+    ],
+    [
+     "YES",
+     "encompass"
+    ],
+    [
+     "DERIVED",
+     "sleep",
+     "ing"
+    ],
+    [
+     "LEARNED",
+     "loop"
+    ],
+    [
+     "DERIVED",
+     "loop",
+     "ed"
+    ]
+   ]
+  },
+  {
+   "k": 6,
+   "clauses": [
+    "analyze brainwashed",
+    "know recollect",
+    "remember whole",
+    "remember blood",
+    "relates to heart",
+    "analyze bloods"
+   ],
+   "gold": [
+    [
+     "DERIVED",
+     "brainwash",
+     "ed"
+    ],
+    [
+     "YES",
+     "recollect"
+    ],
+    [
+     "LEARNEDOK",
+     "whole"
+    ],
+    [
+     "LEARNED",
+     "blood"
+    ],
+    [
+     "NEIGHBORS"
+    ],
+    [
+     "DERIVED",
+     "blood",
+     "s"
+    ]
+   ]
+  },
+  {
+   "k": 6,
+   "clauses": [
+    "know suspect",
+    "analyze encompassed",
+    "remember stilt",
+    "analyze stilted",
+    "know shampoo",
+    "analyze discerning"
+   ],
+   "gold": [
+    [
+     "YES",
+     "suspect"
+    ],
+    [
+     "DERIVED",
+     "encompass",
+     "ed"
+    ],
+    [
+     "LEARNED",
+     "stilt"
+    ],
+    [
+     "DERIVED",
+     "stilt",
+     "ed"
+    ],
+    [
+     "YES",
+     "shampoo"
+    ],
+    [
+     "DERIVED",
+     "discern",
+     "ing"
+    ]
+   ]
+  },
+  {
+   "k": 6,
+   "clauses": [
+    "remember bear",
+    "remember stubborn",
+    "analyze bearing",
+    "remember chart",
+    "know shampoo",
+    "know discern"
+   ],
+   "gold": [
+    [
+     "LEARNED",
+     "bear"
+    ],
+    [
+     "LEARNEDOK",
+     "stubborn"
+    ],
+    [
+     "DERIVED",
+     "bear",
+     "ing"
+    ],
+    [
+     "LEARNEDOK",
+     "chart"
+    ],
+    [
+     "YES",
+     "shampoo"
+    ],
+    [
+     "YES",
+     "discern"
+    ]
+   ]
+  },
+  {
+   "k": 6,
+   "clauses": [
+    "know acclaim",
+    "remember loop",
+    "analyze teats",
+    "analyze looped",
+    "analyze waiter",
+    "know suspect"
+   ],
+   "gold": [
+    [
+     "YES",
+     "acclaim"
+    ],
+    [
+     "LEARNED",
+     "loop"
+    ],
+    [
+     "DERIVED",
+     "teat",
+     "s"
+    ],
+    [
+     "DERIVED",
+     "loop",
+     "ed"
+    ],
+    [
+     "DERIVED",
+     "wait",
+     "er"
+    ],
+    [
+     "YES",
+     "suspect"
+    ]
+   ]
+  },
+  {
+   "k": 6,
+   "clauses": [
+    "rhyme road",
+    "relates to water",
+    "relates to fire",
+    "remember execution",
+    "relates to river",
+    "know suspect"
+   ],
+   "gold": [
+    [
+     "ALIEN"
+    ],
+    [
+     "NEIGHBORS"
+    ],
+    [
+     "NEIGHBORS"
+    ],
+    [
+     "LEARNEDOK",
+     "execution"
+    ],
+    [
+     "NEIGHBORS"
+    ],
+    [
+     "YES",
+     "suspect"
+    ]
+   ]
+  },
+  {
+   "k": 6,
+   "clauses": [
+    "know brainwash",
+    "analyze brainwashing",
+    "analyze teats",
+    "analyze waiter",
+    "relates to church",
+    "relates to heart"
+   ],
+   "gold": [
+    [
+     "YES",
+     "brainwash"
+    ],
+    [
+     "DERIVED",
+     "brainwash",
+     "ing"
+    ],
+    [
+     "DERIVED",
+     "teat",
+     "s"
+    ],
+    [
+     "DERIVED",
+     "wait",
+     "er"
+    ],
+    [
+     "NEIGHBORS"
+    ],
+    [
+     "NEIGHBORS"
+    ]
+   ]
+  },
+  {
+   "k": 6,
+   "clauses": [
+    "relates to heart",
+    "analyze teats",
+    "analyze teats",
+    "analyze accomplished",
+    "know encompass",
+    "know sleep"
+   ],
+   "gold": [
+    [
+     "NEIGHBORS"
+    ],
+    [
+     "DERIVED",
+     "teat",
+     "s"
+    ],
+    [
+     "DERIVED",
+     "teat",
+     "s"
+    ],
+    [
+     "DERIVED",
+     "accomplish",
+     "ed"
+    ],
+    [
+     "YES",
+     "encompass"
+    ],
+    [
+     "YES",
+     "sleep"
+    ]
+   ]
+  },
+  {
+   "k": 6,
+   "clauses": [
+    "remember broaden",
+    "analyze broadened",
+    "know brick",
+    "know wait",
+    "analyze suspected",
+    "remember harmful"
+   ],
+   "gold": [
+    [
+     "LEARNED",
+     "broaden"
+    ],
+    [
+     "DERIVED",
+     "broaden",
+     "ed"
+    ],
+    [
+     "YES",
+     "brick"
+    ],
+    [
+     "YES",
+     "wait"
+    ],
+    [
+     "DERIVED",
+     "suspect",
+     "ed"
+    ],
+    [
+     "LEARNEDOK",
+     "harmful"
+    ]
+   ]
+  }
+ ],
+ "teach_use_threads": 19
+}

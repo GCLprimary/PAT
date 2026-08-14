@@ -1,0 +1,33 @@
+# page: contractions
+# rule: contraction-expansion
+# The lesson: a contraction expands to its full form. Whole-word rows
+# for the irregulars (won't is will+not, not wo+not); suffix rows for
+# the regular clitic endings. 'd is honestly ambiguous (would or had)
+# and says so. These tiny classes (n't 20 types, 'll 20, 'd 17,
+# 've 14, 're 10, 'm 2 in the lexicon) are PAGE-TAUGHT, never mined.
+# provenance: lesson:contractions — transcribed from grammar
+# knowledge, NOT mined from any corpus or benchmark.
+can't -> can+not
+won't -> will+not
+shan't -> shall+not
+don't -> do+not
+doesn't -> does+not
+didn't -> did+not
+isn't -> is+not
+aren't -> are+not
+wasn't -> was+not
+weren't -> were+not
+hasn't -> has+not
+haven't -> have+not
+hadn't -> had+not
+couldn't -> could+not
+wouldn't -> would+not
+shouldn't -> should+not
+mustn't -> must+not
+needn't -> need+not
+n't -> not
+'ll -> will
+'ve -> have
+'re -> are
+'d -> would or had
+'m -> am

@@ -1,0 +1,80 @@
+{
+ "principle_A_c_command": {
+  "strict_frame": [
+   64.9,
+   569,
+   87.0
+  ],
+  "depth_2": [
+   52.2,
+   581,
+   59.7
+  ],
+  "winner": "strict-frame"
+ },
+ "principle_A_domain_1": {
+  "strict_frame": [
+   97.1,
+   0,
+   0.0
+  ],
+  "depth_2": [
+   99.0,
+   562,
+   100.0
+  ],
+  "winner": "depth-2"
+ },
+ "principle_A_domain_2": {
+  "strict_frame": [
+   41.9,
+   193,
+   13.5
+  ],
+  "depth_2": [
+   66.9,
+   505,
+   93.3
+  ],
+  "winner": "depth-2"
+ },
+ "principle_A_domain_3": {
+  "strict_frame": [
+   84.3,
+   0,
+   0.0
+  ],
+  "depth_2": [
+   87.2,
+   213,
+   100.0
+  ],
+  "winner": "depth-2"
+ },
+ "anaphor_number_agreement": {
+  "strict_frame": [
+   66.8,
+   439,
+   90.2
+  ],
+  "depth_2": [
+   68.6,
+   569,
+   87.3
+  ],
+  "winner": "depth-2"
+ },
+ "irregular_plural_subject_verb_agreement_2": {
+  "sv": [
+   59.6,
+   0,
+   0.0
+  ],
+  "sva2": [
+   91.4,
+   847,
+   97.6
+  ],
+  "winner": "sva2"
+ }
+}

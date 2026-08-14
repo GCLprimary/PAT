@@ -1,0 +1,11 @@
+{
+ "learning_stream.json": "a6bc337781c6853a39cdc6d1e2c5b91068d8588459a5c759636b92eaa999db55",
+ "composition_inputs.json": "8b0f3289cf1fa4e973fc601a472676a3d553ec76b5b68c44e1c39c8f1f0f7fd6",
+ "relatives.json": "09f55be97d3955017a6458ff7fb964d297b8afe4549e10b66a8d70bf38ed8769",
+ "mirror/corpus.txt": "821da130dea1d98bd7e962f48e9de6aa8a1f0e32d15a0599123cb83107f997f2",
+ "mirror/corpus_big.txt": "0de0be30e1e7bcb6ee463a25113bb7dd18d6f1143633e44bc238b2c3dc5f2b20",
+ "teach_order_pairs.json": "bbcececb9d9f76c90004258cf3932a79158ac148d261eeb1317c13714ccc5fce",
+ "reading_stream.json": "945019e3895fcc8d78bb1e3683a9c68beca54c881b398fe56c186cc12b19366c",
+ "reading_stream_full.json": "0ec78d69b2dec583544684710c92ff7b79182bb81e9e7cc11cac04d0c7f6dba3",
+ "discovered_suffixes.json": "42ab8f1c6b23c1c8548182bd04e9b334c3f1d1e39b684cf55c79e79f6937f7cb"
+}

@@ -1,0 +1,186 @@
+{
+ "corpus_10m.txt": {
+  "words": 10000040,
+  "md5": "022cf188bd66533e5e93ac24d0729da3",
+  "sha256": "0461737ac5a88c4cd153675f7adcfaa259eefa592bbc087be014f33a84477b4c"
+ },
+ "register": "long-form public-domain narrative fiction (Project Gutenberg; BabyLM-legal source class)",
+ "books": [
+  {
+   "id": 2600,
+   "title": "War and Peace",
+   "words": 572046
+  },
+  {
+   "id": 135,
+   "title": "Les Miserables",
+   "words": 572444
+  },
+  {
+   "id": 1184,
+   "title": "The Count of Monte Cristo",
+   "words": 466594
+  },
+  {
+   "id": 996,
+   "title": "Don Quixote",
+   "words": 432107
+  },
+  {
+   "id": 145,
+   "title": "Middlemarch",
+   "words": 323221
+  },
+  {
+   "id": 766,
+   "title": "David Copperfield",
+   "words": 363185
+  },
+  {
+   "id": 1023,
+   "title": "Bleak House",
+   "words": 361448
+  },
+  {
+   "id": 1399,
+   "title": "Anna Karenina",
+   "words": 357768
+  },
+  {
+   "id": 28054,
+   "title": "The Brothers Karamazov",
+   "words": 359317
+  },
+  {
+   "id": 599,
+   "title": "Vanity Fair",
+   "words": 310758
+  },
+  {
+   "id": 2554,
+   "title": "Crime and Punishment",
+   "words": 208228
+  },
+  {
+   "id": 2701,
+   "title": "Moby Dick",
+   "words": 217715
+  },
+  {
+   "id": 5231,
+   "title": "The Way We Live Now",
+   "words": 359265
+  },
+  {
+   "id": 6593,
+   "title": "The History of Tom Jones",
+   "words": 353573
+  },
+  {
+   "id": 580,
+   "title": "The Pickwick Papers",
+   "words": 310130
+  },
+  {
+   "id": 967,
+   "title": "Nicholas Nickleby",
+   "words": 330307
+  },
+  {
+   "id": 968,
+   "title": "Martin Chuzzlewit",
+   "words": 344532
+  },
+  {
+   "id": 821,
+   "title": "Dombey and Son",
+   "words": 363243
+  },
+  {
+   "id": 963,
+   "title": "Little Dorrit",
+   "words": 344458
+  },
+  {
+   "id": 883,
+   "title": "Our Mutual Friend",
+   "words": 333374
+  },
+  {
+   "id": 1260,
+   "title": "Jane Eyre",
+   "words": 189158
+  },
+  {
+   "id": 110,
+   "title": "Tess of the d'Urbervilles",
+   "words": 154516
+  },
+  {
+   "id": 768,
+   "title": "Wuthering Heights",
+   "words": 119114
+  },
+  {
+   "id": 2833,
+   "title": "The Portrait of a Lady",
+   "words": 121665
+  },
+  {
+   "id": 4274,
+   "title": "Wives and Daughters",
+   "words": 278661
+  },
+  {
+   "id": 4276,
+   "title": "North and South",
+   "words": 186187
+  },
+  {
+   "id": 2638,
+   "title": "The Idiot",
+   "words": 247277
+  },
+  {
+   "id": 5140,
+   "title": "He Knew He Was Right",
+   "words": 347702
+  },
+  {
+   "id": 155,
+   "title": "The Moonstone",
+   "words": 199585
+  },
+  {
+   "id": 583,
+   "title": "The Woman in White",
+   "words": 250201
+  },
+  {
+   "id": 143,
+   "title": "The Mayor of Casterbridge",
+   "words": 119400
+  },
+  {
+   "id": 122,
+   "title": "The Return of the Native",
+   "words": 145242
+  },
+  {
+   "id": 1400,
+   "title": "Great Expectations",
+   "words": 188577
+  },
+  {
+   "id": 730,
+   "title": "Oliver Twist",
+   "words": 161707
+  },
+  {
+   "id": 345,
+   "title": "Dracula",
+   "words": 7335
+  }
+ ],
+ "contract": "ElfIX data contract (punkt sentences, wordpunct tokens, [-/] splits, [a-z'] keep, min length 3)"
+}

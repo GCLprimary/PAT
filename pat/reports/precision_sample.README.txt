@@ -1,0 +1,5 @@
+The human's rung (law 5). Fill the empty `verdict` column
+with exactly one of: correct / incorrect / unsure.
+The >= 90% precision clause (ex-onomastic; onomastic subrate
+reported separately) is graded at the human gate on this
+file. The build does not self-grade.

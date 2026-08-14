@@ -1,0 +1,460 @@
+word	stem	suffix	expected_phones	actual_phones	class	altered_phone	subfamily
+abnormally	abnormal	ly	AE b n AO r m AH l l IY	AE b n AO r m AH l IY	elision	l	degemination
+abusing	abuse	ing	AH b j UW s IH NG	AH b j UW z IH NG	mutation	z	voicing-sz
+accidentally	accidental	ly	AE k s AH d EH n t AH l l IY	AE k s AH d EH n t AH l IY	elision	l	degemination
+acquiring	acquire	ing	AH k w AY ER IH NG	AH k w AY r IH NG	mutation	r	
+additionally	additional	ly	AH d IH SH AH n AH l l IY	AH d IH SH AH n AH l IY	elision	l	degemination
+addressing	address	ing	AE d r EH s IH NG	AH d r EH s IH NG	mutation	AH	
+administratively	administrative	ly	AH d m IH n AH s t r EY t IH v l IY	AE d m IH n AH s t r EY t IH v l IY	mutation	AE	
+admittedly	admitted	ly	AH d m IH t IH d l IY	AE d m IH t IH d l IY	mutation	AE	
+advertisement	advertise	ment	AE d v ER t AY z m AH n t	AE d v ER t AH z m AH n t	mutation	AH	
+advisement	advise	ment	AE d v AY z m AH n t	AH d v AY z m AH n t	mutation	AH	
+advocating	advocate	ing	AE d v AH k AH t IH NG	AE d v AH k EY t IH NG	mutation	EY	
+allegedly	alleged	ly	AH l EH JH d l IY	AH l EH JH AH d l IY	insertion	AH	
+alternating	alternate	ing	AO l t ER n AH t IH NG	AO l t ER n EY t IH NG	mutation	EY	
+annually	annual	ly	AE n j UW AH l l IY	AE n j UW AH l IY	elision	l	degemination
+appropriately	appropriate	ly	AH p r OW p r IY AH t l IY	AH p r OW p r IY IH t l IY	mutation	IH	
+appropriating	appropriate	ing	AH p r OW p r IY AH t IH NG	AH p r OW p r IY EY t IH NG	mutation	EY	
+argument	argue	ment	AA r g j UW m AH n t	AA r g j AH m AH n t	mutation	AH	
+artfully	artful	ly	AA r t f AH l l IY	AA r t f AH l IY	elision	l	degemination
+artificially	artificial	ly	AA r t AH f IH SH AH l l IY	AA r t AH f IH SH AH l IY	elision	l	degemination
+associating	associate	ing	AH s OW s IY AH t IH NG	AH s OW s IY EY t IH NG	mutation	EY	
+assuredly	assured	ly	AH SH UH r d l IY	AH SH UH r AH d l IY	insertion	AH	
+averaging	average	ing	AE v ER IH JH IH NG	AE v r IH JH IH NG	mutation	r	
+awfulness	awful	ness	AA f AH l n AH s	AO f AH l n AH s	mutation	AO	
+awkwardly	awkward	ly	AA k w ER d l IY	AO k w ER d l IY	mutation	AO	
+awkwardness	awkward	ness	AA k w ER d n AH s	AO k w ER d n AH s	mutation	AO	
+bailly	bail	ly	b EY l l IY	b EY l IY	elision	l	degemination
+bargaining	bargain	ing	b AA r g AH n IH NG	b AA r g IH n IH NG	mutation	IH	
+bashfulness	bashful	ness	b AE SH f AH l n AH s	b AE SH f AH l n EH s	mutation	EH	
+believer	believe	er	b IH l IY v ER	b AH l IY v ER	mutation	AH	
+blithely	blithe	ly	b l AY DH l IY	b l AY TH l IY	mutation	TH	
+boldest	bold	est	b OW l d AH s t	b OW l d IH s t	mutation	IH	
+bonner	bonn	er	b AA n ER	b AO n ER	mutation	AO	
+broadest	broad	est	b r AO d AH s t	b r AO d IH s t	mutation	IH	
+brutally	brutal	ly	b r UW t AH l l IY	b r UW t AH l IY	elision	l	degemination
+candidly	candid	ly	k AE n d AH d l IY	k AE n d IH d l IY	mutation	IH	
+capitalizing	capitalize	ing	k AE p AH t AH l AY z IH NG	k AE p IH t AH l AY z IH NG	mutation	IH	
+carefully	careful	ly	k EH r f AH l l IY	k EH r f AH l IY	elision	l	degemination
+carefulness	careful	ness	k EH r f AH l n AH s	k EH r f AH l n EH s	mutation	EH	
+carrier	carrie	er	k EH r IY ER	k AE r IY ER	mutation	AE	
+casually	casual	ly	k AE ZH AH w AH l l IY	k AE ZH AH w AH l IY	elision	l	degemination
+cautioning	caution	ing	k AA SH AH n IH NG	k AO SH AH n IH NG	mutation	AO	
+ceaseless	cease	less	s IY s l AH s	s IY s l IH s	mutation	IH	
+centrally	central	ly	s EH n t r AH l l IY	s EH n t r AH l IY	elision	l	degemination
+cheerfully	cheerful	ly	CH IH r f AH l l IY	CH IH r f AH l IY	elision	l	degemination
+chuckling	chuckle	ing	CH AH k AH l IH NG	CH AH k l IH NG	elision	AH	
+cleansing	cleans	ing	k l IY n z IH NG	k l EH n z IH NG	mutation	EH	
+clearest	clear	est	k l IH r AH s t	k l IH r IH s t	mutation	IH	
+closeness	close	ness	k l OW s n AH s	k l OW s n IH s	mutation	IH	
+closing	close	ing	k l OW s IH NG	k l OW z IH NG	mutation	z	voicing-sz
+coinciding	coincide	ing	k OW IH n s AY d IH NG	k OW AH n s AY d IH NG	mutation	AH	
+colouring	colour	ing	k AH l ER IH NG	k AH l ER r IH NG	insertion	r	
+combating	combat	ing	k AA m b AE t IH NG	k AH m b AE t IH NG	mutation	AH	
+combining	combine	ing	k AA m b AY n IH NG	k AH m b AY n IH NG	mutation	AH	
+comically	comical	ly	k AA m IH k AH l l IY	k AA m IH k AH l IY	elision	l	degemination
+commercially	commercial	ly	k AH m ER SH AH l l IY	k AH m ER SH AH l IY	elision	l	degemination
+communing	commune	ing	k AA m j UW n IH NG	k AH m j UW n IH NG	mutation	AH	
+competitively	competitive	ly	k AH m p EH t AH t IH v l IY	k AH m p EH t IH t IH v l IY	mutation	IH	
+compounding	compound	ing	k AA m p AW n d IH NG	k AH m p AW n d IH NG	mutation	AH	
+comprehending	comprehend	ing	k AA m p r IY h EH n d IH NG	k AA m p r IH h EH n d IH NG	mutation	IH	
+comprehensively	comprehensive	ly	k AA m p r IY h EH n s IH v l IY	k AA m p r IH h EH n s IH v l IY	mutation	IH	
+concretely	concrete	ly	k AH n k r IY t l IY	k AA n k r IY t l IY	mutation	AA	
+conditionally	conditional	ly	k AH n d IH SH AH n AH l l IY	k AH n d IH SH AH n AH l IY	elision	l	degemination
+conducting	conduct	ing	k AA n d AH k t IH NG	k AH n d AH k t IH NG	mutation	AH	
+confidentially	confidential	ly	k AA n f AH d EH n SH AH l l IY	k AA n f AH d EH n SH AH l IY	elision	l	degemination
+conflicting	conflict	ing	k AA n f l IH k t IH NG	k AH n f l IH k t IH NG	mutation	AH	
+consolidating	consolidate	ing	k AH n s AA l IH d EY t IH NG	k AH n s AA l AH d EY t IH NG	mutation	AH	
+consoling	console	ing	k AA n s OW l IH NG	k AH n s OW l IH NG	mutation	AH	
+contemptuously	contemptuous	ly	k AH n t EH m p CH UW AH s l IY	k AH n t EH m p CH w AH s l IY	mutation	w	
+contentment	content	ment	k AA n t EH n t m AH n t	k AH n t EH n t m AH n t	mutation	AH	
+continually	continual	ly	k AH n t IH n j UW AH l l IY	k AH n t IH n j UW AH l IY	elision	l	degemination
+contrasting	contrast	ing	k AA n t r AE s t IH NG	k AH n t r AE s t IH NG	mutation	AH	
+conversing	converse	ing	k AA n v ER s IH NG	k AH n v ER s IH NG	mutation	AH	
+converting	convert	ing	k AA n v ER t IH NG	k AH n v ER t IH NG	mutation	AH	
+coolly	cool	ly	k UW l l IY	k UW l IY	elision	l	degemination
+coordinating	coordinate	ing	k OW AO r d AH n AH t IH NG	k OW AO r d AH n EY t IH NG	mutation	EY	
+copiously	copious	ly	k OW p IY AH s l IY	k OW p j AH s l IY	mutation	j	
+cordially	cordial	ly	k AO r JH AH l l IY	k AO r JH AH l IY	elision	l	degemination
+costing	cost	ing	k AA s t IH NG	k AO s t IH NG	mutation	AO	
+coupler	couple	er	k AH p AH l ER	k AH p l ER	elision	AH	
+coupling	couple	ing	k AH p AH l IH NG	k AH p l IH NG	elision	AH	
+crackling	crackle	ing	k r AE k AH l IH NG	k r AE k l IH NG	elision	AH	
+critically	critical	ly	k r IH t IH k AH l l IY	k r IH t IH k AH l IY	elision	l	degemination
+crucially	crucial	ly	k r UW SH AH l l IY	k r UW SH AH l IY	elision	l	degemination
+culminating	culminate	ing	k AH l m IH n EY t IH NG	k AH l m AH n EY t IH NG	mutation	AH	
+cultivating	cultivate	ing	k AH l t AH v EY t IH NG	k AH l t IH v EY t IH NG	mutation	IH	
+culturally	cultural	ly	k AH l CH ER AH l l IY	k AH l CH ER AH l IY	elision	l	degemination
+cushing	cush	ing	k AH SH IH NG	k UH SH IH NG	mutation	UH	
+damaging	damage	ing	d AE m AH JH IH NG	d AE m IH JH IH NG	mutation	IH	
+dampness	damp	ness	d AE m p n AH s	d AE m p n IH s	mutation	IH	
+decidedly	decided	ly	d IH s AY d IH d l IY	d IH s AY d AH d l IY	mutation	AH	
+dedicating	dedicate	ing	d EH d AH k EY t IH NG	d EH d IH k EY t IH NG	mutation	IH	
+deliberating	deliberate	ing	d IH l IH b ER AH t IH NG	d IH l IH b ER EY t IH NG	mutation	EY	
+deliciously	delicious	ly	d IH l IH SH AH s l IY	d IH l IH SH AH SH l IY	mutation	SH	
+delightfully	delightful	ly	d IH l AY t f AH l l IY	d IH l AY t f AH l IY	elision	l	degemination
+deservedly	deserved	ly	d IH z ER v d l IY	d IH z ER v AH d l IY	insertion	AH	
+designating	designate	ing	d EH z AH g n EY t IH NG	d EH z IH g n EY t IH NG	mutation	IH	
+determining	determine	ing	d AH t ER m AH n IH NG	d IH t ER m AH n IH NG	mutation	IH	
+diagonally	diagonal	ly	d AY AE g AH n AH l l IY	d AY AE g AH n AH l IY	elision	l	degemination
+differently	different	ly	d IH f ER AH n t l IY	d IH f r AH n t l IY	mutation	r	
+diffusing	diffuse	ing	d IH f j UW s IH NG	d IH f j UW z IH NG	mutation	z	voicing-sz
+diligently	diligent	ly	d IH l IH JH AH n t l IY	d IH l AH JH AH n t l IY	mutation	AH	
+discouraging	discourage	ing	d IH s k ER IH JH IH NG	d IH s k ER AH JH IH NG	mutation	AH	
+dishonest	dishon	est	d IH s AH n AH s t	d IH s AA n AH s t	mutation	AA	
+dismally	dismal	ly	d IH z m AH l l IY	d IH z m AH l IY	elision	l	degemination
+disobeying	disobey	ing	d IH s AH b EY IH NG	d IH s OW b EY IH NG	mutation	OW	
+dissolving	dissolve	ing	d IH z AA l v IH NG	d IH z AO l v IH NG	mutation	AO	
+doggedly	dogged	ly	d AO g d l IY	d AO g AH d l IY	insertion	AH	
+drawer	draw	er	d r AO ER	d r AO r	mutation	r	
+dreadfully	dreadful	ly	d r EH d f AH l l IY	d r EH d f AH l IY	elision	l	degemination
+dueling	duel	ing	d UW AH l IH NG	d UW l IH NG	elision	AH	
+earnest	earn	est	ER n AH s t	ER n IH s t	mutation	IH	
+earnestly	earnest	ly	ER n IH s t l IY	ER n AH s t l IY	mutation	AH	
+earnestness	earnest	ness	ER n IH s t n AH s	ER n AH s t n AH s	mutation	AH	
+elegantly	elegant	ly	EH l AH g AH n t l IY	EH l IH g AH n t l IY	mutation	IH	
+empirically	empirical	ly	EH m p IH r IH k AH l l IY	EH m p IH r IH k AH l IY	elision	l	degemination
+enacting	enact	ing	IH n AE k t IH NG	EH n AE k t IH NG	mutation	EH	
+enactment	enact	ment	IH n AE k t m AH n t	EH n AE k t m AH n t	mutation	EH	
+encampment	encamp	ment	IH n k AE m p m AH n t	IH n k AE m p m IH n t	mutation	IH	
+enclosing	enclose	ing	IH n k l OW z IH NG	EH n k l OW z IH NG	mutation	EH	
+encountering	encounter	ing	IH n k AW n t ER IH NG	EH n k AW n t ER IH NG	mutation	EH	
+encroachment	encroach	ment	IH n k r OW CH m AH n t	EH n k r OW CH m AH n t	mutation	EH	
+enlargement	enlarge	ment	EH n l AA r JH m AH n t	IH n l AA r JH m AH n t	mutation	IH	
+enlarging	enlarge	ing	EH n l AA r JH IH NG	IH n l AA r JH IH NG	mutation	IH	
+ensuing	ensue	ing	IH n s UW IH NG	EH n s UW IH NG	mutation	EH	
+enticing	entice	ing	IH n t AY s IH NG	EH n t AY s IH NG	mutation	EH	
+environmentally	environmental	ly	IH n v AY r AH n m EH n t AH l l IY	IH n v AY r AH n m EH n t AH l IY	elision	l	degemination
+equally	equal	ly	IY k w AH l l IY	IY k w AH l IY	elision	l	degemination
+erupting	erupt	ing	IH r AH p t IH NG	IY r AH p t IH NG	mutation	IY	
+essentially	essential	ly	EH s EH n SH AH l l IY	EH s EH n SH AH l IY	elision	l	degemination
+estimating	estimate	ing	EH s t AH m AH t IH NG	EH s t AH m EY t IH NG	mutation	EY	
+eternally	eternal	ly	IH t ER n AH l l IY	IH t ER n AH l IY	elision	l	degemination
+evening	even	ing	IY v IH n IH NG	IY v n IH NG	elision	IH	
+evenly	even	ly	IY v IH n l IY	IY v AH n l IY	mutation	AH	
+examiner	examine	er	IH g z AE m IH n ER	IH g z AE m AH n ER	mutation	AH	
+excepting	except	ing	IH k s EH p t IH NG	EH k s EH p t IH NG	mutation	EH	
+exceptionally	exceptional	ly	IH k s EH p SH AH n AH l l IY	IH k s EH p SH AH n AH l IY	elision	l	degemination
+experimenter	experiment	er	IH k s p EH r AH m AH n t ER	IH k s p EH r AH m EH n t ER	mutation	EH	
+exporter	export	er	EH k s p AO r t ER	IH k s p AO r t ER	mutation	IH	
+exporting	export	ing	EH k s p AO r t IH NG	IH k s p AO r t IH NG	mutation	IH	
+expressly	express	ly	IH k s p r EH s l IY	EH k s p r EH s l IY	mutation	EH	
+externally	external	ly	IH k s t ER n AH l l IY	IH k s t ER n AH l IY	elision	l	degemination
+fairest	fair	est	f EH r AH s t	f EH r IH s t	mutation	IH	
+faithfully	faithful	ly	f EY TH f AH l l IY	f EY TH f AH l IY	elision	l	degemination
+faithfulness	faithful	ness	f EY TH f AH l n AH s	f EY TH f AH l n EH s	mutation	EH	
+falling	fall	ing	f AO l IH NG	f AA l IH NG	mutation	AA	
+fatally	fatal	ly	f EY t AH l l IY	f EY t AH l IY	elision	l	degemination
+federally	federal	ly	f EH d ER AH l l IY	f EH d ER AH l IY	elision	l	degemination
+feverishly	feverish	ly	f IY v ER IH SH l IY	f EH v ER IH SH l IY	mutation	EH	
+finally	final	ly	f AY n AH l l IY	f AY n AH l IY	elision	l	degemination
+financially	financial	ly	f AH n AE n SH AH l l IY	f AH n AE n SH AH l IY	elision	l	degemination
+fiscally	fiscal	ly	f IH s k AH l l IY	f IH s k AH l IY	elision	l	degemination
+fitfully	fitful	ly	f IH t f AH l l IY	f IH t f AH l IY	elision	l	degemination
+flower	flow	er	f l OW ER	f l AW ER	mutation	AW	
+forcefully	forceful	ly	f AO r s f AH l l IY	f AO r s f AH l IY	elision	l	degemination
+formally	formal	ly	f AO r m AH l l IY	f AO r m AH l IY	elision	l	degemination
+fractionally	fractional	ly	f r AE k SH AH n AH l l IY	f r AE k SH AH n AH l IY	elision	l	degemination
+frightfully	frightful	ly	f r AY t f AH l l IY	f r AY t f AH l IY	elision	l	degemination
+functionally	functional	ly	f AH NG k SH AH n AH l l IY	f AH NG k SH AH n AH l IY	elision	l	degemination
+fundamentally	fundamental	ly	f AH n d AH m EH n t AH l l IY	f AH n d AH m EH n t AH l IY	elision	l	degemination
+gather	gath	er	g AE TH ER	g AE DH ER	mutation	DH	
+generally	general	ly	JH EH n ER AH l l IY	JH EH n ER AH l IY	elision	l	degemination
+gentler	gentle	er	JH EH n t AH l ER	JH EH n t l ER	elision	AH	
+geographically	geographical	ly	JH IY AH g r AE f IH k AH l l IY	JH IY AH g r AE f IH k AH l IY	elision	l	degemination
+globally	global	ly	g l OW b AH l l IY	g l OW b AH l IY	elision	l	degemination
+government	govern	ment	g AH v ER n m AH n t	g AH v ER m AH n t	elision	n	
+gracefully	graceful	ly	g r EY s f AH l l IY	g r EY s f AH l IY	elision	l	degemination
+grader	grad	er	g r AE d ER	g r EY d ER	mutation	EY	
+grading	grad	ing	g r AE d IH NG	g r EY d IH NG	mutation	EY	
+gradually	gradual	ly	g r AE JH UW AH l l IY	g r AE JH UW AH l IY	elision	l	degemination
+graduating	graduate	ing	g r AE JH AH w AH t IH NG	g r AE JH AH w EY t IH NG	mutation	EY	
+grappling	grapple	ing	g r AE p AH l IH NG	g r AE p l IH NG	elision	AH	
+gratefully	grateful	ly	g r EY t f AH l l IY	g r EY t f AH l IY	elision	l	degemination
+gravest	grave	est	g r EY v AH s t	g r AE v AH s t	mutation	AE	
+groveling	grovel	ing	g r AA v AH l IH NG	g r AO v AH l IH NG	mutation	AO	
+growling	growl	ing	g r AW l IH NG	g r OW l IH NG	mutation	OW	
+guiltless	guilt	less	g IH l t l AH s	g IH l t l IH s	mutation	IH	
+guinness	guin	ness	g IH n n AH s	g IH n AH s	elision	n	degemination
+habitually	habitual	ly	h AH b IH CH UW AH l l IY	h AH b IH CH UW AH l IY	elision	l	degemination
+handedly	handed	ly	h AE n d AH d l IY	h AE n d IH d l IY	mutation	IH	
+handful	hand	ful	h AE n d f AH l	h AE n d f UH l	mutation	UH	
+handler	handle	er	h AE n d AH l ER	h AE n d l ER	elision	AH	
+handling	handle	ing	h AE n d AH l IH NG	h AE n d l IH NG	elision	AH	
+harrowing	harrow	ing	h AE r OW IH NG	h EH r OW IH NG	mutation	EH	
+hasting	hast	ing	h AE s t IH NG	h EY s t IH NG	mutation	EY	
+heartedly	hearted	ly	h AA r t AH d l IY	h AA r t IH d l IY	mutation	IH	
+helpfully	helpful	ly	h EH l p f AH l l IY	h EH l p f AH l IY	elision	l	degemination
+highlander	highland	er	h AY l AH n d ER	h AY l AE n d ER	mutation	AE	
+hinder	hind	er	h AY n d ER	h IH n d ER	mutation	IH	
+historically	historical	ly	h IH s t AO r IH k AH l l IY	h IH s t AO r IH k AH l IY	elision	l	degemination
+hopefully	hopeful	ly	h OW p f AH l l IY	h OW p f AH l IY	elision	l	degemination
+hourly	hour	ly	AW ER l IY	AW r l IY	mutation	r	
+housing	house	ing	h AW s IH NG	h AW z IH NG	mutation	z	voicing-sz
+hunger	hung	er	h AH NG ER	h AH NG g ER	insertion	g	
+ideally	ideal	ly	AY d IY l l IY	AY d IY l IY	elision	l	degemination
+illegally	illegal	ly	IH l IY g AH l l IY	IH l IY g AH l IY	elision	l	degemination
+imaging	image	ing	IH m AH JH IH NG	IH m IH JH IH NG	mutation	IH	
+impartially	impartial	ly	IH m p AA r SH AH l l IY	IH m p AA r SH AH l IY	elision	l	degemination
+implementing	implement	ing	IH m p l AH m AH n t IH NG	IH m p l AH m EH n t IH NG	mutation	EH	
+incidentally	incidental	ly	IH n s IH d EH n t AH l l IY	IH n s IH d EH n t AH l IY	elision	l	degemination
+indebtedness	indebted	ness	IH n d EH t IH d n AH s	IH n d EH t IH d n IH s	mutation	IH	
+informally	informal	ly	IH n f AO r m AH l l IY	IH n f AO r m AH l IY	elision	l	degemination
+initially	initial	ly	IH n IH SH AH l l IY	IH n IH SH AH l IY	elision	l	degemination
+inquiring	inquire	ing	IH n k w AY r IH NG	IH n k w AY ER IH NG	mutation	ER	
+intellectually	intellectual	ly	IH n t AH l EH k CH UW AH l l IY	IH n t AH l EH k CH UW AH l IY	elision	l	degemination
+intelligently	intelligent	ly	IH n t EH l AH JH AH n t l IY	IH n t EH l IH JH AH n t l IY	mutation	IH	
+intentionally	intentional	ly	IH n t EH n SH AH n AH l l IY	IH n t EH n SH AH n AH l IY	elision	l	degemination
+interest	inter	est	IH n t ER AH s t	IH n t r AH s t	mutation	r	
+internally	internal	ly	IH n t ER n AH l l IY	IH n t ER n AH l IY	elision	l	degemination
+internationally	international	ly	IH n t ER n AE SH AH n AH l l IY	IH n t ER n AE SH AH n AH l IY	elision	l	degemination
+interpreting	interpret	ing	IH n t ER p r AH t IH NG	IH n t ER p r EH t IH NG	mutation	EH	
+joyfully	joyful	ly	JH OY f AH l l IY	JH OY f AH l IY	elision	l	degemination
+judiciously	judicious	ly	JH UW d IH SH AH s l IY	JH UW d IH SH IH s l IY	mutation	IH	
+kindling	kindle	ing	k IH n d AH l IH NG	k IH n d l IH NG	elision	AH	
+largeness	large	ness	l AA r JH n AH s	l AA r JH n IH s	mutation	IH	
+lather	lath	er	l AE TH ER	l AE DH ER	mutation	DH	
+lawfully	lawful	ly	l AO f AH l l IY	l AO f AH l IY	elision	l	degemination
+leader	lead	er	l EH d ER	l IY d ER	mutation	IY	
+leading	lead	ing	l EH d IH NG	l IY d IH NG	mutation	IY	
+legally	legal	ly	l IY g AH l l IY	l IY g AH l IY	elision	l	degemination
+liberally	liberal	ly	l IH b ER AH l l IY	l IH b ER AH l IY	elision	l	degemination
+limber	limb	er	l IH m ER	l IH m b ER	insertion	b	
+linger	ling	er	l IH NG ER	l IH NG g ER	insertion	g	
+literally	literal	ly	l IH t ER AH l l IY	l IH t ER AH l IY	elision	l	degemination
+locally	local	ly	l OW k AH l l IY	l OW k AH l IY	elision	l	degemination
+longer	long	er	l AO NG ER	l AO NG g ER	insertion	g	
+longest	long	est	l AO NG AH s t	l AO NG g AH s t	insertion	g	
+loosing	loos	ing	l UW z IH NG	l UW s IH NG	mutation	s	voicing-sz
+magically	magical	ly	m AE JH IH k AH l l IY	m AE JH IH k AH l IY	elision	l	degemination
+maliciously	malicious	ly	m AH l IH SH AH s l IY	m AH l IH SH IH s l IY	mutation	IH	
+manually	manual	ly	m AE n j UW AH l l IY	m AE n j UW AH l IY	elision	l	degemination
+marginally	marginal	ly	m AA r JH AH n AH l l IY	m AA r JH AH n AH l IY	elision	l	degemination
+mariner	marin	er	m EH r IH n ER	m EH r AH n ER	mutation	AH	
+materially	material	ly	m AH t IH r IY AH l l IY	m AH t IH r IY AH l IY	elision	l	degemination
+mathematically	mathematical	ly	m AE TH AH m AE t IH k AH l l IY	m AE TH AH m AE t IH k AH l IY	elision	l	degemination
+mentally	mental	ly	m EH n t AH l l IY	m EH n t AH l IY	elision	l	degemination
+mercifully	merciful	ly	m ER s IH f AH l l IY	m ER s IH f AH l IY	elision	l	degemination
+mindedly	minded	ly	m AY n d AH d l IY	m AY n d IH d l IY	mutation	IH	
+mindedness	minded	ness	m AY n d AH d n AH s	m AY n d IH d n AH s	mutation	IH	
+moderating	moderate	ing	m AA d ER AH t IH NG	m AA d ER EY t IH NG	mutation	EY	
+morally	moral	ly	m AO r AH l l IY	m AO r AH l IY	elision	l	degemination
+mortally	mortal	ly	m AO r t AH l l IY	m AO r t AH l IY	elision	l	degemination
+mouthful	mouth	ful	m AW TH f AH l	m AW TH f UH l	mutation	UH	
+mouthing	mouth	ing	m AW TH IH NG	m AW DH IH NG	mutation	DH	
+mutually	mutual	ly	m j UW CH UW AH l l IY	m j UW CH UW AH l IY	elision	l	degemination
+nationally	national	ly	n AE SH AH n AH l l IY	n AE SH AH n AH l IY	elision	l	degemination
+naturally	natural	ly	n AE CH ER AH l l IY	n AE CH ER AH l IY	elision	l	degemination
+neglecting	neglect	ing	n AH g l EH k t IH NG	n IH g l EH k t IH NG	mutation	IH	
+negotiating	negotiate	ing	n AH g OW SH IY EY t IH NG	n IH g OW SH IY EY t IH NG	mutation	IH	
+nestling	nestle	ing	n EH s AH l IH NG	n EH s t l IH NG	mutation	t	
+nobler	noble	er	n OW b AH l ER	n OW b l ER	elision	AH	
+nominally	nominal	ly	n AA m AH n AH l l IY	n AA m AH n AH l IY	elision	l	degemination
+normally	normal	ly	n AO r m AH l l IY	n AO r m AH l IY	elision	l	degemination
+noticing	notice	ing	n OW t AH s IH NG	n OW t IH s IH NG	mutation	IH	
+number	numb	er	n AH m ER	n AH m b ER	insertion	b	
+objecting	object	ing	AA b JH EH k t IH NG	AH b JH EH k t IH NG	mutation	AH	
+objectively	objective	ly	AH b JH EH k t IH v l IY	AA b JH EH k t IH v l IY	mutation	AA	
+occasionally	occasional	ly	AH k EY ZH AH n AH l l IY	AH k EY ZH AH n AH l IY	elision	l	degemination
+officer	office	er	AO f IH s ER	AO f AH s ER	mutation	AH	
+officially	official	ly	AH f IH SH AH l l IY	AH f IH SH AH l IY	elision	l	degemination
+orally	oral	ly	AO r AH l l IY	AO r AH l IY	elision	l	degemination
+originally	original	ly	ER IH JH AH n AH l l IY	ER IH JH AH n AH l IY	elision	l	degemination
+overpowering	overpower	ing	OW v ER p AW ER IH NG	OW v ER p AW r IH NG	mutation	r	
+packaging	package	ing	p AE k AH JH IH NG	p AE k IH JH IH NG	mutation	IH	
+painfully	painful	ly	p EY n f AH l l IY	p EY n f AH l IY	elision	l	degemination
+parsing	pars	ing	p AA r z IH NG	p AA r s IH NG	mutation	s	voicing-sz
+partially	partial	ly	p AA r SH AH l l IY	p AA r SH AH l IY	elision	l	degemination
+pasting	past	ing	p AE s t IH NG	p EY s t IH NG	mutation	EY	
+peacefully	peaceful	ly	p IY s f AH l l IY	p IY s f AH l IY	elision	l	degemination
+peculiarly	peculiar	ly	p AH k j UW l j ER l IY	p IH k j UW l j ER l IY	mutation	IH	
+peering	peer	ing	p IH r IH NG	p IY r IH NG	mutation	IY	
+peerless	peer	less	p IH r l AH s	p IH r l IH s	mutation	IH	
+perennially	perennial	ly	p ER EH n IY AH l l IY	p ER EH n IY AH l IY	elision	l	degemination
+perfectly	perfect	ly	p ER f EH k t l IY	p ER f AH k t l IY	mutation	AH	
+perpetually	perpetual	ly	p ER p EH CH UW AH l l IY	p ER p EH CH UW AH l IY	elision	l	degemination
+physically	physical	ly	f IH z IH k AH l l IY	f IH z IH k AH l IY	elision	l	degemination
+picketing	picket	ing	p IH k IH t IH NG	p IH k AH t IH NG	mutation	AH	
+placer	place	er	p l EY s ER	p l AE s ER	mutation	AE	
+placidly	placid	ly	p l AE s AH d l IY	p l AE s IH d l IY	mutation	IH	
+planer	plan	er	p l AE n ER	p l EY n ER	mutation	EY	
+playfully	playful	ly	p l EY f AH l l IY	p l EY f AH l IY	elision	l	degemination
+poorest	poor	est	p UW r AH s t	p UW r IH s t	mutation	IH	
+potentially	potential	ly	p AH t EH n SH AH l l IY	p AH t EH n SH AH l IY	elision	l	degemination
+precariously	precarious	ly	p r IY k EH r IY AH s l IY	p r IH k EH r IY AH s l IY	mutation	IH	
+preceding	precede	ing	p r IH s IY d IH NG	p r IY s IY d IH NG	mutation	IY	
+precipitating	precipitate	ing	p r IH s IH p IH t EY t IH NG	p r IH s IH p AH t EY t IH NG	mutation	AH	
+preparedness	prepared	ness	p r IY p EH r d n AH s	p r IY p EH r AH d n AH s	insertion	AH	
+preserver	preserve	er	p r AH z ER v ER	p r IY z ER v ER	mutation	IY	
+priming	prim	ing	p r IH m IH NG	p r AY m IH NG	mutation	AY	
+professionally	professional	ly	p r AH f EH SH AH n AH l l IY	p r AH f EH SH AH n AH l IY	elision	l	degemination
+progressing	progress	ing	p r AA g r EH s IH NG	p r AH g r EH s IH NG	mutation	AH	
+progressively	progressive	ly	p r AH g r EH s IH v l IY	p r AA g r EH s IH v l IY	mutation	AA	
+projecting	project	ing	p r AA JH EH k t IH NG	p r AH JH EH k t IH NG	mutation	AH	
+prolonging	prolong	ing	p r AH l AO NG IH NG	p r OW l AO NG IH NG	mutation	OW	
+prosecuting	prosecute	ing	p r AA s AH k j UW t IH NG	p r AA s IH k j UW t IH NG	mutation	IH	
+prospecting	prospect	ing	p r AA s p EH k t IH NG	p r AO s p EH k t IH NG	mutation	AO	
+protesting	protest	ing	p r OW t EH s t IH NG	p r AH t EH s t IH NG	mutation	AH	
+provisionally	provisional	ly	p r AH v IH ZH AH n AH l l IY	p r AH v IH ZH AH n AH l IY	elision	l	degemination
+quantitatively	quantitative	ly	k w AA n t IH t EY t IH v l IY	k w AA n t IH t EY t AH v l IY	mutation	AH	
+quarreling	quarrel	ing	k w AO r AH l IH NG	k w AA r AH l IH NG	mutation	AA	
+quickest	quick	est	k w IH k AH s t	k w IH k IH s t	mutation	IH	
+raiser	rais	er	r EY s ER	r EY z ER	mutation	z	voicing-sz
+raising	rais	ing	r EY s IH NG	r EY z IH NG	mutation	z	voicing-sz
+rambling	ramble	ing	r AE m b AH l IH NG	r AE m b l IH NG	elision	AH	
+rationally	rational	ly	r AE SH AH n AH l l IY	r AE SH AH n AH l IY	elision	l	degemination
+rattling	rattle	ing	r AE t AH l IH NG	r AE t l IH NG	elision	AH	
+reader	read	er	r EH d ER	r IY d ER	mutation	IY	
+reading	read	ing	r EH d IH NG	r IY d IH NG	mutation	IY	
+recalling	recall	ing	r IY k AO l IH NG	r IH k AO l IH NG	mutation	IH	
+reciting	recite	ing	r AH s AY t IH NG	r IY s AY t IH NG	mutation	IY	
+recorder	record	er	r AH k AO r d ER	r IH k AO r d ER	mutation	IH	
+recovering	recover	ing	r IH k AH v ER IH NG	r AH k AH v ER IH NG	mutation	AH	
+refiner	refine	er	r AH f AY n ER	r IH f AY n ER	mutation	IH	
+reformer	reform	er	r AH f AO r m ER	r IH f AO r m ER	mutation	IH	
+reforming	reform	ing	r AH f AO r m IH NG	r IH f AO r m IH NG	mutation	IH	
+refreshingly	refreshing	ly	r IH f r EH SH IH NG l IY	r IY f r EH SH IH NG l IY	mutation	IY	
+refreshment	refresh	ment	r IH f r EH SH m AH n t	r AH f r EH SH m AH n t	mutation	AH	
+regardless	regard	less	r IH g AA r d l AH s	r AH g AA r d l AH s	mutation	AH	
+rehearsing	rehearse	ing	r IY h ER s IH NG	r IH h ER s IH NG	mutation	IH	
+relentless	relent	less	r IH l EH n t l AH s	r IH l EH n t l IH s	mutation	IH	
+relentlessly	relentless	ly	r IH l EH n t l IH s l IY	r IH l EH n t l AH s l IY	mutation	AH	
+relinquishing	relinquish	ing	r IH l IH NG k w IH SH IH NG	r IY l IH NG k w IH SH IH NG	mutation	IY	
+relying	rely	ing	r IH l AY IH NG	r IY l AY IH NG	mutation	IY	
+remotely	remote	ly	r IH m OW t l IY	r IY m OW t l IY	mutation	IY	
+replacement	replace	ment	r IY p l EY s m AH n t	r IH p l EY s m AH n t	mutation	IH	
+replacing	replace	ing	r IY p l EY s IH NG	r IH p l EY s IH NG	mutation	IH	
+reporter	report	er	r IY p AO r t ER	r IH p AO r t ER	mutation	IH	
+resolutely	resolute	ly	r EH z AH l UW t l IY	r EH s AH l UW t l IY	mutation	s	voicing-sz
+respectfully	respectful	ly	r IH s p EH k t f AH l l IY	r IH s p EH k t f AH l IY	elision	l	degemination
+respecting	respect	ing	r IH s p EH k t IH NG	r IY s p EH k t IH NG	mutation	IY	
+retrieving	retrieve	ing	r IH t r IY v IH NG	r IY t r IY v IH NG	mutation	IY	
+reusing	reuse	ing	r IY j UW s IH NG	r IY j UW z IH NG	mutation	z	voicing-sz
+revolting	revolt	ing	r IH v OW l t IH NG	r IY v OW l t IH NG	mutation	IY	
+revolver	revolve	er	r IY v AA l v ER	r IH v AA l v ER	mutation	IH	
+ridiculously	ridiculous	ly	r IH d IH k j AH l AH s l IY	r AH d IH k j AH l AH s l IY	mutation	AH	
+rightfully	rightful	ly	r AY t f AH l l IY	r AY t f AH l IY	elision	l	degemination
+rigidly	rigid	ly	r IH JH AH d l IY	r IH JH IH d l IY	mutation	IH	
+rousing	rouse	ing	r AW s IH NG	r AW z IH NG	mutation	z	voicing-sz
+ruefully	rueful	ly	r UW f AH l l IY	r UW f AH l IY	elision	l	degemination
+ruining	ruin	ing	r UW AH n IH NG	r UW IH n IH NG	mutation	IH	
+rustler	rustle	er	r AH s AH l ER	r AH s l ER	elision	AH	
+rustling	rustle	ing	r AH s AH l IH NG	r AH s l IH NG	elision	AH	
+salvaging	salvage	ing	s AE l v AH JH IH NG	s AE l v IH JH IH NG	mutation	IH	
+sampling	sample	ing	s AE m p AH l IH NG	s AE m p l IH NG	elision	AH	
+satisfying	satisfy	ing	s AE t AH s f AY IH NG	s AE t IH s f AY IH NG	mutation	IH	
+savagely	savage	ly	s AE v AH JH l IY	s AE v IH JH l IY	mutation	IH	
+scaring	scar	ing	s k AA r IH NG	s k EH r IH NG	mutation	EH	
+scraping	scrap	ing	s k r AE p IH NG	s k r EY p IH NG	mutation	EY	
+seasonally	seasonal	ly	s IY z AH n AH l l IY	s IY z AH n AH l IY	elision	l	degemination
+secretly	secret	ly	s IY k r AH t l IY	s IY k r IH t l IY	mutation	IH	
+sensitively	sensitive	ly	s EH n s AH t IH v l IY	s EH n s IH t IH v l IY	mutation	IH	
+separately	separate	ly	s EH p ER EY t l IY	s EH p ER AH t l IY	mutation	AH	
+serenely	serene	ly	s ER IY n l IY	s ER IY n AH l IY	insertion	AH	
+servicing	service	ing	s ER v AH s IH NG	s ER v IH s IH NG	mutation	IH	
+sexually	sexual	ly	s EH k SH UW AH l l IY	s EH k SH UW AH l IY	elision	l	degemination
+shading	shad	ing	SH AE d IH NG	SH EY d IH NG	mutation	EY	
+sheathing	sheath	ing	SH IY TH IH NG	SH IY DH IH NG	mutation	DH	
+shining	shin	ing	SH IH n IH NG	SH AY n IH NG	mutation	AY	
+shortest	short	est	SH AO r t AH s t	SH AO r t IH s t	mutation	IH	
+shower	show	er	SH OW ER	SH AW ER	mutation	AW	
+shuffling	shuffle	ing	SH AH f AH l IH NG	SH AH f l IH NG	elision	AH	
+significantly	significant	ly	s AH g n IH f IH k AH n t l IY	s IH g n IH f IH k AH n t l IY	mutation	IH	
+simplest	simple	est	s IH m p AH l AH s t	s IH m p l AH s t	elision	AH	
+singly	sing	ly	s IH NG l IY	s IH NG g l IY	insertion	g	
+skillfully	skillful	ly	s k IH l f AH l l IY	s k IH l f AH l IY	elision	l	degemination
+slater	slat	er	s l AE t ER	s l EY t ER	mutation	EY	
+slider	slid	er	s l IH d ER	s l AY d ER	mutation	AY	
+sliding	slid	ing	s l IH d IH NG	s l AY d IH NG	mutation	AY	
+smartness	smart	ness	s m AA r t n AH s	s m AA r t n IH s	mutation	IH	
+socially	social	ly	s OW SH AH l l IY	s OW SH AH l IY	elision	l	degemination
+softener	soften	er	s AA f AH n ER	s AO f AH n ER	mutation	AO	
+softening	soften	ing	s AA f AH n IH NG	s AO f AH n IH NG	mutation	AO	
+softest	soft	est	s AA f t AH s t	s AO f t AH s t	mutation	AO	
+softly	soft	ly	s AA f t l IY	s AO f t l IY	mutation	AO	
+softness	soft	ness	s AA f t n AH s	s AO f t n AH s	mutation	AO	
+solely	sole	ly	s OW l l IY	s OW AH l IY	mutation	AH	
+solemnly	solemn	ly	s AA l AH m l IY	s AO l AH m l IY	mutation	AO	
+soliciting	solicit	ing	s AH l IH s IH t IH NG	s AH l IH s AH t IH NG	mutation	AH	
+sparing	spar	ing	s p AA r IH NG	s p EH r IH NG	mutation	EH	
+sparkling	sparkle	ing	s p AA r k AH l IH NG	s p AA r k l IH NG	elision	AH	
+specially	special	ly	s p EH SH AH l l IY	s p EH SH AH l IY	elision	l	degemination
+spiritually	spiritual	ly	s p IH r IH CH UW AH l l IY	s p IH r IH CH UW AH l IY	elision	l	degemination
+splendidly	splendid	ly	s p l EH n d IH d l IY	s p l EH n d AH d l IY	mutation	AH	
+spoonful	spoon	ful	s p UW n f AH l	s p UW n f UH l	mutation	UH	
+sprinkling	sprinkle	ing	s p r IH NG k AH l IH NG	s p r IH NG k l IH NG	elision	AH	
+staring	star	ing	s t AA r IH NG	s t EH r IH NG	mutation	EH	
+stating	stat	ing	s t AE t IH NG	s t EY t IH NG	mutation	EY	
+statistically	statistical	ly	s t AH t IH s t IH k AH l l IY	s t AH t IH s t IH k AH l IY	elision	l	degemination
+stifling	stifle	ing	s t AY f AH l IH NG	s t AY f l IH NG	elision	AH	
+strangest	strange	est	s t r EY n JH AH s t	s t r EY n JH IH s t	mutation	IH	
+strongest	strong	est	s t r AO NG AH s t	s t r AO NG g AH s t	insertion	g	
+stupidest	stupid	est	s t UW p AH d AH s t	s t UW p IH d AH s t	mutation	IH	
+substantially	substantial	ly	s AH b s t AE n SH AH l l IY	s AH b s t AE n SH AH l IY	elision	l	degemination
+substituting	substitute	ing	s AH b s t AH t UW t IH NG	s AH b s t IH t UW t IH NG	mutation	IH	
+successfully	successful	ly	s AH k s EH s f AH l l IY	s AH k s EH s f AH l IY	elision	l	degemination
+superbly	superb	ly	s UH p ER b l IY	s UW p ER b l IY	mutation	UW	
+superficially	superficial	ly	s UW p ER f IH SH AH l l IY	s UW p ER f IH SH AH l IY	elision	l	degemination
+supposedly	supposed	ly	s AH p OW z d l IY	s AH p OW z AH d l IY	insertion	AH	
+tackling	tackle	ing	t AE k AH l IH NG	t AE k l IH NG	elision	AH	
+tallest	tall	est	t AO l AH s t	t AO l IH s t	mutation	IH	
+tearful	tear	ful	t EH r f AH l	t IH r f AH l	mutation	IH	
+technically	technical	ly	t EH k n IH k AH l l IY	t EH k n IH k AH l IY	elision	l	degemination
+thankfully	thankful	ly	TH AE NG k f AH l l IY	TH AE NG k f AH l IY	elision	l	degemination
+thankfulness	thankful	ness	TH AE NG k f AH l n AH s	TH AE NG k f AH l n EH s	mutation	EH	
+theoretically	theoretical	ly	TH IY ER EH t IH k AH l l IY	TH IY ER EH t IH k AH l IY	elision	l	degemination
+thickest	thick	est	TH IH k AH s t	TH IH k IH s t	mutation	IH	
+thoughtfully	thoughtful	ly	TH AO t f AH l l IY	TH AO t f AH l IY	elision	l	degemination
+thoughtfulness	thoughtful	ness	TH AO t f AH l n AH s	TH AO t f AH l n IH s	mutation	IH	
+timidly	timid	ly	t IH m IH d l IY	t IH m AH d l IY	mutation	AH	
+tirelessly	tireless	ly	t AY ER l AH s l IY	t AY r l AH s l IY	mutation	r	
+totally	total	ly	t OW t AH l l IY	t OW t AH l IY	elision	l	degemination
+traditionally	traditional	ly	t r AH d IH SH AH n AH l l IY	t r AH d IH SH AH n AH l IY	elision	l	degemination
+trampling	trample	ing	t r AE m p AH l IH NG	t r AE m p l IH NG	elision	AH	
+traversing	traverse	ing	t r AE v ER s IH NG	t r AH v ER s IH NG	mutation	AH	
+trickling	trickle	ing	t r IH k AH l IH NG	t r IH k l IH NG	elision	AH	
+trifling	trifle	ing	t r AY f AH l IH NG	t r AY f l IH NG	elision	AH	
+truthfully	truthful	ly	t r UW TH f AH l l IY	t r UW TH f AH l IY	elision	l	degemination
+tumbler	tumble	er	t AH m b AH l ER	t AH m b l ER	elision	AH	
+unconditionally	unconditional	ly	AH n k AH n d IH SH AH n AH l l IY	AH n k AH n d IH SH AH n AH l IY	elision	l	degemination
+unconsciousness	unconscious	ness	AH n k AA n SH AH s n AH s	AH n k AA n SH AH s n IH s	mutation	IH	
+unilaterally	unilateral	ly	j UW n AH l AE t ER AH l l IY	j UW n AH l AE t ER AH l IY	elision	l	degemination
+uniting	unit	ing	j UW n AH t IH NG	j UW n AY t IH NG	mutation	AY	
+universally	universal	ly	j UW n AH v ER s AH l l IY	j UW n AH v ER s AH l IY	elision	l	degemination
+unlawfully	unlawful	ly	AH n l AO f AH l l IY	AH n l AO f AH l IY	elision	l	degemination
+unnaturally	unnatural	ly	AH n n AE CH ER AH l l IY	AH n n AE CH ER AH l IY	elision	l	degemination
+unofficially	unofficial	ly	AH n AH f IH SH AH l l IY	AH n AH f IH SH AH l IY	elision	l	degemination
+unsuccessfully	unsuccessful	ly	AH n s AH k s EH s f AH l l IY	AH n s AH k s EH s f AH l IY	elision	l	degemination
+unusually	unusual	ly	AH n j UW ZH UW AH l l IY	AH n j UW ZH UW AH l IY	elision	l	degemination
+unwillingness	unwilling	ness	AH n w IH l IH NG n AH s	AH n w IH l IH NG n IH s	mutation	IH	
+usually	usual	ly	j UW ZH AH w AH l l IY	j UW ZH AH w AH l IY	elision	l	degemination
+vagueness	vague	ness	v EY g n AH s	v EY g n IH s	mutation	IH	
+viciousness	vicious	ness	v IH SH AH s n AH s	v IH SH AH s n IH s	mutation	IH	
+villager	village	er	v IH l AH JH ER	v IH l IH JH ER	mutation	IH	
+virtually	virtual	ly	v ER CH UW AH l l IY	v ER CH UW AH l IY	elision	l	degemination
+vitally	vital	ly	v AY t AH l l IY	v AY t AH l IY	elision	l	degemination
+volunteering	volunteer	ing	v AA l AH n t IH r IH NG	v AO l AH n t IH r IH NG	mutation	AO	
+warehousing	warehouse	ing	w EH r h AW s IH NG	w EH r h AW z IH NG	mutation	z	voicing-sz
+wearying	weary	ing	w IH r IY IH NG	w IY r IY IH NG	mutation	IY	
+whistling	whistle	ing	w IH s AH l IH NG	w IH s l IH NG	elision	AH	
+whitening	whiten	ing	w AY t AH n IH NG	w AY t IH n IH NG	mutation	IH	
+whiter	whit	er	w IH t ER	w AY t ER	mutation	AY	
+whiting	whit	ing	w IH t IH NG	w AY t IH NG	mutation	AY	
+wholly	whole	ly	h OW l l IY	h OW l IY	elision	l	degemination
+wickedly	wicked	ly	w IH k AH d l IY	w IH k IH d l IY	mutation	IH	
+wilderness	wilder	ness	w AY l d ER n AH s	w IH l d ER n AH s	mutation	IH	
+wildest	wild	est	w AY l d AH s t	w AY l d IH s t	mutation	IH	
+winder	wind	er	w AY n d ER	w IH n d ER	mutation	IH	
+wistfully	wistful	ly	w IH s t f AH l l IY	w IH s t f AH l IY	elision	l	degemination
+withdrawing	withdraw	ing	w IH DH d r AO IH NG	w IH TH d r AO IH NG	mutation	TH	
+woefully	woeful	ly	w OW f AH l l IY	w OW f AH l IY	elision	l	degemination
+wonderfully	wonderful	ly	w AH n d ER f AH l l IY	w AH n d ER f AH l IY	elision	l	degemination
+woolly	wool	ly	w UH l l IY	w UH l IY	elision	l	degemination
+wounding	wound	ing	w AW n d IH NG	w UW n d IH NG	mutation	UW	
+wrather	wrath	er	r AE TH ER	r AE DH ER	mutation	DH	
+wrestling	wrestle	ing	r EH s AH l IH NG	r EH s l IH NG	elision	AH	
+writer	writ	er	r IH t ER	r AY t ER	mutation	AY	
+writing	writ	ing	r IH t IH NG	r AY t IH NG	mutation	AY	
+younger	young	er	j AH NG ER	j AH NG g ER	insertion	g	
+youngest	young	est	j AH NG AH s t	j AH NG g AH s t	insertion	g	
+zealously	zealous	ly	z EH l AH s l IY	z IY l AH s l IY	mutation	IY	

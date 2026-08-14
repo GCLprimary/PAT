@@ -1,0 +1,72 @@
+# page: past_irregulars
+# rule: irregular-past
+# The lesson: these verbs refuse the -ed rule. Rows are
+# `base -> past` or `base -> past, participle` where the participle
+# is a distinct form (ate vs eaten). The inflection table consults
+# this page FIRST for V;PST; the diff-judge reads the pairs.
+# provenance: lesson:past_irregulars — textbook irregular verbs,
+# transcribed from grammar knowledge, NOT mined and NOT peeked from
+# any benchmark or from UniMorph (UniMorph is data, never a lesson).
+go -> went, gone
+eat -> ate, eaten
+sing -> sang, sung
+see -> saw, seen
+take -> took, taken
+give -> gave, given
+come -> came, come
+run -> ran, run
+write -> wrote, written
+speak -> spoke, spoken
+break -> broke, broken
+drive -> drove, driven
+ride -> rode, ridden
+rise -> rose, risen
+fall -> fell, fallen
+grow -> grew, grown
+know -> knew, known
+throw -> threw, thrown
+fly -> flew, flown
+draw -> drew, drawn
+begin -> began, begun
+drink -> drank, drunk
+swim -> swam, swum
+ring -> rang, rung
+sink -> sank, sunk
+do -> did, done
+wear -> wore, worn
+hide -> hid, hidden
+choose -> chose, chosen
+freeze -> froze, frozen
+steal -> stole, stolen
+forget -> forgot, forgotten
+forgive -> forgave, forgiven
+mistake -> mistook, mistaken
+shake -> shook, shaken
+tear -> tore, torn
+bite -> bit, bitten
+beat -> beat, beaten
+sit -> sat
+stand -> stood
+win -> won
+find -> found
+hold -> held
+tell -> told
+sell -> sold
+buy -> bought
+bring -> brought
+think -> thought
+teach -> taught
+catch -> caught
+fight -> fought
+seek -> sought
+leave -> left
+keep -> kept
+sleep -> slept
+feel -> felt
+meet -> met
+lead -> led
+read -> read
+upset -> upset
+say -> said
+make -> made
+hear -> heard

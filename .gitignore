@@ -1,0 +1,26 @@
+# caches and build junk
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+venv/
+
+# large pinned artifacts: one fetch away, checksums in the manifests
+# (mirror/scripts/fetch_*.py rebuild each; suites verify the hashes)
+mirror/data/corpus_10m.txt
+mirror/data/unimorph_eng.tsv
+mirror/data/blimp/
+mirror/data/svd_*.npz
+
+# rebuildable corpus variants (mirror.meaning build_corpus / registry)
+mirror/data/corpus_brown+gutenberg+reuters.txt
+mirror/data/corpus_gutenberg+reuters.txt
+mirror/data/corpus_gutenberg.txt
+mirror/data/corpus_reuters.txt
+
+# local stores and scratch
+*.log
+.pat/
+
+# Elfix original history, parked so the umbrella tracks its files
+Elfix/.git.parked/

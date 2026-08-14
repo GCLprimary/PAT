@@ -1,0 +1,70 @@
+{
+ "pairs": [
+  {
+   "a": "cell",
+   "b": "seal",
+   "forms": {
+    "cell": [
+     [
+      "s",
+      "cells"
+     ],
+     [
+      "ed",
+      "celled"
+     ]
+    ],
+    "seal": [
+     [
+      "s",
+      "seals"
+     ],
+     [
+      "ing",
+      "sealing"
+     ]
+    ]
+   }
+  },
+  {
+   "a": "doodle",
+   "b": "title",
+   "forms": {
+    "doodle": [
+     [
+      "s",
+      "doodles"
+     ]
+    ],
+    "title": [
+     [
+      "s",
+      "titles"
+     ]
+    ]
+   }
+  },
+  {
+   "a": "title",
+   "b": "detail",
+   "forms": {
+    "title": [
+     [
+      "s",
+      "titles"
+     ]
+    ],
+    "detail": [
+     [
+      "ing",
+      "detailing"
+     ],
+     [
+      "s",
+      "details"
+     ]
+    ]
+   }
+  }
+ ]
+}

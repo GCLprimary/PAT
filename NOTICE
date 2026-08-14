@@ -1,0 +1,34 @@
+NOTICE — vendored and fetched data
+
+This repository builds on public linguistic resources. The code is
+MIT-licensed (see LICENSE); the data below carries its own terms, and
+every fetched artifact is pinned by checksum in the manifests under
+mirror/data/fixtures/.
+
+- CMU Pronouncing Dictionary (via the Elfix preprocessed lexicon):
+  Carnegie Mellon University, BSD-style license (free use with
+  attribution; see the cmudict distribution for the exact text).
+- UniMorph English (unimorph/eng): CC BY-SA 3.0. Kirov et al. 2018;
+  Batsuren et al. 2022. Fetched by mirror/scripts/fetch_unimorph.py;
+  not redistributed here beyond the checksummed manifest.
+- BLiMP (alexwarstadt/blimp): benchmark paradigms, used for
+  evaluation; the 34 agreement-family paradigms are vendored under
+  mirror/tests/fixtures/blimp/ for reproducible tests, the rest
+  fetched by mirror/scripts/fetch_blimp.py.
+- WordSim-353 (Finkelstein et al. 2001; sim/rel split Agirre et al.
+  2009) and SimLex-999 (Hill et al. 2015), via
+  vecto-ai/word-benchmarks: vendored under
+  mirror/tests/fixtures/meaning/ for the sentinel tests.
+- Project Gutenberg texts (the corpus_10m book list and the NLTK
+  Gutenberg selection): public domain in the United States; the full
+  source list with IDs is in
+  mirror/data/fixtures/corpus_10m_manifest.json. Fetched by
+  mirror/scripts/fetch_corpus_10m.py; not redistributed.
+- NLTK Brown and Reuters corpora: distributed by NLTK under their
+  respective licenses; used to build the pinned running-text corpora.
+
+The pinned corpus files that ship in this repository
+(mirror/data/corpus.txt, mirror/data/corpus_big.txt) are normalized
+running-text derivatives of the sources above under the Elfix data
+contract, carried as research artifacts with their provenance
+recorded in mirror/data/README.md and the HANDOFF.

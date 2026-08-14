@@ -1,0 +1,25 @@
+{
+ "columns": {
+  "WS353-sim": {
+   "unfolded_5m": 0.433,
+   "folded_5m": 0.454,
+   "folded_10m": 0.462
+  },
+  "WS353-rel": {
+   "unfolded_5m": 0.244,
+   "folded_5m": 0.332,
+   "folded_10m": 0.258
+  },
+  "SimLex-999": {
+   "unfolded_5m": 0.16,
+   "folded_5m": 0.17,
+   "folded_10m": 0.179
+  }
+ },
+ "types_folded_10m": 14047,
+ "c3_overall_10m_trigram": 57.32,
+ "c3_distractors": [
+  66.3,
+  61.3
+ ]
+}

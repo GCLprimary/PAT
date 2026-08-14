@@ -1,0 +1,4 @@
+# ElfIX core runs on the Python standard library only.
+# numpy is optional and only needed if you wire the spectral (FFT) distance
+# in compare/all_pairs.py later (cleankit fft_normalize).
+# numpy>=1.24

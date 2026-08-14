@@ -1,0 +1,702 @@
+{
+ "absorb": [
+  [
+   "ed",
+   "absorbed"
+  ],
+  [
+   "er",
+   "absorber"
+  ]
+ ],
+ "acclaim": [
+  [
+   "ed",
+   "acclaimed"
+  ],
+  [
+   "ing",
+   "acclaiming"
+  ]
+ ],
+ "accomplish": [
+  [
+   "ing",
+   "accomplishing"
+  ],
+  [
+   "ed",
+   "accomplished"
+  ]
+ ],
+ "assertive": [
+  [
+   "ly",
+   "assertively"
+  ],
+  [
+   "ness",
+   "assertiveness"
+  ]
+ ],
+ "attest": [
+  [
+   "ed",
+   "attested"
+  ],
+  [
+   "ing",
+   "attesting"
+  ]
+ ],
+ "bear": [
+  [
+   "ing",
+   "bearing"
+  ],
+  [
+   "er",
+   "bearer"
+  ]
+ ],
+ "beleaguer": [
+  [
+   "ing",
+   "beleaguering"
+  ],
+  [
+   "ed",
+   "beleaguered"
+  ]
+ ],
+ "blood": [
+  [
+   "s",
+   "bloods"
+  ],
+  [
+   "ed",
+   "blooded"
+  ]
+ ],
+ "brainwash": [
+  [
+   "ed",
+   "brainwashed"
+  ],
+  [
+   "ing",
+   "brainwashing"
+  ]
+ ],
+ "brick": [
+  [
+   "s",
+   "bricks"
+  ],
+  [
+   "er",
+   "bricker"
+  ]
+ ],
+ "broaden": [
+  [
+   "ed",
+   "broadened"
+  ],
+  [
+   "ing",
+   "broadening"
+  ]
+ ],
+ "bunch": [
+  [
+   "ed",
+   "bunched"
+  ],
+  [
+   "ing",
+   "bunching"
+  ]
+ ],
+ "burrow": [
+  [
+   "er",
+   "burrower"
+  ],
+  [
+   "s",
+   "burrows"
+  ]
+ ],
+ "campaign": [
+  [
+   "s",
+   "campaigns"
+  ],
+  [
+   "ing",
+   "campaigning"
+  ]
+ ],
+ "carl": [
+  [
+   "ing",
+   "carling"
+  ],
+  [
+   "s",
+   "carls"
+  ]
+ ],
+ "cell": [
+  [
+   "s",
+   "cells"
+  ],
+  [
+   "ed",
+   "celled"
+  ]
+ ],
+ "chart": [
+  [
+   "ing",
+   "charting"
+  ],
+  [
+   "s",
+   "charts"
+  ]
+ ],
+ "cheek": [
+  [
+   "s",
+   "cheeks"
+  ],
+  [
+   "ed",
+   "cheeked"
+  ]
+ ],
+ "conner": [
+  [
+   "s",
+   "conners"
+  ],
+  [
+   "ly",
+   "connerly"
+  ]
+ ],
+ "contract": [
+  [
+   "ed",
+   "contracted"
+  ],
+  [
+   "s",
+   "contracts"
+  ]
+ ],
+ "discern": [
+  [
+   "s",
+   "discerns"
+  ],
+  [
+   "ing",
+   "discerning"
+  ]
+ ],
+ "doom": [
+  [
+   "ed",
+   "doomed"
+  ],
+  [
+   "s",
+   "dooms"
+  ]
+ ],
+ "encompass": [
+  [
+   "ed",
+   "encompassed"
+  ],
+  [
+   "ing",
+   "encompassing"
+  ]
+ ],
+ "exclaim": [
+  [
+   "ing",
+   "exclaiming"
+  ],
+  [
+   "ed",
+   "exclaimed"
+  ]
+ ],
+ "execution": [
+  [
+   "er",
+   "executioner"
+  ],
+  [
+   "s",
+   "executions"
+  ]
+ ],
+ "fester": [
+  [
+   "ed",
+   "festered"
+  ],
+  [
+   "ing",
+   "festering"
+  ]
+ ],
+ "fetter": [
+  [
+   "s",
+   "fetters"
+  ],
+  [
+   "ed",
+   "fettered"
+  ]
+ ],
+ "foam": [
+  [
+   "s",
+   "foams"
+  ],
+  [
+   "ing",
+   "foaming"
+  ]
+ ],
+ "foil": [
+  [
+   "ed",
+   "foiled"
+  ],
+  [
+   "s",
+   "foils"
+  ]
+ ],
+ "guard": [
+  [
+   "ing",
+   "guarding"
+  ],
+  [
+   "s",
+   "guards"
+  ]
+ ],
+ "hall": [
+  [
+   "ing",
+   "halling"
+  ],
+  [
+   "er",
+   "haller"
+  ]
+ ],
+ "harmful": [
+  [
+   "ness",
+   "harmfulness"
+  ],
+  [
+   "ly",
+   "harmfully"
+  ]
+ ],
+ "home": [
+  [
+   "s",
+   "homes"
+  ],
+  [
+   "ly",
+   "homely"
+  ]
+ ],
+ "impeach": [
+  [
+   "ed",
+   "impeached"
+  ],
+  [
+   "ing",
+   "impeaching"
+  ]
+ ],
+ "latch": [
+  [
+   "ing",
+   "latching"
+  ],
+  [
+   "ed",
+   "latched"
+  ]
+ ],
+ "launder": [
+  [
+   "ed",
+   "laundered"
+  ],
+  [
+   "ing",
+   "laundering"
+  ]
+ ],
+ "levin": [
+  [
+   "s",
+   "levins"
+  ],
+  [
+   "er",
+   "leviner"
+  ]
+ ],
+ "ling": [
+  [
+   "er",
+   "linger"
+  ],
+  [
+   "s",
+   "lings"
+  ]
+ ],
+ "list": [
+  [
+   "ing",
+   "listing"
+  ],
+  [
+   "er",
+   "lister"
+  ]
+ ],
+ "loop": [
+  [
+   "ed",
+   "looped"
+  ],
+  [
+   "s",
+   "loops"
+  ]
+ ],
+ "monitor": [
+  [
+   "s",
+   "monitors"
+  ],
+  [
+   "ed",
+   "monitored"
+  ]
+ ],
+ "neighbour": [
+  [
+   "s",
+   "neighbours"
+  ],
+  [
+   "ly",
+   "neighbourly"
+  ]
+ ],
+ "nutt": [
+  [
+   "ing",
+   "nutting"
+  ],
+  [
+   "er",
+   "nutter"
+  ]
+ ],
+ "overlook": [
+  [
+   "ed",
+   "overlooked"
+  ],
+  [
+   "ing",
+   "overlooking"
+  ]
+ ],
+ "position": [
+  [
+   "ed",
+   "positioned"
+  ],
+  [
+   "s",
+   "positions"
+  ]
+ ],
+ "profit": [
+  [
+   "ing",
+   "profiting"
+  ],
+  [
+   "ed",
+   "profited"
+  ]
+ ],
+ "quench": [
+  [
+   "ing",
+   "quenching"
+  ],
+  [
+   "er",
+   "quencher"
+  ]
+ ],
+ "recollect": [
+  [
+   "ed",
+   "recollected"
+  ],
+  [
+   "s",
+   "recollects"
+  ]
+ ],
+ "refrain": [
+  [
+   "s",
+   "refrains"
+  ],
+  [
+   "ed",
+   "refrained"
+  ]
+ ],
+ "revisit": [
+  [
+   "s",
+   "revisits"
+  ],
+  [
+   "ing",
+   "revisiting"
+  ]
+ ],
+ "round": [
+  [
+   "er",
+   "rounder"
+  ],
+  [
+   "s",
+   "rounds"
+  ]
+ ],
+ "school": [
+  [
+   "ed",
+   "schooled"
+  ],
+  [
+   "s",
+   "schools"
+  ]
+ ],
+ "scorn": [
+  [
+   "s",
+   "scorns"
+  ],
+  [
+   "ed",
+   "scorned"
+  ]
+ ],
+ "seal": [
+  [
+   "s",
+   "seals"
+  ],
+  [
+   "ing",
+   "sealing"
+  ]
+ ],
+ "shampoo": [
+  [
+   "ed",
+   "shampooed"
+  ],
+  [
+   "s",
+   "shampoos"
+  ]
+ ],
+ "sleep": [
+  [
+   "er",
+   "sleeper"
+  ],
+  [
+   "ing",
+   "sleeping"
+  ]
+ ],
+ "stilt": [
+  [
+   "ed",
+   "stilted"
+  ],
+  [
+   "s",
+   "stilts"
+  ]
+ ],
+ "stomp": [
+  [
+   "ing",
+   "stomping"
+  ],
+  [
+   "ed",
+   "stomped"
+  ]
+ ],
+ "stubborn": [
+  [
+   "ly",
+   "stubbornly"
+  ],
+  [
+   "ness",
+   "stubbornness"
+  ]
+ ],
+ "succumb": [
+  [
+   "ing",
+   "succumbing"
+  ],
+  [
+   "s",
+   "succumbs"
+  ]
+ ],
+ "suspect": [
+  [
+   "ed",
+   "suspected"
+  ],
+  [
+   "s",
+   "suspects"
+  ]
+ ],
+ "teat": [
+  [
+   "s",
+   "teats"
+  ],
+  [
+   "er",
+   "teater"
+  ]
+ ],
+ "tend": [
+  [
+   "ed",
+   "tended"
+  ],
+  [
+   "s",
+   "tends"
+  ]
+ ],
+ "together": [
+  [
+   "ness",
+   "togetherness"
+  ],
+  [
+   "s",
+   "togethers"
+  ]
+ ],
+ "tour": [
+  [
+   "ed",
+   "toured"
+  ],
+  [
+   "s",
+   "tours"
+  ]
+ ],
+ "upload": [
+  [
+   "ed",
+   "uploaded"
+  ],
+  [
+   "s",
+   "uploads"
+  ]
+ ],
+ "wait": [
+  [
+   "ing",
+   "waiting"
+  ],
+  [
+   "ed",
+   "waited"
+  ]
+ ],
+ "whole": [
+  [
+   "ness",
+   "wholeness"
+  ],
+  [
+   "s",
+   "wholes"
+  ]
+ ],
+ "wilt": [
+  [
+   "s",
+   "wilts"
+  ],
+  [
+   "ed",
+   "wilted"
+  ]
+ ],
+ "witch": [
+  [
+   "ing",
+   "witching"
+  ],
+  [
+   "er",
+   "witcher"
+  ]
+ ]
+}

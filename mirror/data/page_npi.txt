@@ -1,0 +1,27 @@
+# page: npi
+# rule: npi-requires-licensor
+# The lesson: a negative polarity item (ever, any...) must sit in the
+# scope of a licensor — negation, 'only', or a question. 'Nobody ever
+# left' but never 'Somebody ever left'.
+# provenance: lesson:npi — transcribed from grammar knowledge, NOT
+# mined from BLiMP or any corpus. Licensors include the n't-suffixed
+# auxiliaries and sentence-initial aux inversion (a question); the
+# judge reads those two structural cues from this header's rule.
+ever -> npi
+any -> npi
+anybody -> npi
+anyone -> npi
+anything -> npi
+not -> licensor
+no -> licensor
+never -> licensor
+only -> licensor
+nobody -> licensor
+none -> licensor
+nothing -> licensor
+neither -> licensor
+whether -> licensor
+hardly -> licensor
+rarely -> licensor
+seldom -> licensor
+without -> licensor
