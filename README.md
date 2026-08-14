@@ -1,6 +1,6 @@
 # Pat
 
-**Pat — a provenance-complete, geometric smart-controller agent. Pat never gives pat answers.(claude insisted on this joke)**
+**Pat — a provenance-complete, geometric smart-controller agent. Pat never gives pat answers(Claude insisted on this joke).**
 
 Pat is a zero-weights language creature: no neural network, no
 gradients, no API behind the curtain. Every organ is count geometry
