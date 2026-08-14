@@ -78,17 +78,34 @@ class Agent:
         self._last_refusals = {}       # word -> (input, reason)
         self.reading = None            # W-2: attached by read()
 
+        # XVI-b: the read ledger survives death too — restored BEFORE
+        # pages re-study so lessons land on the lived session
+        self._reading_file = self.store_path / "reading.json"
+        if self._reading_file.exists():
+            from .reading import ReadingSession
+            self.reading = ReadingSession.from_state(
+                self.organs,
+                json.loads(self._reading_file.read_text(
+                    encoding="utf-8")))
+
         # L-4: lesson provenance survives death — studied pages are
         # ledgered in pages.json (separate from the word-provenance
         # contract) and re-studied from their pinned files at rebirth
+        # (falling back to mirror's DATA_DIR by file name, so a store
+        # built on one machine re-studies on another)
         self._pages_file = self.store_path / "pages.json"
         self.pages_ledger = []
         if self._pages_file.exists():
             self.pages_ledger = json.loads(
                 self._pages_file.read_text(encoding="utf-8"))
             for entry in self.pages_ledger:
-                if entry.get("path") and Path(entry["path"]).exists():
-                    self._study_page(Path(entry["path"]), ledgered=False)
+                p = Path(entry["path"]) if entry.get("path") else None
+                if p is None or not p.exists():
+                    from mirror.config import DATA_DIR as _MDATA
+                    name = entry.get("file") or (p.name if p else "")
+                    p = _MDATA / name if name else None
+                if p is not None and p.exists():
+                    self._study_page(p, ledgered=False)
 
         if seed_bases:
             for b in seed_bases:
@@ -107,6 +124,18 @@ class Agent:
         self.store_path.mkdir(parents=True, exist_ok=True)
         self._prov_file.write_text(
             json.dumps(self.provenance, indent=1), encoding="utf-8")
+        if self.reading is not None:
+            self._reading_file.write_text(
+                json.dumps(self.reading.to_state()), encoding="utf-8")
+
+    def bases_total(self):
+        """The whole ledger's yes-count: taught episodes, read/lesson
+        provenance, and pruned aliases (which still answer truthfully)."""
+        bases = set(self.known)
+        if self.reading is not None:
+            bases |= set(self.reading.known)
+            bases |= set(self.reading.retired)
+        return len(bases)
 
     # ── the write half of the loop (law 2) ───────────────────────────
     def teach(self, base, taught_by, refusal):
@@ -144,6 +173,7 @@ class Agent:
         if ledgered:
             self.pages_ledger.append({
                 "page": report["page"], "path": str(path),
+                "file": Path(path).name,
                 "conflicts": report["conflicts"],
                 "when": datetime.now(timezone.utc).isoformat(
                     timespec="seconds"),

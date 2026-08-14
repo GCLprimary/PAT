@@ -354,3 +354,64 @@ class ReadingSession:
                    else "pruned")
             totals[cls] = totals.get(cls, 0) + 1
         return totals
+
+    # ── XVI-b: the session survives death (the front-door fix) ───────
+    # The live-log promise ("read-taught epoch 1, pruned epoch 5")
+    # is a property of a session; before this, sessions died with the
+    # process and a reborn Agent answered as a newborn. Pages already
+    # persisted (L-4); this is the same contract for the read ledger.
+    def to_state(self):
+        """Everything a rebirth needs, JSON-safe. Derived indices
+        (pron/byb/remainder) rebuild from the organs; only ledgers and
+        their insertion order travel."""
+        return {
+            "version": 1,
+            "policy": self.policy,
+            "theta": self.theta,
+            "epoch": self.epoch,
+            "known": self.known,
+            "taught_epoch": self._taught_epoch,
+            "retired": self.retired,
+            "deferred": self.deferred,
+            "adoptions": self.adoptions,
+            "census": self.census,
+            "unlocked": self.unlocked,
+            "homophones": self.homophones,
+            "lesson_conflicts_seen": len(self.lesson_conflicts),
+            "shape_index": [[k, w]
+                            for k, w in self._shape_index.items()],
+        }
+
+    @staticmethod
+    def _freeze(x):
+        """JSON turns nested tuples into nested lists; shape keys are
+        tuples of shapes (themselves tuples) — freeze back, deep."""
+        if isinstance(x, (list, tuple)):
+            return tuple(ReadingSession._freeze(i) for i in x)
+        return x
+
+    @classmethod
+    def from_state(cls, organs, state, gate=None):
+        """Rebuild a session from to_state() output. _bare_ix recovers
+        known (live) then retired entries; _live() filters retired at
+        query time, so BARE-hit naming order among live words is
+        preserved (JSON keeps insertion order)."""
+        s = cls(organs, seed_bases=[], theta=state["theta"],
+                policy=state["policy"], gate=gate)
+        s.epoch = state["epoch"]
+        for w, p in state["known"].items():
+            s.known[w] = p
+            s._bare_ix.setdefault(tuple(s.emb.corpus[w]), []).append(w)
+        for w, entry in state["retired"].items():
+            s.retired[w] = entry
+            s._bare_ix.setdefault(tuple(s.emb.corpus[w]), []).append(w)
+        s._taught_epoch = {w: int(e)
+                           for w, e in state["taught_epoch"].items()}
+        s.deferred = {w: int(a) for w, a in state["deferred"].items()}
+        s.adoptions = state["adoptions"]
+        s.census = state["census"]
+        s.unlocked = state["unlocked"]
+        s.homophones = state["homophones"]
+        s._shape_index = {cls._freeze(k): w
+                          for k, w in state["shape_index"]}
+        return s

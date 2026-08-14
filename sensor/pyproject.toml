@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sensor"
+version = "0.1.0"
+description = "Pat's organs on a non-language alphabet — every threshold re-derived from that world's own window (none transfer)."
+requires-python = ">=3.10"
+
+[tool.setuptools]
+py-modules = ["world"]

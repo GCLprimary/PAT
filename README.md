@@ -25,7 +25,7 @@ receipt; everything Pat cannot certify, Pat refuses — by name.
   learned 'jump' — you taught me just now
   'jumped' = 'jump' + -ed
 
-[Pat reads 5,000 words: known 3348, deferred 253, unlocked 254, pruned 41]
+[Pat reads 5,000 words: known 3359, deferred 252, unlocked 255, pruned 41]
 [studies the irregular-plurals page: 52 lines, 4 conflicts ledgered]
 
 > know that
@@ -100,16 +100,36 @@ git clone <this-repo> pat && cd pat
 pip install -e a_mem --no-build-isolation --no-deps
 pip install -e mirror --no-build-isolation --no-deps
 pip install -e pat --no-build-isolation --no-deps
+pip install -e sensor --no-build-isolation --no-deps
 pat
 ```
 
-Then, at the prompt: `verify government = govern+ment` — you will
-get the refusal above, phones attached, reproduced from the pinned
-lexicon on your machine. Some large artifacts (the 10M corpus,
-UniMorph, the full BLiMP set) are one pinned fetch away via
-`mirror/scripts/fetch_*.py`; every checksum is in the manifests.
-Tests: `python -m pytest tests -q` inside `mirror/`, `pat/`, and
-`sensor/`.
+First boot seeds `~/.pat` from the shipped canonical store — Pat's
+lived session (the 15 seeds, the pinned 5,000-word read, the studied
+page), checksummed in `pat/data/fixtures/canonical_store.json` — so
+the creature that wakes is the one that passed the batteries:
+`awake. I know 3473 bases.` Then, at the prompt:
+
+- `verify government = govern+ment` — the refusal above, phones
+  attached, reproduced from the pinned lexicon on your machine;
+- `know side` — the biography: derivable as sigh+ed, read-taught
+  epoch 1, pruned epoch 5;
+- `analyze brillig` — the alien refusal.
+
+Two verbs (`walk`, `audit`) and the test suites additionally need
+`corpus_big.txt`, which ships compressed; reconstitute it (the script
+asserts the pinned sha256):
+
+```
+python mirror/scripts/build_corpus_big.py
+```
+
+Until you do, Pat refuses those verbs by name rather than crashing.
+Some larger artifacts (the 10M corpus, UniMorph, the full BLiMP set)
+are one pinned fetch away via `mirror/scripts/fetch_*.py`; every
+checksum is in the manifests. Tests: `python -m pytest tests -q`
+inside `mirror/`, `pat/`, and `sensor/` (the mirror suite needs the
+fetched artifacts present).
 
 ## The four laws, in plain language
 

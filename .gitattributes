@@ -1,0 +1,5 @@
+# A byte-pinned artifact repo: every checksum in the manifests is a
+# promise about exact bytes, and the suites verify them (law 2). Git
+# end-of-line translation would make a clone's bytes depend on the
+# cloner's platform — so it is off for everything, everywhere.
+* -text

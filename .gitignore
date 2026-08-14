@@ -4,6 +4,7 @@ __pycache__/
 *.egg-info/
 .pytest_cache/
 venv/
+.claude/
 
 # large pinned artifacts: one fetch away, checksums in the manifests
 # (mirror/scripts/fetch_*.py rebuild each; suites verify the hashes)
@@ -11,6 +12,10 @@ mirror/data/corpus_10m.txt
 mirror/data/unimorph_eng.tsv
 mirror/data/blimp/
 mirror/data/svd_*.npz
+
+# ships compressed (corpus_big.txt.xz); reconstitute with
+# mirror/scripts/build_corpus_big.py — asserts the pinned sha256
+mirror/data/corpus_big.txt
 
 # rebuildable corpus variants (mirror.meaning build_corpus / registry)
 mirror/data/corpus_brown+gutenberg+reuters.txt
