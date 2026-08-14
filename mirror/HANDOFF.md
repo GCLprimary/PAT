@@ -1,8 +1,144 @@
-# HANDOFF — mirror build (+ scaling + generation + workshop + rulers + frame/gate + reading + schooled + library + metabolism + entry-card + depth-2 + discovery + auditor + case/apostrophe builds)
+# HANDOFF — mirror build (+ scaling + generation + workshop + rulers + frame/gate + reading + schooled + library + metabolism + entry-card + depth-2 + discovery + auditor + case/apostrophe + front-door builds)
 
-Status: **complete through Case & Apostrophe**. Mirror 111/111 green
-(6:24), agent 44/44 green (2:27), sensor 3/3 green. Stopping per
-spec.
+Status: **complete through The Front Door — Pat v0.1.0, committed.**
+Mirror 111/111 green (6:21), pat 44/44 green (2:25), sensor 3/3
+green — from the renamed paths, post-commit. Stopping per spec.
+
+---
+
+# Part XVI — The Front Door (front_door spec)
+
+**THE RENAME IS REAL AND THE SUITE WAS ITS GATE.** The umbrella is
+`pat/`, the shell repo is `pat/` with package `pat` and console
+entry `pat` (`pat.cli:main`), and per the spec's own law the
+definition of done was every test green post-rename: **mirror
+111/111 (6:21), pat 44/44 (2:25), sensor 3/3** — run from the new
+paths, after the editable reinstalls, with every manifest checksum
+re-verified byte-identical by the suites' own fixtures. Twenty-seven
+files took the `agent→pat` text rename (imports, pyproject, scripts,
+tests, examples); `agent/agent/` became `pat/pat/`; nothing else
+moved.
+
+## THE FRONT-DOOR FILES (R-2/R-3)
+
+- **README.md** — the entry card. Descriptor line verbatim per spec
+  ("Pat — a provenance-complete, geometric smart-controller agent.
+  Pat never gives pat answers."), the live transcript quoted from
+  the session log, the seven-row entry card with the standing
+  numbers (66.88 forced / 27.3% @ 94.95% selective; 95.78% @ 99.95%;
+  571/571 + 29 refusals; +0.440/+0.322/+0.154; 3 suffixes / 314
+  pairs / 0 confabulations; 459 + 2,002 + 13,982 graded 50/50;
+  zero confabulation unconditional since Part VI), the anatomy, the
+  quickstart (with the `--no-build-isolation --no-deps` incantation
+  that the a-mem PyPI collision demands), the four laws in plain
+  language, honest boundaries, and the history section naming the
+  probes and this HANDOFF as the fossil record.
+  sha256 `abef1dc80b351d0ef98a228e40d4180a8c7d53fae49843ddf6f1f84f85b3a9c0`.
+- **LICENSE** — MIT (spec default), (c) 2026 the Pat project.
+- **NOTICE** — the data provenance card: CMUdict (BSD-style, via
+  Elfix), UniMorph (CC BY-SA, fetched not vendored), BLiMP (34
+  agreement paradigms vendored for tests, rest fetched), WS-353 +
+  SimLex-999 (vendored sentinels via vecto), Project Gutenberg
+  (public domain; the 35-book ID list rides the corpus_10m
+  manifest), NLTK Brown/Reuters. Every fetched artifact pinned by
+  checksum in `mirror/data/fixtures/`.
+- **.gitignore** — the fetch-away line: corpus_10m, UniMorph, BLiMP
+  full set, the SVD caches, the four rebuildable corpus variants;
+  local `.pat/` stores; caches.
+- **CHANGELOG.md** — sixteen Parts, one line each, pointing here.
+
+## GIT (R-1g) — init, identity, one commit
+
+`git init -b main` at the umbrella; repo-local identity
+`lgndz <gclprimary@gmail.com>` (amend at will:
+`git config user.name "Your Name"`). Initial commit **259154e**
+"Pat v0.1.0 — the front door (Part XVI)", **439 files, 59.3 MB
+tracked** (mirror 159, a_mem 116, Elfix 99, pat 56, sensor 3, front
+door 5). **Publishing is not the builder's act:** no remote is
+configured, nothing was pushed. The push button has exactly one
+owner.
+
+## THE FRESH-CLONE SMOKE TEST (R-5)
+
+Cloned `C:\Users\lgndz\pat` to a scratch directory, built an
+isolated venv (setuptools + numpy only), editable-installed the
+three repos **from the clone**, and piped the smoke lines through
+the `pat` console entry. Transcript, verbatim:
+
+```
+waking Pat (organs load once)...
+awake. I know 0 bases. verbs: analyze, relates, remember, know, walk <a> to <b>. 'quit' saves and exits.
+> REFUSE — pron('government') does not begin with pron('govern') [g AH v ER m AH n t vs g AH v ER n]
+> refuse: 'brillig' is not a form I can read
+> no, I do not know 'side'
+> refuse: no analysis stands
+> saved. I know 0 bases; 0 of them have receipts.
+```
+
+The store-independent lines reproduce **verbatim** from the pinned
+artifacts alone: the government elision refusal with phones attached
+(the verify oracle needs no store) and the brillig alien refusal.
+README's quickstart promise ("you will get the refusal above, phones
+attached") is exactly the line a stranger gets.
+
+## DEVIATIONS (flagged, not reconciled)
+
+1. **The spec's smoke trio assumed a lived-in store.** Spec R-5
+   names `know side → the biography` as a smoke line; the biography
+   (derivable: sigh+ed; read-taught epoch 1, pruned epoch 5) is a
+   property of a store that has READ. A fresh clone has an empty
+   store and Pat answers `no, I do not know 'side'` — which is the
+   truthful answer and the zero-confabulation invariant working
+   exactly as built. Same for `analyze painting` → `refuse: no
+   analysis stands` (no taught bases yet). The fresh-honest
+   transcript is the smoke artifact; the live-log lines remain
+   reproducible in the lived-in store at `~/.pat`.
+2. **The umbrella rename is staged, not final, on the build
+   machine.** The running session holds a lock on the root
+   directory, so `alignment_field→pat` could not be a true `ren`
+   from inside it. Workaround: a directory junction
+   (`mklink /J C:\Users\lgndz\pat C:\Users\lgndz\alignment_field`);
+   all reinstalls, suites, git, and the clone ran through the
+   junction, so every recorded install path already reads
+   `C:\Users\lgndz\pat\...`. **The human's two finishing moves**
+   (cmd, after closing the session):
+   `rmdir C:\Users\lgndz\pat` (removes the junction only), then
+   `ren alignment_field pat`. Nothing else — the installs and the
+   git repo travel with the folder. A fresh clone (as in R-5) has
+   no junction anywhere in it.
+3. **59.3 MB tracked vs the spec's ≤50 MB target.** The overage is
+   gate-bearing vendored fixtures (corpus.txt + corpus_big.txt and
+   the pinned test fixtures) that the suites hash on every run;
+   thinning them would trade the rename's own gate for a size
+   number. Flagged, kept.
+4. **Elfix's own `.git` was parked, not deleted**
+   (`Elfix/.git.parked/`, gitignored): a nested repo would have
+   cloned as an empty gitlink and the substrate must ship. Elfix's
+   local history survives on the build machine; restore it anytime
+   with `ren .git.parked .git` inside `Elfix\`.
+5. **`alignment_field` survives only in history:** 12 files, all
+   `a_mem/build_spec/*.md` — the spec's own carve-out (HANDOFF
+   history and the specs). Zero hits in code, config, fixtures,
+   reports, or the front-door files.
+
+## THE RELEASE MANIFEST
+
+- Commit `259154e` (main), tag-worthy as `v0.1.0`; 439 files,
+  59.3 MB tracked; README sha256 `abef1dc8…f85b3a9c0` (full hash
+  above).
+- Tree: `Elfix/` `a_mem/` `mirror/` `pat/` `sensor/` + README,
+  LICENSE, NOTICE, CHANGELOG, .gitignore.
+- Artifact checksums live where they always did: the manifests
+  under `mirror/data/fixtures/` and `pat/data/`, re-verified green
+  by the suites at this commit. The suite is the manifest's
+  notary; this Part added no new artifact class.
+
+## NEXT FRONTIER (unbuilt, one line)
+
+The repo has a front door and a local commit; the remote, the
+release tag, and the Fellows mail are the human's three buttons —
+and Part XVII, whenever a probe drops, starts from a repo a
+stranger can clone.
 
 ---
 
