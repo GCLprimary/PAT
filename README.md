@@ -165,12 +165,12 @@ the error wears its provenance (a mistaken lexicon entry produces a
 receipted variant candidate, not a silent belief). Pat is not
 fluent, not general, and not a chatbot: it has five-plus-two verbs,
 template answers, and no goals. What it has instead is a property
-most systems don't: sixteen build Parts, three test suites, and one
+most systems don't: seventeen build Parts, three test suites, and one
 standing number — confabulations: zero.
 
 ## History
 
-The `a_mem/probes/` directory and the sixteen-Part `mirror/HANDOFF.md`
+The `a_mem/probes/` directory and the seventeen-Part `mirror/HANDOFF.md`
 are the method's fossil record — probes first, specs gated by a
 human, acceptance by inequality, deviations flagged and never
 reconciled. Half the product is that record. `PROPOSAL.md` in `pat/`
