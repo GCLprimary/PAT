@@ -1,8 +1,131 @@
 # HANDOFF — mirror build (+ scaling + generation + workshop + rulers + frame/gate + reading + schooled + library + metabolism + entry-card + depth-2 + discovery + auditor + case/apostrophe + front-door builds)
 
-Status: **complete through The Front Door — Pat v0.1.0, committed.**
-Mirror 111/111 green (6:21), pat 44/44 green (2:25), sensor 3/3
-green — from the renamed paths, post-commit. Stopping per spec.
+Status: **complete through The Front Door, fix drop included — Pat
+v0.1.0 + XVI-b, committed.** Mirror 111/111 green (6:39), pat 50/50
+green (2:24; 44 + 6 front-door batteries), sensor 3/3 green.
+Stopping per spec.
+
+---
+
+# Part XVI-b — The Bounced Gate (the return note)
+
+**THE PROJECT'S FIRST BOUNCED PART, AND THE GATE EARNED ITS KEEP.**
+The reviewer ran the fresh-clone smoke and Pat woke knowing nothing:
+"I know 0 bases," a v0 verb banner, honest refusals from a newborn
+that LOOKED like the lived creature's. The un-fakeable wording
+("answers the live-log lines with receipts") caught exactly what it
+was written to catch — the one code path no battery had ever
+exercised, the brand-new launcher. Sixteen Parts of organs stayed
+green throughout; the door was wired to the wrong room.
+
+## THE DIAGNOSIS, WITH THE MISDIAGNOSES FLAGGED (law 1 cuts both ways)
+
+TRUE, and fixed: `cli.py` was the A-4-era launcher — naive
+`argv[0]` store parse (so `pat --store X` created a literal
+`--store/` directory; the builder's own smoke run planted the one
+the reviewer found), a hardcoded v0 verb banner, a fresh-`~/.pat`
+default, and NO persistence for the read ledger (sessions died with
+the process — the biography was unreachable by any reboot). Sensor
+had no packaging. `.claude/` was tracked. The tree busted the size
+target.
+
+MISDIAGNOSED, for the record: **nothing regressed and nothing was
+lost.** The `verify` and `audit` verbs were live behind the door
+(the smoke's own government receipt proves it — a stale shell would
+have refused the verb); the `--store/` junk held an 86-byte NEWBORN
+store from the builder's smoke run, not Pat's life (no lived store
+existed anywhere — it had never been an artifact); and 274M was the
+WORKING TREE with fetch-away artifacts and parked history — the
+tracked tree was 59.3MB, and is now 39.7MB.
+
+## THE FIXES (F1–F5)
+
+- **F1 — the reading ledger survives death.**
+  `ReadingSession.to_state/from_state` (every ledger, every
+  provenance string, insertion order preserved; shape keys
+  deep-frozen through JSON); `Agent.save` writes `reading.json`,
+  rebirth restores it BEFORE pages re-study; pages re-study now
+  resolves by file name against mirror's DATA_DIR when the recorded
+  absolute path is foreign (a store built here schools the same Pat
+  anywhere). `Agent.bases_total()` counts the whole ledger.
+- **F1 — the shipped canonical store.** `pat/data/store/` IS Pat's
+  lived session, built once by `pat/scripts/make_canonical_store.py`
+  (demo_reading's protocol verbatim: the 15 pinned seeds, the pinned
+  stream's first 5,000 words in 5 epochs, the irregular-plurals
+  page), gated by its own asserts INCLUDING a rebirth, and pinned in
+  `pat/data/fixtures/canonical_store.json`. 813KB. The `pat` CLI
+  seeds `~/.pat` from it on first boot; explicit stores never seed.
+- **F1 flag — the engine delta, not reconciled:** the live-log
+  bracket numbers (3348/253/254/41) were Part VII's engine; the
+  shipped X-4 dict-exact engine reads the same 5,000 words to
+  **3359/252/255/41** (the acceptance-delta class flagged in Part
+  IX). The canonical store is built by the engine the suites gate,
+  so its numbers are the pins and README's bracket line now says so.
+  The acceptance receipts are engine-stable: side's biography is
+  verbatim ("derivable: sigh+ed; read-taught epoch 1, pruned epoch
+  5"), men's lesson, that's attested 54244.
+- **F2 —** `argparse`: `--store` and positional both parse; the
+  junk directory is deleted; a battery pins the bug shut.
+- **F3 —** `sensor/pyproject.toml` (py-modules=[world]); the
+  quickstart gained the fourth install line.
+- **F4 —** `.claude/` untracked and ignored.
+- **F5 — slim, consciously:** corpus_big is the probe machine's
+  bespoke import (Part IV-b) and is NOT rebuildable from NLTK (the
+  registry variant differs by hash) — so it ships as
+  `corpus_big.txt.xz` (6.8MB, 24.3% of 28.2MB) and
+  `mirror/scripts/build_corpus_big.py` reconstitutes it, asserting
+  the pinned sha256 (`0de0be30…`) or deleting its own output. The
+  REPL boots without it (organs load it lazily); `walk` and `audit`
+  refuse BY NAME until it is built; the suites need it. **Tracked
+  tree: 447 files, 39.7MB** (was 59.3).
+- **Found while fixing, worth its own line:** `.gitattributes`
+  `* -text`. Git's end-of-line translation would have made a
+  clone's bytes depend on the cloner's platform — checksum-gate
+  poison for a byte-pinned repo. All 116 affected files
+  renormalized to exact worktree bytes; clones are byte-faithful
+  everywhere now.
+- **Environment note:** the human executed the two finishing moves
+  (the junction is gone; `C:\Users\lgndz\pat` is real). pip had
+  realpath'd the junction into the editable finders, so the four
+  packages were reinstalled from the real paths — final, stable.
+
+## THE GATE AND THE SMOKE (acceptance, verbatim)
+
+Suites post-fix: **mirror 111/111 (6:39), pat 50/50 (2:24; six new
+front-door batteries), sensor 3/3.** Fresh clone → venv → four
+installs → `pat`:
+
+```
+waking Pat (organs load once)...
+first boot: seeded <home>\.pat from the shipped canonical store (the lived session, receipts included).
+awake. I know 3473 bases. verbs: analyze <w>, relates <w>, remember <w>, know <w>, walk <a> to <b>, verify <w> = <base>+<suffix>, audit <cmu|unimorph|homophones>. 'quit' saves and exits.
+> yes, I know 'side' (derivable: sigh+ed; read-taught epoch 1, pruned epoch 5)
+> REFUSE — pron('government') does not begin with pron('govern') [g AH v ER m AH n t vs g AH v ER n]
+> refuse: 'brillig' is not a form I can read
+> refuse: 'jump' is not in my meaning vocabulary
+> saved. the ledger holds 3473 bases (15 taught receipts).
+```
+
+Then `build_corpus_big.py` in the clone: 28,229,697 bytes, sha256
+== pinned. With the corpus deliberately absent, `audit cmu` answers:
+`refuse: corpus_big.txt is not built on this machine — run: python
+mirror/scripts/build_corpus_big.py`. A second boot does not re-seed
+and carries all 3,473 bases — the read ledger's first survived
+death in the wild.
+
+## THE RELEASE MANIFEST (supersedes Part XVI's)
+
+Commit `99edc78` on `be147ac`/`259154e` (main, local only — the
+push button still has exactly one owner). 447 files, 39.7MB
+tracked. Canonical store pins: pages `62908a17…`, provenance
+`33175c23…`, reading `2ad121ec…`, store `13dd8eb3…` (full hashes in
+`pat/data/fixtures/canonical_store.json`).
+
+## NEXT FRONTIER (unchanged, one line)
+
+The remote, the release tag, and the Fellows mail are the human's
+three buttons — and the door now opens on the Pat that passed the
+batteries.
 
 ---
 
