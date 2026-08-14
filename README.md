@@ -7,32 +7,17 @@ gradients, no API behind the curtain. Every organ is count geometry
 and exact gates over pinned artifacts; every answer carries a
 receipt; everything Pat cannot certify, Pat refuses — by name.
 
-## A live session (verbatim lines)
+## A live session (run-verified lines)
+
+Every line below was piped through the `pat` console entry against
+the shipped store before this README was committed — type along and
+you get these answers.
 
 ```
-> analyze painting
-  'painting' = 'paint' + -ing
-
-> analyze paintings and know paint and translate hello
-  refuse: no analysis stands
-  yes, I know 'paint'
-  refuse: 'translate' is not something I do
-
-> analyze find
-  'find' sounds identical to fine+-ed — I cannot tell them apart by ear
-
-> remember jump and analyze jumped
-  learned 'jump' — you taught me just now
-  'jumped' = 'jump' + -ed
-
-[Pat reads 5,000 words: known 3359, deferred 252, unlocked 255, pruned 41]
-[studies the irregular-plurals page: 52 lines, 4 conflicts ledgered]
-
-> know that
-  yes, I know 'that' (read: attested 54244)
-
-> analyze side
-  'side' sounds identical to 'sighed' — I cannot tell them apart by ear
+[Pat's shipped life, built once and checksummed: born with 15 seeds,
+ reads 5,000 words — known 3359, deferred 252, unlocked 255, pruned
+ 41 — then studies the irregular-plurals page: 52 lines, 4 conflicts
+ ledgered]
 
 > know side
   yes, I know 'side' (derivable: sigh+ed; read-taught epoch 1, pruned epoch 5)
@@ -40,14 +25,41 @@ receipt; everything Pat cannot certify, Pat refuses — by name.
 > know men
   yes, I know 'men' (lesson:irregular_plurals)
 
+> know that
+  yes, I know 'that' (read: attested 54244)
+
+> know government
+  yes, I know 'government' (read:no-such-stem)
+
+> analyze painting
+  'painting' = 'paint' + -ing
+
+> verify painting = paint+ing
+  CERTIFY — paint+ing, pair-exact, mined
+
 > verify government = govern+ment
   REFUSE — pron('government') does not begin with pron('govern')
   [g AH v ER m AH n t vs g AH v ER n]
+
+> analyze paintings and know paint and translate hello
+  refuse: no analysis stands
+  yes, I know 'paint' (read: attested 79)
+  refuse: 'translate' is not something I do
+
+> analyze nose
+  'nose' sounds identical to 'knows' — I cannot tell them apart by ear
+
+> remember lantern
+  learned 'lantern' — you taught me just now
 
 > analyze brillig and know glory
   refuse: 'brillig' is not a form I can read
   yes, I know 'glory' (read: stem glor exists unread)
 ```
+
+Quit, reboot, and `know lantern` still answers yes with its receipt —
+sessions survive death; that is the original promise of the whole
+project, asserted at the front door.
 
 ## The entry card
 
