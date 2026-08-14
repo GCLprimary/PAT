@@ -170,6 +170,11 @@ standing number — confabulations: zero.
 
 ## History
 
+Pat was built by one person across seventeen Parts, with Claude as
+the implementing hand: probes and specs authored on a separate
+machine, each Part built against its spec, and every gate held by
+the human — including the one that bounced Part XVI.
+
 The `a_mem/probes/` directory and the seventeen-Part `mirror/HANDOFF.md`
 are the method's fossil record — probes first, specs gated by a
 human, acceptance by inequality, deviations flagged and never
