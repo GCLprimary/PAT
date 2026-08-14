@@ -1,9 +1,143 @@
-# HANDOFF — mirror build (+ scaling + generation + workshop + rulers + frame/gate + reading + schooled + library + metabolism + entry-card + depth-2 + discovery + auditor + case/apostrophe + front-door builds)
+# HANDOFF — mirror build (+ scaling + generation + workshop + rulers + frame/gate + reading + schooled + library + metabolism + entry-card + depth-2 + discovery + auditor + case/apostrophe + front-door + citizenship/compass builds)
 
-Status: **complete through The Front Door, fix drop included — Pat
-v0.1.0 + XVI-b, committed.** Mirror 111/111 green (6:39), pat 50/50
-green (2:24; 44 + 6 front-door batteries), sensor 3/3 green.
-Stopping per spec.
+Status: **complete through Citizenship & The Compass (Part XVII).**
+Mirror 119/119 green, pat 58/58 green, sensor 3/3 green. GitHub-ready
+per the human's standing instruction. Stopping per spec.
+
+---
+
+# Part XVII — Citizenship & The Compass (probes 59, 60, 61)
+
+**THE AUTHORSHIP LINE, FIRST: drawn by the human, probed, built.**
+The compass is the second whiteboard square in this project's history
+to become an organ — the human drew a dial (`sequencing.drawio`),
+the probe machine measured it against the lexicon (probes 60, 61),
+and the builder shipped it as `mirror/compass.py` with every number
+probe-exact. The other half is the lantern finding made law: Part
+XVI-b's demo showed a taught word certifying nothing because teaching
+never joined the derivation index; probe 59 measured the pool and
+this Part legislated it.
+
+## T-1 — CITIZENSHIP (the lantern upgrade)
+
+**Law 1: citizenship is decided by receipts.** `remember <w>`
+consults the lexicon:
+
+- **pron on file → FULL citizen.** Episode written, session bank
+  joined (provenance `taught`), children certifying through the
+  standard double-lock, and the seat survives restart through
+  reading.json. The LANTERN battery, pinned end-to-end: teach →
+  `'lanterns' = 'lantern' + -s` → death → rebirth → the same line,
+  plus `yes, I know 'lantern' (taught)`. The sessionless Part VI
+  repertoire path carries the same citizenship (its own battery).
+- **no pron → PARTIAL citizen.** The receipt is the provenance entry
+  (no pron means no shape, no grid seat — the ledger IS the seat).
+  Verbatim, pinned: `learned 'zorp' — you taught me just now
+  (partial: no pronunciation on file)`; `analyze zorps` →
+  `refuse: no pronunciation on file`; `know zorp` → `yes, I know
+  'zorp' (taught; no pronunciation on file)`. Survives restart;
+  `bases_total` counts it.
+
+**The pool (probe-exact, pinned in citizenship_sample.json):** lived
+diet 37,109 known; 80,800 teachable; **6,076 stems carrying 7,005
+mined children**; the seed-7 sample of 50 stems unlocked **57/57
+children (100%, gate ≥ 95%)**.
+
+**Law 5 — the ear extends to teaching:** 6,036/80,800 teachable words
+(**7.5%**) collide by sound with a known spelling; the teach verb now
+emits the cross-reference at teach time, pinned on the first
+collision in the census: `learned 'aalen' — you taught me just now
+(ear: identical to 'alan', which I already know)`.
+
+**Law 2 — the transform proposes; only attestation asserts.** A
+spelling with no pron on file whose stem is a full citizen answers
+with the REPORT line — `'crocks' — derivable by rule from
+'crock'+-s; pronunciation predicted, not attested` (the pinned case)
+— and can NEVER certify: the engine's certification surface is
+corpus-keyed (a structural battery asserts a pron-less spelling
+cannot even be asked), and the verify oracle refuses it. No
+provenance class launders computed sounds into heard ones.
+
+## T-2/T-3 — THE COMPASS (`mirror/compass.py`)
+
+`fold(phones)` stamps each phoneme occurrence with its heading on two
+dials of coprime periods — **8, the drawn compass rose; 7, its
+coprime partner** — and keeps only the order-free BAG of (phone,
+station8, station7) counts. `decode(bag, n)` recovers every position
+exactly by the Chinese Remainder Theorem inside the mod-56 window.
+Probe-exact, all:
+
+- **Collision census: 9,451 count-signatures, 21,836 orderings;
+  separation 16,520/16,520 (100%).**
+- **Invertibility: decode(fold(w)) == pron(w) for 135,166/135,166
+  lexicon words.** The module's CRT table is the probe's literal
+  range-scan done once; a battery asserts parity with the literal
+  form.
+- **Headroom: longest pron 28 < 56, margin 28** — asserted against
+  the artifact.
+- **Law 4, tangency at import:** mod-4 == mod-8 reduced, mod-2 ==
+  mod-4 reduced, and dial level k reads bit k of position, at every
+  station of the window — zero slack, or the module refuses to load.
+  Locality: positions sharing the full dyadic reading differ by exact
+  multiples of 8 — **0 violations**.
+
+**The stations, as drawn:** the rose has eight stations; the four
+cardinals sit ON the unit circle exactly; the four corner stations
+overhang it by (√2−1)/2 ≈ .414/2 — the ad-quadratum square's corners
+past its inscribed circle — and the junction charge prices exactly
+those diagonal stations. The dyadic ladder (2, 4, 8) is the same
+drawing read as clockwork: each nesting halves one dimension, so each
+dial level is one bit of position, coarse-to-fine. Law 3 throughout:
+**order is folded, not forgotten** — the cone keeps its counts; the
+compass is an annex; nothing was replaced.
+
+## T-4 — FIRST CUSTOMERS
+
+- **The homoshape ambiguity retires (measured):** within colliding-
+  base families the shape space is order-blind BY CONSTRUCTION —
+  **31,356 base pairs at cosine 1.0000** (the raw form of the scar
+  whose chapter-fold variant Part X's canary recorded at 0.9903) —
+  and the compass distinguishes **31,356/31,356 (100%)**. The scar
+  and its healing, printed together by the battery every run.
+- **The verify oracle gained the ANAGRAM GUARD**, adjudicated by the
+  compass itself (counts equal, folds differ), pinned on
+  `verify past = tap+s` → `REFUSE — same sounds, different order —
+  the compass tells them apart [p ae s t vs t ae p + s]`* — with the
+  no-overreach clause asserted beside it (`painting = paint+ing`
+  still CERTIFY, pair-exact). (*phone casing as the lexicon carries
+  it.)
+- **Margin note, forecast register:** S3 grades EARLY — the sensor
+  lane's phase ruler now exists before its campaign did. Listed
+  customers not built (law: customers listed, NOT built): a_mem
+  addressing's order channel, S3.
+
+## DEVIATIONS (flagged, not reconciled)
+
+1. **`docs/sequencing.drawio` has not landed.** The spec ships the
+   human's drawing in `docs/`; no .drawio file exists in the tree at
+   build time. The Part is committed without it and the flag stands
+   until the human drops the file (the builder cannot draw it — the
+   authorship line IS the point).
+2. The predicted-pron REPORT case (`crock+s`) and the anagram case
+   (`past = tap+s`) are builder-chosen pins (the spec left both to
+   construction); the 50-stem sample is seed-7 (house habit), not
+   spec-named.
+3. **One vintage pin evolved BY GATE DECISION** (the Part XIII
+   precedent): Part XIV's oracle ten pinned `verify melted =
+   metal+ed` to the prefix refusal — and the guard revealed the case
+   is a TRUE anagram in the wild (m EH l t AH d permutes
+   m EH t AH l + d), which is why it refused all along. Verdict
+   unchanged, receipt sharper; the pin now carries the compass line
+   and a comment naming this decision.
+4. No-harm otherwise: every other vintage battery runs unmodified
+   and green — mirror 119 (111 + 8 compass), pat 58 (50 + 8
+   citizenship), sensor 3.
+
+## NEXT FRONTIER (ranked, standing)
+
+The stem-allomorphy lane; the register-mixture corpus; the phrasing
+slot. And the three send buttons that belong to exactly one person:
+the push, the PR submissions, the email.
 
 ---
 

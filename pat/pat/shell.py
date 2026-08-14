@@ -67,6 +67,21 @@ class Oracle:
             return "REFUSE", \
                 f"REFUSE — '{word}' is not a form I can read"
         if wp[:len(bp)] != bp:
+            # XVII T-4: the ANAGRAM GUARD — same sounds, different
+            # order. The compass adjudicates: counts equal, folds
+            # differ. A sharper receipt than the prefix refusal.
+            from collections import Counter
+
+            from mirror.compass import fold
+            for rem in sorted(self.attested.get(sfx, set())):
+                cand = bp + tuple(rem)
+                if Counter(cand) == Counter(wp) and \
+                        fold(cand) != fold(wp):
+                    return "REFUSE", (
+                        f"REFUSE — same sounds, different order — "
+                        f"the compass tells them apart "
+                        f"[{' '.join(wp)} vs {' '.join(bp)} + "
+                        f"{' '.join(rem)}]")
             return "REFUSE", (
                 f"REFUSE — pron('{word}') does not begin with "
                 f"pron('{base}') [{' '.join(wp)} vs {' '.join(bp)}]")

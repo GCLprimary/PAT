@@ -1,4 +1,4 @@
-# Changelog — the sixteen Parts
+# Changelog — the Parts
 
 The full record, with numbers and deviations, is mirror/HANDOFF.md
 (newest Part first). One line per Part:
@@ -40,4 +40,10 @@ The full record, with numbers and deviations, is mirror/HANDOFF.md
 - **Part XV — Case & Apostrophe** (probe 58): the 50/50 ruling pays
   a representational debt — the case census, the 's clitic on the
   ruler of thirds, PR drafts.
-- **Part XVI — The Front Door**: this release.
+- **Part XVI — The Front Door**: the release — and the project's
+  first bounced gate (XVI-b): the launcher rewired to the lived
+  Pat, the canonical store shipped, the tree slimmed byte-faithful.
+- **Part XVII — Citizenship & The Compass** (probes 59–61): taught
+  words become citizens by receipt (full or partial, restart-proof);
+  the human's drawn dial becomes mirror/compass.py — order folded,
+  not forgotten, 135,166/135,166 round-trips; the anagram guard.

@@ -103,9 +103,13 @@ ORACLE_PINNED = [
      "CERTIFY — paint+ed, pair-exact, mined"),
     ("verify walking = walk+ing",
      "CERTIFY — walk+ing, pair-exact, mined"),
+    # XVII BY GATE DECISION: melted/metal+ed is a true anagram —
+    # same sounds, different order — which is WHY Part XIV refused
+    # it; the compass guard now names the deeper reason. The verdict
+    # is unchanged (REFUSE), the receipt is sharper.
     ("verify melted = metal+ed",
-     "REFUSE — pron('melted') does not begin with pron('metal') "
-     "[m EH l t AH d vs m EH t AH l]"),
+     "REFUSE — same sounds, different order — the compass tells "
+     "them apart [m EH l t AH d vs m EH t AH l + d]"),
     ("verify side = sigh+ed",
      "HOMOPHONE — sounds exactly like sighed (sigh+ed); I cannot "
      "tell them apart by ear"),

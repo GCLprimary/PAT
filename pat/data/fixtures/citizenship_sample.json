@@ -1,0 +1,182 @@
+{
+ "protocol": "probe 59: KNOWN = full-stream words; teachable = lexicon - KNOWN, alpha, len>=3; stems carry mined children; sample = seed-7 choice of 50",
+ "pool": {
+  "known": 37109,
+  "teachable": 80800,
+  "stems": 6076,
+  "children": 7005,
+  "ear_collisions": 6036
+ },
+ "sample": {
+  "aubergine": {
+   "s": "aubergines"
+  },
+  "bandolier": {
+   "s": "bandoliers"
+  },
+  "barbiturate": {
+   "s": "barbiturates"
+  },
+  "bart": {
+   "er": "barter",
+   "s": "barts"
+  },
+  "bellhop": {
+   "s": "bellhops"
+  },
+  "bengali": {
+   "s": "bengalis"
+  },
+  "bettor": {
+   "s": "bettors"
+  },
+  "biven": {
+   "s": "bivens"
+  },
+  "blockage": {
+   "s": "blockages"
+  },
+  "boy": {
+   "s": "boys",
+   "er": "boyer"
+  },
+  "brentano": {
+   "s": "brentanos"
+  },
+  "brownout": {
+   "s": "brownouts"
+  },
+  "byrn": {
+   "s": "byrns"
+  },
+  "chaffin": {
+   "s": "chaffins"
+  },
+  "chrysanthemum": {
+   "s": "chrysanthemums"
+  },
+  "complainant": {
+   "s": "complainants"
+  },
+  "countdown": {
+   "s": "countdowns"
+  },
+  "crock": {
+   "er": "crocker"
+  },
+  "disjoint": {
+   "ed": "disjointed"
+  },
+  "eurocheck": {
+   "s": "eurochecks"
+  },
+  "faker": {
+   "s": "fakers"
+  },
+  "fat": {
+   "s": "fats"
+  },
+  "foodstuff": {
+   "s": "foodstuffs"
+  },
+  "hass": {
+   "ing": "hassing"
+  },
+  "hom": {
+   "s": "homs"
+  },
+  "incubate": {
+   "s": "incubates"
+  },
+  "lackey": {
+   "s": "lackeys"
+  },
+  "maccabee": {
+   "s": "maccabees"
+  },
+  "mah": {
+   "er": "maher"
+  },
+  "methodism": {
+   "s": "methodisms"
+  },
+  "microcircuit": {
+   "s": "microcircuits"
+  },
+  "minicar": {
+   "s": "minicars"
+  },
+  "moland": {
+   "er": "molander"
+  },
+  "plantronic": {
+   "s": "plantronics"
+  },
+  "ratchet": {
+   "ed": "ratcheted",
+   "ing": "ratcheting"
+  },
+  "recision": {
+   "s": "recisions"
+  },
+  "reprocess": {
+   "ing": "reprocessing",
+   "ed": "reprocessed"
+  },
+  "rhetorician": {
+   "s": "rhetoricians"
+  },
+  "rine": {
+   "s": "rines"
+  },
+  "rol": {
+   "ly": "rolly",
+   "ing": "roling"
+  },
+  "run": {
+   "s": "runs"
+  },
+  "sapp": {
+   "ing": "sapping",
+   "er": "sapper",
+   "ed": "sapped"
+  },
+  "scharr": {
+   "er": "scharrer"
+  },
+  "scheper": {
+   "s": "schepers"
+  },
+  "scherr": {
+   "er": "scherrer"
+  },
+  "schmied": {
+   "er": "schmieder"
+  },
+  "soni": {
+   "er": "sonier"
+  },
+  "speechify": {
+   "ing": "speechifying"
+  },
+  "strick": {
+   "er": "stricker"
+  },
+  "toolmaker": {
+   "s": "toolmakers"
+  }
+ },
+ "predicted_case": {
+  "stem": "crock",
+  "guess": "crocks"
+ },
+ "anagram_case": {
+  "word": "past",
+  "base": "tap",
+  "sfx": "s"
+ },
+ "ear_case": {
+  "teach": "aalen",
+  "hears": "alan"
+ }
+}

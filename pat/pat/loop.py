@@ -75,6 +75,12 @@ class Agent:
         if self._prov_file.exists():
             self.provenance = json.loads(
                 self._prov_file.read_text(encoding="utf-8"))
+        # XVII T-1: partial citizens — taught words with no
+        # pronunciation on file. Their receipt is the provenance entry
+        # itself (no episode: no pron means no shape, no grid seat),
+        # so they are rebuilt from the ledger at every rebirth.
+        self.partial = {e["word"] for e in self.provenance
+                        if e.get("partial")}
         self._last_refusals = {}       # word -> (input, reason)
         self.reading = None            # W-2: attached by read()
 
@@ -129,9 +135,10 @@ class Agent:
                 json.dumps(self.reading.to_state()), encoding="utf-8")
 
     def bases_total(self):
-        """The whole ledger's yes-count: taught episodes, read/lesson
-        provenance, and pruned aliases (which still answer truthfully)."""
-        bases = set(self.known)
+        """The whole ledger's yes-count: taught episodes, partial
+        citizens, read/lesson provenance, and pruned aliases (which
+        still answer truthfully)."""
+        bases = set(self.known) | self.partial
         if self.reading is not None:
             bases |= set(self.reading.known)
             bases |= set(self.reading.retired)
@@ -139,10 +146,24 @@ class Agent:
 
     # ── the write half of the loop (law 2) ───────────────────────────
     def teach(self, base, taught_by, refusal):
+        """XVII T-1: citizenship is decided by receipts. A
+        pronunciation on file makes a FULL citizen — episode written,
+        derivation index joined, children certifying through the
+        standard double-lock. Without one, a PARTIAL citizen — the
+        taught receipt is kept and inflections refuse by name."""
         if base in self.known:
             return self.known[base]
         emb = self.organs.embedder
         if base not in emb.corpus:
+            if base not in self.partial:
+                self.partial.add(base)
+                self.provenance.append({
+                    "word": base, "mid": None, "taught_by": taught_by,
+                    "refusal": refusal, "partial": True,
+                    "when": datetime.now(timezone.utc).isoformat(
+                        timespec="seconds"),
+                })
+                self.save()
             return None
         mid = self.hook.write_episode(
             self.organs.shape_vec(base),
@@ -153,8 +174,34 @@ class Agent:
             "refusal": refusal,
             "when": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         })
+        # the full citizen joins the live derivation index: the
+        # session's bank certifies its children (analyze lanterns ->
+        # lantern+s) and the seat persists through reading.json
+        if self.reading is not None:
+            self.reading.teach(base, "taught")
         self.save()
         return mid
+
+    def _ledger_knows(self, word):
+        if word in self.known or word in self.partial:
+            return True
+        return self.reading is not None and self.reading.knows(word)[0]
+
+    def _ear_of(self, base):
+        """T-1 ear clause (probe 59: 7.5% of teachable words collide
+        by sound with a known spelling): the first OTHER word the
+        ledger knows whose pronunciation is identical."""
+        emb = self.organs.embedder
+        pron = tuple(emb.corpus[base])
+        if self.reading is not None:
+            cands = self.reading._pron_index.get(pron, ())
+        else:
+            cands = [w for w, p in emb.corpus.items()
+                     if tuple(p) == pron]
+        for w in cands:
+            if w != base and self._ledger_knows(w):
+                return w
+        return None
 
     # ── L-4: the study capability ────────────────────────────────────
     def study(self, page_path):
@@ -220,16 +267,22 @@ class Agent:
             act = self.repertoire.walk(*args)
         elif verb == "remember":
             base = args[0]
-            if base in self.known:
+            if base in self.known or base in self.partial:
                 act = Act("remember", "KNOWN", (base,))
-            elif base not in self.organs.embedder.corpus:
-                act = Act("remember", "REFUSE",
-                          reason=f"'{base}' is not a form I can learn")
             else:
                 refusal = self._last_refusals.get(base)
                 self.teach(base, taught_by=source_text,
                            refusal=list(refusal) if refusal else None)
-                act = Act("remember", "LEARNED", (base,))
+                if base in self.partial:
+                    act = Act("remember", "LEARNED", (base,),
+                              reason="partial: no pronunciation on "
+                                     "file")
+                else:
+                    ear = self._ear_of(base)
+                    act = Act("remember", "LEARNED", (base,),
+                              reason=(f"ear: identical to '{ear}', "
+                                      f"which I already know")
+                              if ear else None)
         elif verb == "audit":
             act = self._audit_act(args[0] if args else "")
         elif verb == "verify":
@@ -260,9 +313,39 @@ class Agent:
         verdict, line = self._oracle.verify(*parsed)
         return Act("verify", verdict, parsed, reason=line)
 
+    # XVII law 2: ortho suffix spellings, longest first — used ONLY to
+    # name refusals and REPORT lines for words with no pron on file;
+    # never a certification path
+    _ORTHO_SFX = ("ment", "less", "ing", "est", "es", "ed", "s")
+
+    def _unpronounced_act(self, word):
+        """A word with no pronunciation on file: if it looks like a
+        taught stem plus a suffix spelling, answer with the REASON —
+        the partial-citizen refusal, or the REPORT line for a
+        predicted pronunciation. Law 2: the transform proposes; only
+        attestation asserts — nothing here can certify."""
+        for osfx in self._ORTHO_SFX:
+            if not word.endswith(osfx) or len(word) - len(osfx) < 2:
+                continue
+            stem = word[:-len(osfx)]
+            if stem in self.partial:
+                return Act("analyze", "REFUSE",
+                           reason="no pronunciation on file")
+            if self._ledger_knows(stem) and \
+                    stem in self.organs.embedder.corpus:
+                return Act("analyze", "PREDICTED", (stem, osfx),
+                           reason=f"derivable by rule from "
+                                  f"'{stem}'+-{osfx}; pronunciation "
+                                  f"predicted, not attested")
+        return None
+
     def _analyze_act(self, word):
         """The read session's bank, when one exists, extends what the
         creature knows; without one this is the plain repertoire."""
+        if word not in self.organs.embedder.corpus:
+            act = self._unpronounced_act(word)
+            if act is not None:
+                return act
         if self.reading is None:
             return self.repertoire.analyze(word, self.known)
         if word not in self.organs.embedder.corpus:
@@ -285,11 +368,14 @@ class Agent:
 
     def _know_act(self, word):
         """know answers over the whole ledger: taught episodes, read
-        provenance, and prune aliases — truthfully."""
+        provenance, prune aliases, and partial citizens — truthfully."""
         if self.reading is not None:
             yes, prov = self.reading.knows(word)
             if yes:
                 return Act("know", "YES", (word,), reason=prov)
+        if word in self.partial:
+            return Act("know", "YES", (word,),
+                       reason="taught; no pronunciation on file")
         return self.repertoire.know(word, self.known)
 
     def respond(self, text):
@@ -324,8 +410,11 @@ def render(clause, act):
     if k == "NEIGHBORS":
         return f"'{clause.split()[-1]}' relates to: " + \
             ", ".join(act.detail)
+    if k == "PREDICTED":
+        return f"'{clause.split()[-1]}' — {act.reason}"
     if k == "LEARNED":
-        return f"learned '{act.detail[0]}' — you taught me just now"
+        line = f"learned '{act.detail[0]}' — you taught me just now"
+        return f"{line} ({act.reason})" if act.reason else line
     if k == "KNOWN":
         return f"I already know '{act.detail[0]}'"
     if k == "YES":

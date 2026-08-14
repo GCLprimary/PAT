@@ -30,6 +30,9 @@ from .blimp import (AGREEMENT_PARADIGMS, TrigramScorer, aggregate,
                     demonstrative_judge, existential_quant_judge,
                     gender_judge, load_paradigm, npi_judge, ppart_judge,
                     reflexive_judge, run_all, sv_judge)
+from .compass import (P7, P8, WINDOW, decode as compass_decode,
+                      dial_bit, fold as compass_fold,
+                      locality_violations)
 from .geometry import cone_identity, counts_of, junction_bigram, mass
 from .inflect import (InflectionTable, apply_class, classify,
                       signature as inflect_signature)
